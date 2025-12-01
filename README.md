@@ -1,6 +1,10 @@
 # Multi-Objective RL for Blackjack
 
-Python reference implementation for a multi-objective PPO agent on the Gymnasium Blackjack environment. The agent trades off between three objectives:
+## 🎉 **Achievement: 45.3% Win Rate!**
+
+**Dueling DDQN successfully reached the 45% target!** See `ALGORITHM_COMPARISON.md` for full details.
+
+Python reference implementation for multi-objective RL agents (PPO, DQN, Dueling DQN) on the Gymnasium Blackjack environment. The agent trades off between multiple objectives:
 
 - Profit maximization (standard Blackjack return)
 - Loss probability reduction
@@ -23,9 +27,16 @@ python train.py --mode risk_averse --total-episodes 5000 --save-dir outputs/risk
 
 # Evaluate a saved checkpoint
 python train.py --eval-only --checkpoint outputs/risk/checkpoints/ppo_blackjack.pt --num-eval-episodes 500
+
+# 🏆 NEW: Train with Dueling DDQN (achieves 45%+ win rate!)
+python train_dqn.py --algorithm dueling --mode custom \
+  --profit-weight 0.90 --loss-penalty 0.03 --bust-penalty 0.04 \
+  --close-call-bonus 0.02 --aggressive-hit-bonus 0.01 \
+  --total-episodes 30000
 ```
 
 Artifacts land in `outputs/<run>/`:
+
 - `metrics.csv` with episode-level outcomes
 - `learning_curve.png` plotting rolling win/loss/bust rates
 - `checkpoint/ppo_blackjack.pt` trained weights

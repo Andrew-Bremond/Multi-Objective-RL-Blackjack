@@ -11,16 +11,18 @@ from torch.nn import functional as F
 
 
 class ActorCritic(nn.Module):
-    def __init__(self, obs_dim: int, action_dim: int, hidden_sizes: Tuple[int, int] = (128, 128)):
+    def __init__(self, obs_dim: int, action_dim: int, hidden_sizes: Tuple[int, int, int] = (256, 256, 128)):
         super().__init__()
         self.net = nn.Sequential(
             nn.Linear(obs_dim, hidden_sizes[0]),
             nn.ReLU(),
             nn.Linear(hidden_sizes[0], hidden_sizes[1]),
             nn.ReLU(),
+            nn.Linear(hidden_sizes[1], hidden_sizes[2]),
+            nn.ReLU(),
         )
-        self.actor = nn.Linear(hidden_sizes[1], action_dim)
-        self.critic = nn.Linear(hidden_sizes[1], 1)
+        self.actor = nn.Linear(hidden_sizes[2], action_dim)
+        self.critic = nn.Linear(hidden_sizes[2], 1)
 
     def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         x = self.net(x)

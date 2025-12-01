@@ -11,25 +11,37 @@ from src.training import evaluate_agent, train_loop
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Multi-objective PPO for Blackjack")
-    parser.add_argument("--mode", type=str, default="baseline", help="baseline | risk_averse | custom")
+    parser.add_argument("--mode", type=str, default="baseline", 
+                       help="baseline | risk_averse | strategic | optimal | custom")
     parser.add_argument("--profit-weight", type=float, default=1.0)
     parser.add_argument("--loss-penalty", type=float, default=0.0)
     parser.add_argument("--bust-penalty", type=float, default=0.0)
+    # New objective weights
+    parser.add_argument("--close-call-bonus", type=float, default=0.0)
+    parser.add_argument("--dealer-weak-bonus", type=float, default=0.0)
+    parser.add_argument("--conservative-stand-bonus", type=float, default=0.0)
+    parser.add_argument("--aggressive-hit-bonus", type=float, default=0.0)
+    parser.add_argument("--perfect-play-bonus", type=float, default=0.0)
+    # Additional objectives
+    parser.add_argument("--blackjack-bonus", type=float, default=0.0)
+    parser.add_argument("--push-penalty", type=float, default=0.0)
+    parser.add_argument("--early-stand-penalty", type=float, default=0.0)
+    parser.add_argument("--dealer-bust-bonus", type=float, default=0.0)
 
-    parser.add_argument("--total-episodes", type=int, default=5000)
+    parser.add_argument("--total-episodes", type=int, default=50000)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--rollout-length", type=int, default=2048)
-    parser.add_argument("--update-epochs", type=int, default=4)
+    parser.add_argument("--update-epochs", type=int, default=10)
     parser.add_argument("--minibatch-size", type=int, default=256)
-    parser.add_argument("--learning-rate", type=float, default=3e-4)
-    parser.add_argument("--entropy-coef", type=float, default=0.01)
+    parser.add_argument("--learning-rate", type=float, default=5e-4)
+    parser.add_argument("--entropy-coef", type=float, default=0.05)
     parser.add_argument("--value-coef", type=float, default=0.5)
     parser.add_argument("--gamma", type=float, default=0.99)
     parser.add_argument("--gae-lambda", type=float, default=0.95)
     parser.add_argument("--clip-coef", type=float, default=0.2)
     parser.add_argument("--max-grad-norm", type=float, default=0.5)
 
-    parser.add_argument("--eval-episodes", type=int, default=500)
+    parser.add_argument("--eval-episodes", type=int, default=1000)
     parser.add_argument("--save-dir", type=str, default=None)
     parser.add_argument("--checkpoint", type=str, default=None, help="Path to load checkpoint for resume/eval")
     parser.add_argument("--eval-only", action="store_true", help="Skip training and only evaluate checkpoint")
@@ -39,7 +51,20 @@ def parse_args():
 
 def build_weights(args) -> RewardWeights:
     if args.mode.lower() == "custom":
-        return RewardWeights(args.profit_weight, args.loss_penalty, args.bust_penalty)
+        return RewardWeights(
+            profit=args.profit_weight,
+            loss_penalty=args.loss_penalty,
+            bust_penalty=args.bust_penalty,
+            close_call_bonus=args.close_call_bonus,
+            dealer_weak_bonus=args.dealer_weak_bonus,
+            conservative_stand_bonus=args.conservative_stand_bonus,
+            aggressive_hit_bonus=args.aggressive_hit_bonus,
+            perfect_play_bonus=args.perfect_play_bonus,
+            blackjack_bonus=args.blackjack_bonus,
+            push_penalty=args.push_penalty,
+            early_stand_penalty=args.early_stand_penalty,
+            dealer_bust_bonus=args.dealer_bust_bonus
+        )
     return preset_weights(args.mode)
 
 
