@@ -4,7 +4,7 @@ from pathlib import Path
 
 import torch
 
-from src.config import PPOHyperParams, RewardWeights, TrainSettings, preset_weights
+from src.config import PPOHyperParams, RewardWeights, TrainSettings, load_weights_from_checkpoint, preset_weights
 from src.envs import make_env
 from src.training import evaluate_agent, train_loop
 
@@ -16,17 +16,7 @@ def parse_args():
     parser.add_argument("--profit-weight", type=float, default=1.0)
     parser.add_argument("--loss-penalty", type=float, default=0.0)
     parser.add_argument("--bust-penalty", type=float, default=0.0)
-    # New objective weights
     parser.add_argument("--close-call-bonus", type=float, default=0.0)
-    parser.add_argument("--dealer-weak-bonus", type=float, default=0.0)
-    parser.add_argument("--conservative-stand-bonus", type=float, default=0.0)
-    parser.add_argument("--aggressive-hit-bonus", type=float, default=0.0)
-    parser.add_argument("--perfect-play-bonus", type=float, default=0.0)
-    # Additional objectives
-    parser.add_argument("--blackjack-bonus", type=float, default=0.0)
-    parser.add_argument("--push-penalty", type=float, default=0.0)
-    parser.add_argument("--early-stand-penalty", type=float, default=0.0)
-    parser.add_argument("--dealer-bust-bonus", type=float, default=0.0)
 
     parser.add_argument("--total-episodes", type=int, default=50000)
     parser.add_argument("--seed", type=int, default=0)
@@ -55,15 +45,7 @@ def build_weights(args) -> RewardWeights:
             profit=args.profit_weight,
             loss_penalty=args.loss_penalty,
             bust_penalty=args.bust_penalty,
-            close_call_bonus=args.close_call_bonus,
-            dealer_weak_bonus=args.dealer_weak_bonus,
-            conservative_stand_bonus=args.conservative_stand_bonus,
-            aggressive_hit_bonus=args.aggressive_hit_bonus,
-            perfect_play_bonus=args.perfect_play_bonus,
-            blackjack_bonus=args.blackjack_bonus,
-            push_penalty=args.push_penalty,
-            early_stand_penalty=args.early_stand_penalty,
-            dealer_bust_bonus=args.dealer_bust_bonus
+            close_call_bonus=args.close_call_bonus
         )
     return preset_weights(args.mode)
 
@@ -99,7 +81,8 @@ def main():
         if not checkpoint_path or not checkpoint_path.exists():
             raise FileNotFoundError("Provide --checkpoint pointing to a trained model when using --eval-only.")
         ckpt = torch.load(checkpoint_path, map_location="cpu")
-        weights = RewardWeights(**ckpt.get("weights", weights.__dict__))
+        # Use helper function to safely load weights, filtering out obsolete fields
+        weights = load_weights_from_checkpoint(ckpt.get("weights", weights.__dict__))
         hyper_data = ckpt.get("hyperparams")
         if hyper_data:
             hyperparams = PPOHyperParams(**hyper_data)

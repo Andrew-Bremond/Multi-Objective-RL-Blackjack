@@ -1,0 +1,354 @@
+{
+  "final": {
+    "win_rate": 0.41,
+    "loss_rate": 0.4905,
+    "bust_rate": 0.2195,
+    "avg_reward": -0.0805
+  },
+  "best_win_rate": 0.456,
+  "algorithm": "dueling",
+  "config": {
+    "algorithm": "dueling",
+    "mode": "custom",
+    "profit_weight": 0.0,
+    "loss_penalty": 1.0,
+    "bust_penalty": 0.0,
+    "close_call_bonus": 0.0,
+    "total_episodes": 200000,
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.9995,
+    "batch_size": 128,
+    "buffer_capacity": 100000,
+    "target_update_freq": 500,
+    "warmup_steps": 1000,
+    "eval_episodes": 1000,
+    "eval_interval": 5000,
+    "seed": 0,
+    "save_dir": "outputs_duelingddqn/loss-penalty"
+  },
+  "history": [
+    {
+      "episode": 5000,
+      "win_rate": 0.418,
+      "loss_rate": 0.479,
+      "bust_rate": 0.174,
+      "avg_reward": -0.061,
+      "epsilon": 0.04095428266744591
+    },
+    {
+      "episode": 10000,
+      "win_rate": 0.417,
+      "loss_rate": 0.477,
+      "bust_rate": 0.209,
+      "avg_reward": -0.06,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 15000,
+      "win_rate": 0.431,
+      "loss_rate": 0.484,
+      "bust_rate": 0.147,
+      "avg_reward": -0.053,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 20000,
+      "win_rate": 0.418,
+      "loss_rate": 0.487,
+      "bust_rate": 0.197,
+      "avg_reward": -0.069,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 25000,
+      "win_rate": 0.452,
+      "loss_rate": 0.452,
+      "bust_rate": 0.169,
+      "avg_reward": 0.0,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 30000,
+      "win_rate": 0.427,
+      "loss_rate": 0.49,
+      "bust_rate": 0.122,
+      "avg_reward": -0.063,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 35000,
+      "win_rate": 0.436,
+      "loss_rate": 0.466,
+      "bust_rate": 0.136,
+      "avg_reward": -0.03,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 40000,
+      "win_rate": 0.406,
+      "loss_rate": 0.5,
+      "bust_rate": 0.146,
+      "avg_reward": -0.094,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 45000,
+      "win_rate": 0.425,
+      "loss_rate": 0.463,
+      "bust_rate": 0.223,
+      "avg_reward": -0.038,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 50000,
+      "win_rate": 0.425,
+      "loss_rate": 0.489,
+      "bust_rate": 0.213,
+      "avg_reward": -0.064,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 55000,
+      "win_rate": 0.427,
+      "loss_rate": 0.464,
+      "bust_rate": 0.178,
+      "avg_reward": -0.037,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 60000,
+      "win_rate": 0.436,
+      "loss_rate": 0.481,
+      "bust_rate": 0.224,
+      "avg_reward": -0.045,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 65000,
+      "win_rate": 0.408,
+      "loss_rate": 0.498,
+      "bust_rate": 0.161,
+      "avg_reward": -0.09,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 70000,
+      "win_rate": 0.425,
+      "loss_rate": 0.478,
+      "bust_rate": 0.214,
+      "avg_reward": -0.053,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 75000,
+      "win_rate": 0.443,
+      "loss_rate": 0.473,
+      "bust_rate": 0.173,
+      "avg_reward": -0.03,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 80000,
+      "win_rate": 0.437,
+      "loss_rate": 0.451,
+      "bust_rate": 0.211,
+      "avg_reward": -0.014,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 85000,
+      "win_rate": 0.451,
+      "loss_rate": 0.451,
+      "bust_rate": 0.157,
+      "avg_reward": 0.0,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 90000,
+      "win_rate": 0.42,
+      "loss_rate": 0.492,
+      "bust_rate": 0.198,
+      "avg_reward": -0.072,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 95000,
+      "win_rate": 0.433,
+      "loss_rate": 0.47,
+      "bust_rate": 0.154,
+      "avg_reward": -0.037,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 100000,
+      "win_rate": 0.407,
+      "loss_rate": 0.507,
+      "bust_rate": 0.169,
+      "avg_reward": -0.1,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 105000,
+      "win_rate": 0.409,
+      "loss_rate": 0.505,
+      "bust_rate": 0.251,
+      "avg_reward": -0.096,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 110000,
+      "win_rate": 0.421,
+      "loss_rate": 0.492,
+      "bust_rate": 0.157,
+      "avg_reward": -0.071,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 115000,
+      "win_rate": 0.428,
+      "loss_rate": 0.466,
+      "bust_rate": 0.169,
+      "avg_reward": -0.038,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 120000,
+      "win_rate": 0.401,
+      "loss_rate": 0.497,
+      "bust_rate": 0.191,
+      "avg_reward": -0.096,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 125000,
+      "win_rate": 0.42,
+      "loss_rate": 0.487,
+      "bust_rate": 0.178,
+      "avg_reward": -0.067,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 130000,
+      "win_rate": 0.412,
+      "loss_rate": 0.487,
+      "bust_rate": 0.181,
+      "avg_reward": -0.075,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 135000,
+      "win_rate": 0.427,
+      "loss_rate": 0.477,
+      "bust_rate": 0.18,
+      "avg_reward": -0.05,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 140000,
+      "win_rate": 0.409,
+      "loss_rate": 0.492,
+      "bust_rate": 0.198,
+      "avg_reward": -0.083,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 145000,
+      "win_rate": 0.406,
+      "loss_rate": 0.487,
+      "bust_rate": 0.213,
+      "avg_reward": -0.081,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 150000,
+      "win_rate": 0.456,
+      "loss_rate": 0.451,
+      "bust_rate": 0.191,
+      "avg_reward": 0.005,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 155000,
+      "win_rate": 0.431,
+      "loss_rate": 0.48,
+      "bust_rate": 0.183,
+      "avg_reward": -0.049,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 160000,
+      "win_rate": 0.395,
+      "loss_rate": 0.491,
+      "bust_rate": 0.208,
+      "avg_reward": -0.096,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 165000,
+      "win_rate": 0.423,
+      "loss_rate": 0.49,
+      "bust_rate": 0.18,
+      "avg_reward": -0.067,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 170000,
+      "win_rate": 0.433,
+      "loss_rate": 0.464,
+      "bust_rate": 0.181,
+      "avg_reward": -0.031,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 175000,
+      "win_rate": 0.411,
+      "loss_rate": 0.499,
+      "bust_rate": 0.187,
+      "avg_reward": -0.088,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 180000,
+      "win_rate": 0.429,
+      "loss_rate": 0.472,
+      "bust_rate": 0.183,
+      "avg_reward": -0.043,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 185000,
+      "win_rate": 0.441,
+      "loss_rate": 0.471,
+      "bust_rate": 0.211,
+      "avg_reward": -0.03,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 190000,
+      "win_rate": 0.432,
+      "loss_rate": 0.469,
+      "bust_rate": 0.194,
+      "avg_reward": -0.037,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 195000,
+      "win_rate": 0.404,
+      "loss_rate": 0.486,
+      "bust_rate": 0.204,
+      "avg_reward": -0.082,
+      "epsilon": 0.01
+    },
+    {
+      "episode": 200000,
+      "win_rate": 0.456,
+      "loss_rate": 0.446,
+      "bust_rate": 0.211,
+      "avg_reward": 0.01,
+      "epsilon": 0.01
+    }
+  ]
+}

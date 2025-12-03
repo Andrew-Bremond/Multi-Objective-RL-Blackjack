@@ -27,7 +27,6 @@ def parse_args():
     parser.add_argument("--loss-penalty", type=float, default=0.0)
     parser.add_argument("--bust-penalty", type=float, default=0.0)
     parser.add_argument("--close-call-bonus", type=float, default=0.0)
-    parser.add_argument("--aggressive-hit-bonus", type=float, default=0.0)
     
     # Training parameters
     parser.add_argument("--total-episodes", type=int, default=50000)
@@ -56,8 +55,7 @@ def build_weights(args) -> RewardWeights:
             profit=args.profit_weight,
             loss_penalty=args.loss_penalty,
             bust_penalty=args.bust_penalty,
-            close_call_bonus=args.close_call_bonus,
-            aggressive_hit_bonus=args.aggressive_hit_bonus
+            close_call_bonus=args.close_call_bonus
         )
     return preset_weights(args.mode)
 

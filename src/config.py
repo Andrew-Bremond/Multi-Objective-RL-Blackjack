@@ -5,31 +5,14 @@ from dataclasses import dataclass
 
 @dataclass
 class RewardWeights:
-    # Core objectives (3)
+    # Core objectives (4)
     profit: float = 1.0
     loss_penalty: float = 0.0
     bust_penalty: float = 0.0
-    
-    # Strategic objectives (5)
     close_call_bonus: float = 0.0  # Reward for getting 19-21
-    dealer_weak_bonus: float = 0.0  # Extra reward for winning against weak dealer (2-6)
-    conservative_stand_bonus: float = 0.0  # Reward for standing on 12-16 vs dealer 2-6
-    aggressive_hit_bonus: float = 0.0  # Reward for successful hits on 12-16
-    perfect_play_bonus: float = 0.0  # Bonus for 20-21 final hands
-    
-    # Advanced objectives (4)
-    blackjack_bonus: float = 0.0  # Extra reward for natural 21
-    push_penalty: float = 0.0  # Penalty for ties
-    early_stand_penalty: float = 0.0  # Penalty for standing on low values (<17)
-    dealer_bust_bonus: float = 0.0  # Extra reward when dealer busts
     
     def as_tuple(self):
-        return (self.profit, self.loss_penalty, self.bust_penalty,
-                self.close_call_bonus, self.dealer_weak_bonus,
-                self.conservative_stand_bonus, self.aggressive_hit_bonus,
-                self.perfect_play_bonus, self.blackjack_bonus,
-                self.push_penalty, self.early_stand_penalty,
-                self.dealer_bust_bonus)
+        return (self.profit, self.loss_penalty, self.bust_penalty, self.close_call_bonus)
 
 
 @dataclass
@@ -55,34 +38,46 @@ class TrainSettings:
     deterministic_eval: bool = True
 
 
+def load_weights_from_checkpoint(weights_dict: dict) -> RewardWeights:
+    """Load RewardWeights from a checkpoint dictionary, filtering out obsolete fields.
+    
+    This function ensures backward compatibility with checkpoints saved with the old
+    RewardWeights structure that contained additional objectives.
+    
+    Args:
+        weights_dict: Dictionary containing weight values (may include obsolete fields)
+        
+    Returns:
+        RewardWeights instance with only the current valid fields
+    """
+    # Only extract the fields that exist in the current RewardWeights structure
+    valid_fields = {
+        "profit": weights_dict.get("profit", 1.0),
+        "loss_penalty": weights_dict.get("loss_penalty", 0.0),
+        "bust_penalty": weights_dict.get("bust_penalty", 0.0),
+        "close_call_bonus": weights_dict.get("close_call_bonus", 0.0),
+    }
+    return RewardWeights(**valid_fields)
+
+
 def preset_weights(mode: str) -> RewardWeights:
     mode = mode.lower()
     if mode == "baseline":
-        return RewardWeights(profit=1.0, loss_penalty=0.0, bust_penalty=0.0)
+        return RewardWeights(profit=1.0, loss_penalty=0.0, bust_penalty=0.0, close_call_bonus=0.0)
     if mode == "risk_averse":
-        return RewardWeights(profit=0.6, loss_penalty=0.2, bust_penalty=0.2)
+        return RewardWeights(profit=0.6, loss_penalty=0.2, bust_penalty=0.2, close_call_bonus=0.0)
     if mode == "strategic":
-        # New strategic mode with multiple objectives
         return RewardWeights(
             profit=0.7,
             loss_penalty=0.05,
             bust_penalty=0.1,
-            close_call_bonus=0.05,  # Encourage getting close to 21
-            dealer_weak_bonus=0.05,  # Exploit weak dealer hands
-            conservative_stand_bonus=0.02,  # Smart standing
-            aggressive_hit_bonus=0.03,  # Reward calculated risks
-            perfect_play_bonus=0.05  # Bonus for 20-21
+            close_call_bonus=0.05  # Encourage getting close to 21
         )
     if mode == "optimal":
-        # Optimized for maximum win rate
         return RewardWeights(
             profit=0.8,
             loss_penalty=0.03,
             bust_penalty=0.07,
-            close_call_bonus=0.03,
-            dealer_weak_bonus=0.03,
-            conservative_stand_bonus=0.01,
-            aggressive_hit_bonus=0.02,
-            perfect_play_bonus=0.01
+            close_call_bonus=0.03
         )
     raise ValueError(f"Unknown mode '{mode}'. Expected 'baseline', 'risk_averse', 'strategic', or 'optimal'.")
