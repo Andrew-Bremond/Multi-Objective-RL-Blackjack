@@ -1,0 +1,6089 @@
+----------------------------------------
+Training DQN...
+Started at: Tue Dec  2 20:57:39 PST 2025
+----------------------------------------
+Training DQN for 10000 episodes...
+Episode 10/10000 - Reward: -0.05
+Episode 20/10000 - Reward: -0.13
+Episode 30/10000 - Reward: -2.31
+Episode 40/10000 - Reward: -0.07
+Episode 50/10000 - Reward: 0.68
+Episode 60/10000 - Reward: -0.08
+Episode 70/10000 - Reward: -0.08
+Episode 80/10000 - Reward: 1.42
+Episode 90/10000 - Reward: -0.82
+Episode 100/10000
+  Training Reward: -0.08
+  Eval Reward: -0.14 ± 0.33
+  Eval Return: -0.06 ± 0.44
+  Win Rate: 1.00%
+  Saved best model (eval reward: -0.14)
+Episode 100/10000 - Reward: -0.08
+Episode 110/10000 - Reward: -0.10
+Episode 120/10000 - Reward: -2.34
+Episode 130/10000 - Reward: -0.08
+Episode 140/10000 - Reward: 1.42
+Episode 150/10000 - Reward: -0.07
+Episode 160/10000 - Reward: -1.57
+Episode 170/10000 - Reward: -0.11
+Episode 180/10000 - Reward: -0.07
+Episode 190/10000 - Reward: -0.82
+Episode 200/10000
+  Training Reward: -0.07
+  Eval Reward: -0.01 ± 0.51
+  Eval Return: 0.08 ± 0.67
+  Win Rate: 27.00%
+  Saved best model (eval reward: -0.01)
+Episode 200/10000 - Reward: -0.07
+Episode 210/10000 - Reward: -0.04
+Episode 220/10000 - Reward: -0.04
+Episode 230/10000 - Reward: -0.05
+Episode 240/10000 - Reward: -0.05
+Episode 250/10000 - Reward: 0.71
+Episode 260/10000 - Reward: -0.04
+Episode 270/10000 - Reward: -0.05
+Episode 280/10000 - Reward: -0.06
+Episode 290/10000 - Reward: -0.80
+Episode 300/10000
+  Training Reward: -0.05
+  Eval Reward: -0.17 ± 0.65
+  Eval Return: -0.17 ± 0.87
+  Win Rate: 31.00%
+Episode 300/10000 - Reward: -0.05
+Episode 310/10000 - Reward: -0.06
+Episode 320/10000 - Reward: -0.06
+Episode 330/10000 - Reward: -0.82
+Episode 340/10000 - Reward: -0.08
+Episode 350/10000 - Reward: -0.07
+Episode 360/10000 - Reward: -0.07
+Episode 370/10000 - Reward: -0.07
+Episode 380/10000 - Reward: -0.81
+Episode 390/10000 - Reward: -0.06
+Episode 400/10000
+  Training Reward: -0.05
+  Eval Reward: 0.03 ± 0.86
+  Eval Return: 0.10 ± 1.14
+  Win Rate: 19.00%
+  Saved best model (eval reward: 0.03)
+Episode 400/10000 - Reward: -0.05
+Episode 410/10000 - Reward: -0.06
+Episode 420/10000 - Reward: -0.06
+Episode 430/10000 - Reward: -0.81
+Episode 440/10000 - Reward: -0.81
+Episode 450/10000 - Reward: -0.82
+Episode 460/10000 - Reward: -0.11
+Episode 470/10000 - Reward: -0.07
+Episode 480/10000 - Reward: -0.07
+Episode 490/10000 - Reward: -0.06
+Episode 500/10000
+  Training Reward: 0.69
+  Eval Reward: -0.11 ± 0.62
+  Eval Return: -0.09 ± 0.83
+  Win Rate: 30.00%
+Episode 500/10000 - Reward: 0.69
+Episode 510/10000 - Reward: -0.05
+Episode 520/10000 - Reward: -0.05
+Episode 530/10000 - Reward: -0.05
+Episode 540/10000 - Reward: 0.70
+Episode 550/10000 - Reward: -0.80
+Episode 560/10000 - Reward: 0.70
+Episode 570/10000 - Reward: -0.05
+Episode 580/10000 - Reward: -0.05
+Episode 590/10000 - Reward: -0.05
+Episode 600/10000
+  Training Reward: -0.80
+  Eval Reward: -0.00 ± 0.59
+  Eval Return: 0.06 ± 0.79
+  Win Rate: 28.00%
+Episode 600/10000 - Reward: -0.80
+Episode 610/10000 - Reward: -0.79
+Episode 620/10000 - Reward: 0.71
+Episode 630/10000 - Reward: -0.04
+Episode 640/10000 - Reward: -0.04
+Episode 650/10000 - Reward: -0.05
+Episode 660/10000 - Reward: -0.04
+Episode 670/10000 - Reward: -0.06
+Episode 680/10000 - Reward: -0.03
+Episode 690/10000 - Reward: -0.03
+Episode 700/10000
+  Training Reward: -0.78
+  Eval Reward: 0.06 ± 0.52
+  Eval Return: 0.13 ± 0.69
+  Win Rate: 28.00%
+  Saved best model (eval reward: 0.06)
+Episode 700/10000 - Reward: -0.78
+Episode 710/10000 - Reward: -0.04
+Episode 720/10000 - Reward: -0.79
+Episode 730/10000 - Reward: 0.71
+Episode 740/10000 - Reward: -0.79
+Episode 750/10000 - Reward: 0.71
+Episode 760/10000 - Reward: 0.71
+Episode 770/10000 - Reward: -0.05
+Episode 780/10000 - Reward: -0.05
+Episode 790/10000 - Reward: -0.05
+Episode 800/10000
+  Training Reward: 0.71
+  Eval Reward: -0.09 ± 0.63
+  Eval Return: -0.06 ± 0.83
+  Win Rate: 14.00%
+Episode 800/10000 - Reward: 0.71
+Episode 810/10000 - Reward: 0.65
+Episode 820/10000 - Reward: -0.07
+Episode 830/10000 - Reward: -0.06
+Episode 840/10000 - Reward: -0.07
+Episode 850/10000 - Reward: -0.82
+Episode 860/10000 - Reward: -0.07
+Episode 870/10000 - Reward: -0.07
+Episode 880/10000 - Reward: 0.69
+Episode 890/10000 - Reward: 2.20
+Episode 900/10000
+  Training Reward: 0.71
+  Eval Reward: 0.10 ± 0.54
+  Eval Return: 0.18 ± 0.73
+  Win Rate: 33.00%
+  Saved best model (eval reward: 0.10)
+Episode 900/10000 - Reward: 0.71
+Episode 910/10000 - Reward: -0.03
+Episode 920/10000 - Reward: -0.80
+Episode 930/10000 - Reward: 0.71
+Episode 940/10000 - Reward: -0.04
+Episode 950/10000 - Reward: 0.69
+Episode 960/10000 - Reward: -0.79
+Episode 970/10000 - Reward: -0.08
+Episode 980/10000 - Reward: -0.05
+Episode 990/10000 - Reward: -0.05
+Episode 1000/10000
+  Training Reward: 0.69
+  Eval Reward: 0.03 ± 0.55
+  Eval Return: 0.10 ± 0.73
+  Win Rate: 29.00%
+Episode 1000/10000 - Reward: 0.69
+Episode 1010/10000 - Reward: 1.47
+Episode 1020/10000 - Reward: -0.04
+Episode 1030/10000 - Reward: -1.53
+Episode 1040/10000 - Reward: -0.03
+Episode 1050/10000 - Reward: -0.05
+Episode 1060/10000 - Reward: -0.03
+Episode 1070/10000 - Reward: -0.04
+Episode 1080/10000 - Reward: -0.04
+Episode 1090/10000 - Reward: -0.05
+Episode 1100/10000
+  Training Reward: -0.79
+  Eval Reward: 0.05 ± 0.46
+  Eval Return: 0.13 ± 0.61
+  Win Rate: 23.00%
+Episode 1100/10000 - Reward: -0.79
+Episode 1110/10000 - Reward: 1.46
+Episode 1120/10000 - Reward: -0.03
+Episode 1130/10000 - Reward: -0.03
+Episode 1140/10000 - Reward: -0.79
+Episode 1150/10000 - Reward: -0.78
+Episode 1160/10000 - Reward: 1.47
+Episode 1170/10000 - Reward: -0.03
+Episode 1180/10000 - Reward: -0.78
+Episode 1190/10000 - Reward: 0.73
+Episode 1200/10000
+  Training Reward: 0.72
+  Eval Reward: 0.08 ± 0.57
+  Eval Return: 0.14 ± 0.76
+  Win Rate: 37.00%
+Episode 1200/10000 - Reward: 0.72
+Episode 1210/10000 - Reward: -0.03
+Episode 1220/10000 - Reward: -1.54
+Episode 1230/10000 - Reward: 2.21
+Episode 1240/10000 - Reward: -0.05
+Episode 1250/10000 - Reward: -0.05
+Episode 1260/10000 - Reward: -0.05
+Episode 1270/10000 - Reward: -0.04
+Episode 1280/10000 - Reward: -0.04
+Episode 1290/10000 - Reward: -0.05
+Episode 1300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.00 ± 0.80
+  Eval Return: 0.07 ± 1.06
+  Win Rate: 19.00%
+Episode 1300/10000 - Reward: -0.05
+Episode 1310/10000 - Reward: 1.41
+Episode 1320/10000 - Reward: -0.06
+Episode 1330/10000 - Reward: 0.70
+Episode 1340/10000 - Reward: 2.20
+Episode 1350/10000 - Reward: -0.06
+Episode 1360/10000 - Reward: -0.05
+Episode 1370/10000 - Reward: -0.07
+Episode 1380/10000 - Reward: -0.05
+Episode 1390/10000 - Reward: 2.21
+Episode 1400/10000
+  Training Reward: 1.44
+  Eval Reward: 0.15 ± 1.17
+  Eval Return: 0.26 ± 1.55
+  Win Rate: 22.00%
+  Saved best model (eval reward: 0.15)
+Episode 1400/10000 - Reward: 1.44
+Episode 1410/10000 - Reward: -0.05
+Episode 1420/10000 - Reward: -0.05
+Episode 1430/10000 - Reward: -0.06
+Episode 1440/10000 - Reward: -0.10
+Episode 1450/10000 - Reward: -0.06
+Episode 1460/10000 - Reward: -0.81
+Episode 1470/10000 - Reward: 2.20
+Episode 1480/10000 - Reward: -0.08
+Episode 1490/10000 - Reward: 1.43
+Episode 1500/10000
+  Training Reward: -0.05
+  Eval Reward: -0.04 ± 0.85
+  Eval Return: 0.02 ± 1.13
+  Win Rate: 27.00%
+Episode 1500/10000 - Reward: -0.05
+Episode 1510/10000 - Reward: -2.29
+Episode 1520/10000 - Reward: -0.05
+Episode 1530/10000 - Reward: -0.04
+Episode 1540/10000 - Reward: -0.05
+Episode 1550/10000 - Reward: 2.22
+Episode 1560/10000 - Reward: -0.03
+Episode 1570/10000 - Reward: -0.04
+Episode 1580/10000 - Reward: -0.05
+Episode 1590/10000 - Reward: -2.29
+Episode 1600/10000
+  Training Reward: -0.07
+  Eval Reward: 0.37 ± 1.15
+  Eval Return: 0.56 ± 1.53
+  Win Rate: 28.00%
+  Saved best model (eval reward: 0.37)
+Episode 1600/10000 - Reward: -0.07
+Episode 1610/10000 - Reward: 2.21
+Episode 1620/10000 - Reward: -0.04
+Episode 1630/10000 - Reward: 2.22
+Episode 1640/10000 - Reward: -0.03
+Episode 1650/10000 - Reward: -0.04
+Episode 1660/10000 - Reward: -0.04
+Episode 1670/10000 - Reward: -0.04
+Episode 1680/10000 - Reward: -1.55
+Episode 1690/10000 - Reward: -0.09
+Episode 1700/10000
+  Training Reward: -1.55
+  Eval Reward: 0.12 ± 0.65
+  Eval Return: 0.22 ± 0.87
+  Win Rate: 28.00%
+Episode 1700/10000 - Reward: -1.55
+Episode 1710/10000 - Reward: -0.03
+Episode 1720/10000 - Reward: -0.05
+Episode 1730/10000 - Reward: -0.03
+Episode 1740/10000 - Reward: -0.03
+Episode 1750/10000 - Reward: -0.03
+Episode 1760/10000 - Reward: 2.22
+Episode 1770/10000 - Reward: 1.47
+Episode 1780/10000 - Reward: -0.04
+Episode 1790/10000 - Reward: -0.02
+Episode 1800/10000
+  Training Reward: -1.55
+  Eval Reward: 0.00 ± 1.07
+  Eval Return: 0.07 ± 1.42
+  Win Rate: 26.00%
+Episode 1800/10000 - Reward: -1.55
+Episode 1810/10000 - Reward: -0.05
+Episode 1820/10000 - Reward: 2.20
+Episode 1830/10000 - Reward: -0.05
+Episode 1840/10000 - Reward: -1.57
+Episode 1850/10000 - Reward: 2.22
+Episode 1860/10000 - Reward: -0.02
+Episode 1870/10000 - Reward: -0.02
+Episode 1880/10000 - Reward: -0.03
+Episode 1890/10000 - Reward: -0.04
+Episode 1900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.09 ± 1.17
+  Eval Return: 0.18 ± 1.56
+  Win Rate: 20.00%
+Episode 1900/10000 - Reward: -0.02
+Episode 1910/10000 - Reward: -0.06
+Episode 1920/10000 - Reward: -0.06
+Episode 1930/10000 - Reward: -0.05
+Episode 1940/10000 - Reward: 2.20
+Episode 1950/10000 - Reward: 2.21
+Episode 1960/10000 - Reward: 0.69
+Episode 1970/10000 - Reward: -0.04
+Episode 1980/10000 - Reward: -0.03
+Episode 1990/10000 - Reward: -0.78
+Episode 2000/10000
+  Training Reward: -0.03
+  Eval Reward: 0.22 ± 1.12
+  Eval Return: 0.34 ± 1.49
+  Win Rate: 25.00%
+Episode 2000/10000 - Reward: -0.03
+Episode 2010/10000 - Reward: 2.21
+Episode 2020/10000 - Reward: -0.03
+Episode 2030/10000 - Reward: -0.03
+Episode 2040/10000 - Reward: -0.03
+Episode 2050/10000 - Reward: -0.05
+Episode 2060/10000 - Reward: -0.04
+Episode 2070/10000 - Reward: -0.82
+Episode 2080/10000 - Reward: 2.22
+Episode 2090/10000 - Reward: -0.07
+Episode 2100/10000
+  Training Reward: -0.80
+  Eval Reward: 0.07 ± 1.31
+  Eval Return: 0.16 ± 1.74
+  Win Rate: 25.00%
+Episode 2100/10000 - Reward: -0.80
+Episode 2110/10000 - Reward: -0.07
+Episode 2120/10000 - Reward: 2.21
+Episode 2130/10000 - Reward: 2.21
+Episode 2140/10000 - Reward: -0.03
+Episode 2150/10000 - Reward: -0.03
+Episode 2160/10000 - Reward: -0.02
+Episode 2170/10000 - Reward: -0.03
+Episode 2180/10000 - Reward: 1.46
+Episode 2190/10000 - Reward: -0.02
+Episode 2200/10000
+  Training Reward: -0.03
+  Eval Reward: 0.37 ± 1.17
+  Eval Return: 0.55 ± 1.56
+  Win Rate: 31.00%
+Episode 2200/10000 - Reward: -0.03
+Episode 2210/10000 - Reward: -0.03
+Episode 2220/10000 - Reward: -1.53
+Episode 2230/10000 - Reward: -0.78
+Episode 2240/10000 - Reward: 1.44
+Episode 2250/10000 - Reward: -0.03
+Episode 2260/10000 - Reward: -0.07
+Episode 2270/10000 - Reward: 0.70
+Episode 2280/10000 - Reward: -0.06
+Episode 2290/10000 - Reward: -0.04
+Episode 2300/10000
+  Training Reward: 0.72
+  Eval Reward: 0.26 ± 0.97
+  Eval Return: 0.40 ± 1.30
+  Win Rate: 30.00%
+Episode 2300/10000 - Reward: 0.72
+Episode 2310/10000 - Reward: -2.27
+Episode 2320/10000 - Reward: -0.03
+Episode 2330/10000 - Reward: -0.05
+Episode 2340/10000 - Reward: -0.04
+Episode 2350/10000 - Reward: -0.04
+Episode 2360/10000 - Reward: -0.81
+Episode 2370/10000 - Reward: -0.07
+Episode 2380/10000 - Reward: -0.05
+Episode 2390/10000 - Reward: -0.08
+Episode 2400/10000
+  Training Reward: -0.06
+  Eval Reward: 0.17 ± 1.20
+  Eval Return: 0.30 ± 1.60
+  Win Rate: 26.00%
+Episode 2400/10000 - Reward: -0.06
+Episode 2410/10000 - Reward: -1.57
+Episode 2420/10000 - Reward: -0.04
+Episode 2430/10000 - Reward: -0.04
+Episode 2440/10000 - Reward: -1.54
+Episode 2450/10000 - Reward: -0.03
+Episode 2460/10000 - Reward: -0.03
+Episode 2470/10000 - Reward: -0.78
+Episode 2480/10000 - Reward: -0.01
+Episode 2490/10000 - Reward: -0.01
+Episode 2500/10000
+  Training Reward: -2.27
+  Eval Reward: 0.23 ± 1.18
+  Eval Return: 0.35 ± 1.58
+  Win Rate: 27.00%
+Episode 2500/10000 - Reward: -2.27
+Episode 2510/10000 - Reward: -0.05
+Episode 2520/10000 - Reward: -0.04
+Episode 2530/10000 - Reward: -0.05
+Episode 2540/10000 - Reward: -0.82
+Episode 2550/10000 - Reward: 2.21
+Episode 2560/10000 - Reward: -0.04
+Episode 2570/10000 - Reward: 2.21
+Episode 2580/10000 - Reward: 2.20
+Episode 2590/10000 - Reward: -0.05
+Episode 2600/10000
+  Training Reward: -0.08
+  Eval Reward: 0.21 ± 1.06
+  Eval Return: 0.34 ± 1.41
+  Win Rate: 24.00%
+Episode 2600/10000 - Reward: -0.08
+Episode 2610/10000 - Reward: -0.05
+Episode 2620/10000 - Reward: -0.04
+Episode 2630/10000 - Reward: 2.20
+Episode 2640/10000 - Reward: -0.05
+Episode 2650/10000 - Reward: -0.06
+Episode 2660/10000 - Reward: 2.19
+Episode 2670/10000 - Reward: -0.05
+Episode 2680/10000 - Reward: -0.05
+Episode 2690/10000 - Reward: -2.31
+Episode 2700/10000
+  Training Reward: 2.20
+  Eval Reward: 0.32 ± 1.01
+  Eval Return: 0.50 ± 1.35
+  Win Rate: 23.00%
+Episode 2700/10000 - Reward: 2.20
+Episode 2710/10000 - Reward: 1.44
+Episode 2720/10000 - Reward: -0.08
+Episode 2730/10000 - Reward: -2.29
+Episode 2740/10000 - Reward: -0.04
+Episode 2750/10000 - Reward: -0.04
+Episode 2760/10000 - Reward: -0.06
+Episode 2770/10000 - Reward: 2.21
+Episode 2780/10000 - Reward: -0.03
+Episode 2790/10000 - Reward: -0.03
+Episode 2800/10000
+  Training Reward: 1.45
+  Eval Reward: 0.14 ± 0.91
+  Eval Return: 0.24 ± 1.22
+  Win Rate: 25.00%
+Episode 2800/10000 - Reward: 1.45
+Episode 2810/10000 - Reward: -0.04
+Episode 2820/10000 - Reward: -0.08
+Episode 2830/10000 - Reward: -0.05
+Episode 2840/10000 - Reward: 0.72
+Episode 2850/10000 - Reward: -0.02
+Episode 2860/10000 - Reward: 2.22
+Episode 2870/10000 - Reward: -0.03
+Episode 2880/10000 - Reward: -2.28
+Episode 2890/10000 - Reward: -0.79
+Episode 2900/10000
+  Training Reward: 2.21
+  Eval Reward: 0.16 ± 1.09
+  Eval Return: 0.29 ± 1.44
+  Win Rate: 24.00%
+Episode 2900/10000 - Reward: 2.21
+Episode 2910/10000 - Reward: 2.21
+Episode 2920/10000 - Reward: -0.04
+Episode 2930/10000 - Reward: 2.22
+Episode 2940/10000 - Reward: -0.05
+Episode 2950/10000 - Reward: -2.29
+Episode 2960/10000 - Reward: -0.05
+Episode 2970/10000 - Reward: -0.03
+Episode 2980/10000 - Reward: -0.03
+Episode 2990/10000 - Reward: -0.02
+Episode 3000/10000
+  Training Reward: 2.23
+  Eval Reward: 0.34 ± 1.02
+  Eval Return: 0.49 ± 1.35
+  Win Rate: 26.00%
+Episode 3000/10000 - Reward: 2.23
+Episode 3010/10000 - Reward: -0.03
+Episode 3020/10000 - Reward: -0.06
+Episode 3030/10000 - Reward: -2.30
+Episode 3040/10000 - Reward: 0.68
+Episode 3050/10000 - Reward: -2.30
+Episode 3060/10000 - Reward: -0.08
+Episode 3070/10000 - Reward: -0.06
+Episode 3080/10000 - Reward: -0.81
+Episode 3090/10000 - Reward: -0.06
+Episode 3100/10000
+  Training Reward: 2.20
+  Eval Reward: 0.31 ± 1.02
+  Eval Return: 0.47 ± 1.35
+  Win Rate: 27.00%
+Episode 3100/10000 - Reward: 2.20
+Episode 3110/10000 - Reward: -0.04
+Episode 3120/10000 - Reward: 2.22
+Episode 3130/10000 - Reward: -0.03
+Episode 3140/10000 - Reward: -0.03
+Episode 3150/10000 - Reward: -0.03
+Episode 3160/10000 - Reward: -0.02
+Episode 3170/10000 - Reward: 0.72
+Episode 3180/10000 - Reward: -2.28
+Episode 3190/10000 - Reward: -0.05
+Episode 3200/10000
+  Training Reward: 2.22
+  Eval Reward: 0.26 ± 1.03
+  Eval Return: 0.41 ± 1.37
+  Win Rate: 27.00%
+Episode 3200/10000 - Reward: 2.22
+Episode 3210/10000 - Reward: -0.03
+Episode 3220/10000 - Reward: 2.21
+Episode 3230/10000 - Reward: -0.03
+Episode 3240/10000 - Reward: -0.02
+Episode 3250/10000 - Reward: -0.02
+Episode 3260/10000 - Reward: -0.02
+Episode 3270/10000 - Reward: -0.02
+Episode 3280/10000 - Reward: 2.23
+Episode 3290/10000 - Reward: -0.03
+Episode 3300/10000
+  Training Reward: -0.03
+  Eval Reward: 0.13 ± 1.00
+  Eval Return: 0.24 ± 1.34
+  Win Rate: 18.00%
+Episode 3300/10000 - Reward: -0.03
+Episode 3310/10000 - Reward: -0.05
+Episode 3320/10000 - Reward: -0.07
+Episode 3330/10000 - Reward: -0.82
+Episode 3340/10000 - Reward: 2.21
+Episode 3350/10000 - Reward: -0.07
+Episode 3360/10000 - Reward: -0.04
+Episode 3370/10000 - Reward: -0.04
+Episode 3380/10000 - Reward: -0.06
+Episode 3390/10000 - Reward: -0.08
+Episode 3400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.23 ± 1.12
+  Eval Return: 0.38 ± 1.50
+  Win Rate: 25.00%
+Episode 3400/10000 - Reward: -0.04
+Episode 3410/10000 - Reward: -0.04
+Episode 3420/10000 - Reward: -0.07
+Episode 3430/10000 - Reward: -0.06
+Episode 3440/10000 - Reward: -0.04
+Episode 3450/10000 - Reward: 2.22
+Episode 3460/10000 - Reward: -0.05
+Episode 3470/10000 - Reward: -0.05
+Episode 3480/10000 - Reward: 2.19
+Episode 3490/10000 - Reward: -0.06
+Episode 3500/10000
+  Training Reward: 2.20
+  Eval Reward: 0.24 ± 1.12
+  Eval Return: 0.37 ± 1.49
+  Win Rate: 28.00%
+Episode 3500/10000 - Reward: 2.20
+Episode 3510/10000 - Reward: -0.04
+Episode 3520/10000 - Reward: 2.20
+Episode 3530/10000 - Reward: 2.19
+Episode 3540/10000 - Reward: -0.05
+Episode 3550/10000 - Reward: -0.06
+Episode 3560/10000 - Reward: -0.06
+Episode 3570/10000 - Reward: -1.56
+Episode 3580/10000 - Reward: -0.06
+Episode 3590/10000 - Reward: -0.07
+Episode 3600/10000
+  Training Reward: 2.18
+  Eval Reward: 0.21 ± 1.27
+  Eval Return: 0.38 ± 1.68
+  Win Rate: 27.00%
+Episode 3600/10000 - Reward: 2.18
+Episode 3610/10000 - Reward: -0.06
+Episode 3620/10000 - Reward: -0.05
+Episode 3630/10000 - Reward: 0.71
+Episode 3640/10000 - Reward: -0.04
+Episode 3650/10000 - Reward: -0.04
+Episode 3660/10000 - Reward: 0.71
+Episode 3670/10000 - Reward: -0.02
+Episode 3680/10000 - Reward: 1.46
+Episode 3690/10000 - Reward: 0.71
+Episode 3700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.29 ± 0.97
+  Eval Return: 0.45 ± 1.29
+  Win Rate: 24.00%
+Episode 3700/10000 - Reward: -0.03
+Episode 3710/10000 - Reward: -0.03
+Episode 3720/10000 - Reward: -0.03
+Episode 3730/10000 - Reward: -0.03
+Episode 3740/10000 - Reward: -0.03
+Episode 3750/10000 - Reward: -0.03
+Episode 3760/10000 - Reward: -0.04
+Episode 3770/10000 - Reward: -0.04
+Episode 3780/10000 - Reward: -0.03
+Episode 3790/10000 - Reward: -0.08
+Episode 3800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.14 ± 0.96
+  Eval Return: 0.26 ± 1.29
+  Win Rate: 21.00%
+Episode 3800/10000 - Reward: -0.04
+Episode 3810/10000 - Reward: -0.05
+Episode 3820/10000 - Reward: -1.60
+Episode 3830/10000 - Reward: -0.08
+Episode 3840/10000 - Reward: -0.09
+Episode 3850/10000 - Reward: -0.05
+Episode 3860/10000 - Reward: -2.30
+Episode 3870/10000 - Reward: 2.22
+Episode 3880/10000 - Reward: 0.72
+Episode 3890/10000 - Reward: 0.74
+Episode 3900/10000
+  Training Reward: -2.27
+  Eval Reward: 0.11 ± 1.10
+  Eval Return: 0.20 ± 1.46
+  Win Rate: 19.00%
+Episode 3900/10000 - Reward: -2.27
+Episode 3910/10000 - Reward: 2.20
+Episode 3920/10000 - Reward: -0.06
+Episode 3930/10000 - Reward: -0.04
+Episode 3940/10000 - Reward: -0.04
+Episode 3950/10000 - Reward: -0.04
+Episode 3960/10000 - Reward: 2.20
+Episode 3970/10000 - Reward: -0.05
+Episode 3980/10000 - Reward: 1.43
+Episode 3990/10000 - Reward: -0.84
+Episode 4000/10000
+  Training Reward: -0.05
+  Eval Reward: 0.14 ± 0.74
+  Eval Return: 0.28 ± 0.98
+  Win Rate: 11.00%
+Episode 4000/10000 - Reward: -0.05
+Episode 4010/10000 - Reward: 1.37
+Episode 4020/10000 - Reward: -0.09
+Episode 4030/10000 - Reward: -0.06
+Episode 4040/10000 - Reward: 1.41
+Episode 4050/10000 - Reward: 2.19
+Episode 4060/10000 - Reward: -0.08
+Episode 4070/10000 - Reward: 2.20
+Episode 4080/10000 - Reward: -0.07
+Episode 4090/10000 - Reward: -2.29
+Episode 4100/10000
+  Training Reward: 2.21
+  Eval Reward: 0.24 ± 1.00
+  Eval Return: 0.38 ± 1.33
+  Win Rate: 21.00%
+Episode 4100/10000 - Reward: 2.21
+Episode 4110/10000 - Reward: 1.45
+Episode 4120/10000 - Reward: -0.05
+Episode 4130/10000 - Reward: -0.80
+Episode 4140/10000 - Reward: 2.20
+Episode 4150/10000 - Reward: 0.68
+Episode 4160/10000 - Reward: -0.04
+Episode 4170/10000 - Reward: -0.03
+Episode 4180/10000 - Reward: -0.05
+Episode 4190/10000 - Reward: -0.03
+Episode 4200/10000
+  Training Reward: -0.06
+  Eval Reward: 0.13 ± 0.83
+  Eval Return: 0.23 ± 1.10
+  Win Rate: 16.00%
+Episode 4200/10000 - Reward: -0.06
+Episode 4210/10000 - Reward: -0.09
+Episode 4220/10000 - Reward: -0.07
+Episode 4230/10000 - Reward: -0.05
+Episode 4240/10000 - Reward: -1.57
+Episode 4250/10000 - Reward: 2.21
+Episode 4260/10000 - Reward: -0.04
+Episode 4270/10000 - Reward: -0.04
+Episode 4280/10000 - Reward: -0.79
+Episode 4290/10000 - Reward: -0.05
+Episode 4300/10000
+  Training Reward: 2.21
+  Eval Reward: 0.41 ± 1.20
+  Eval Return: 0.60 ± 1.60
+  Win Rate: 34.00%
+  Saved best model (eval reward: 0.41)
+Episode 4300/10000 - Reward: 2.21
+Episode 4310/10000 - Reward: -0.02
+Episode 4320/10000 - Reward: -0.02
+Episode 4330/10000 - Reward: -0.04
+Episode 4340/10000 - Reward: -0.02
+Episode 4350/10000 - Reward: -0.05
+Episode 4360/10000 - Reward: -0.79
+Episode 4370/10000 - Reward: -0.03
+Episode 4380/10000 - Reward: -0.79
+Episode 4390/10000 - Reward: -0.79
+Episode 4400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.07 ± 1.23
+  Eval Return: 0.15 ± 1.63
+  Win Rate: 25.00%
+Episode 4400/10000 - Reward: -0.04
+Episode 4410/10000 - Reward: -0.05
+Episode 4420/10000 - Reward: 2.21
+Episode 4430/10000 - Reward: -0.04
+Episode 4440/10000 - Reward: -0.04
+Episode 4450/10000 - Reward: 2.21
+Episode 4460/10000 - Reward: -0.06
+Episode 4470/10000 - Reward: 2.22
+Episode 4480/10000 - Reward: -0.02
+Episode 4490/10000 - Reward: -0.04
+Episode 4500/10000
+  Training Reward: -2.27
+  Eval Reward: 0.26 ± 1.08
+  Eval Return: 0.40 ± 1.44
+  Win Rate: 27.00%
+Episode 4500/10000 - Reward: -2.27
+Episode 4510/10000 - Reward: -2.28
+Episode 4520/10000 - Reward: -0.02
+Episode 4530/10000 - Reward: -0.03
+Episode 4540/10000 - Reward: -0.03
+Episode 4550/10000 - Reward: -0.04
+Episode 4560/10000 - Reward: 2.22
+Episode 4570/10000 - Reward: -0.03
+Episode 4580/10000 - Reward: -0.04
+Episode 4590/10000 - Reward: -0.03
+Episode 4600/10000
+  Training Reward: -0.05
+  Eval Reward: 0.30 ± 1.22
+  Eval Return: 0.45 ± 1.62
+  Win Rate: 29.00%
+Episode 4600/10000 - Reward: -0.05
+Episode 4610/10000 - Reward: -0.03
+Episode 4620/10000 - Reward: -2.31
+Episode 4630/10000 - Reward: -0.04
+Episode 4640/10000 - Reward: -0.05
+Episode 4650/10000 - Reward: -1.55
+Episode 4660/10000 - Reward: -0.04
+Episode 4670/10000 - Reward: 0.71
+Episode 4680/10000 - Reward: 2.21
+Episode 4690/10000 - Reward: 0.72
+Episode 4700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.27 ± 0.99
+  Eval Return: 0.42 ± 1.32
+  Win Rate: 25.00%
+Episode 4700/10000 - Reward: -0.04
+Episode 4710/10000 - Reward: -0.03
+Episode 4720/10000 - Reward: -0.03
+Episode 4730/10000 - Reward: -0.03
+Episode 4740/10000 - Reward: 1.44
+Episode 4750/10000 - Reward: 2.22
+Episode 4760/10000 - Reward: -0.03
+Episode 4770/10000 - Reward: 0.68
+Episode 4780/10000 - Reward: 2.22
+Episode 4790/10000 - Reward: -0.03
+Episode 4800/10000
+  Training Reward: -0.03
+  Eval Reward: 0.13 ± 1.24
+  Eval Return: 0.22 ± 1.65
+  Win Rate: 26.00%
+Episode 4800/10000 - Reward: -0.03
+Episode 4810/10000 - Reward: 2.21
+Episode 4820/10000 - Reward: -0.04
+Episode 4830/10000 - Reward: -0.04
+Episode 4840/10000 - Reward: 0.71
+Episode 4850/10000 - Reward: -0.04
+Episode 4860/10000 - Reward: 2.23
+Episode 4870/10000 - Reward: -0.02
+Episode 4880/10000 - Reward: 2.24
+Episode 4890/10000 - Reward: -0.01
+Episode 4900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.28 ± 1.09
+  Eval Return: 0.42 ± 1.46
+  Win Rate: 25.00%
+Episode 4900/10000 - Reward: -0.02
+Episode 4910/10000 - Reward: -0.05
+Episode 4920/10000 - Reward: -0.05
+Episode 4930/10000 - Reward: -0.05
+Episode 4940/10000 - Reward: -0.10
+Episode 4950/10000 - Reward: -0.05
+Episode 4960/10000 - Reward: -0.80
+Episode 4970/10000 - Reward: -0.06
+Episode 4980/10000 - Reward: -0.05
+Episode 4990/10000 - Reward: 2.20
+Episode 5000/10000
+  Training Reward: -0.06
+  Eval Reward: 0.35 ± 0.93
+  Eval Return: 0.52 ± 1.24
+  Win Rate: 21.00%
+Episode 5000/10000 - Reward: -0.06
+Episode 5010/10000 - Reward: 0.70
+Episode 5020/10000 - Reward: -0.02
+Episode 5030/10000 - Reward: -0.03
+Episode 5040/10000 - Reward: -1.54
+Episode 5050/10000 - Reward: -0.03
+Episode 5060/10000 - Reward: -0.05
+Episode 5070/10000 - Reward: -2.28
+Episode 5080/10000 - Reward: -0.04
+Episode 5090/10000 - Reward: -0.04
+Episode 5100/10000
+  Training Reward: -0.03
+  Eval Reward: 0.27 ± 0.96
+  Eval Return: 0.43 ± 1.27
+  Win Rate: 23.00%
+Episode 5100/10000 - Reward: -0.03
+Episode 5110/10000 - Reward: -2.29
+Episode 5120/10000 - Reward: -0.04
+Episode 5130/10000 - Reward: -0.03
+Episode 5140/10000 - Reward: -0.03
+Episode 5150/10000 - Reward: -0.04
+Episode 5160/10000 - Reward: -2.28
+Episode 5170/10000 - Reward: -0.04
+Episode 5180/10000 - Reward: -0.04
+Episode 5190/10000 - Reward: 2.22
+Episode 5200/10000
+  Training Reward: 2.21
+  Eval Reward: 0.45 ± 1.14
+  Eval Return: 0.65 ± 1.52
+  Win Rate: 28.00%
+  Saved best model (eval reward: 0.45)
+Episode 5200/10000 - Reward: 2.21
+Episode 5210/10000 - Reward: -0.03
+Episode 5220/10000 - Reward: -0.03
+Episode 5230/10000 - Reward: 0.69
+Episode 5240/10000 - Reward: 2.22
+Episode 5250/10000 - Reward: -0.06
+Episode 5260/10000 - Reward: -0.03
+Episode 5270/10000 - Reward: -2.28
+Episode 5280/10000 - Reward: -0.03
+Episode 5290/10000 - Reward: -0.03
+Episode 5300/10000
+  Training Reward: -1.54
+  Eval Reward: 0.08 ± 1.23
+  Eval Return: 0.16 ± 1.64
+  Win Rate: 26.00%
+Episode 5300/10000 - Reward: -1.54
+Episode 5310/10000 - Reward: -0.04
+Episode 5320/10000 - Reward: 0.67
+Episode 5330/10000 - Reward: -0.04
+Episode 5340/10000 - Reward: -0.04
+Episode 5350/10000 - Reward: -0.09
+Episode 5360/10000 - Reward: -1.57
+Episode 5370/10000 - Reward: -0.04
+Episode 5380/10000 - Reward: -0.05
+Episode 5390/10000 - Reward: -0.79
+Episode 5400/10000
+  Training Reward: 2.23
+  Eval Reward: 0.16 ± 1.25
+  Eval Return: 0.26 ± 1.67
+  Win Rate: 25.00%
+Episode 5400/10000 - Reward: 2.23
+Episode 5410/10000 - Reward: -0.04
+Episode 5420/10000 - Reward: 2.21
+Episode 5430/10000 - Reward: -0.06
+Episode 5440/10000 - Reward: -0.05
+Episode 5450/10000 - Reward: -0.05
+Episode 5460/10000 - Reward: -0.05
+Episode 5470/10000 - Reward: -0.07
+Episode 5480/10000 - Reward: 0.68
+Episode 5490/10000 - Reward: -0.06
+Episode 5500/10000
+  Training Reward: -0.81
+  Eval Reward: 0.13 ± 1.06
+  Eval Return: 0.24 ± 1.42
+  Win Rate: 22.00%
+Episode 5500/10000 - Reward: -0.81
+Episode 5510/10000 - Reward: -0.08
+Episode 5520/10000 - Reward: 2.20
+Episode 5530/10000 - Reward: -0.09
+Episode 5540/10000 - Reward: -0.80
+Episode 5550/10000 - Reward: -1.57
+Episode 5560/10000 - Reward: 2.19
+Episode 5570/10000 - Reward: -0.07
+Episode 5580/10000 - Reward: 2.19
+Episode 5590/10000 - Reward: 2.19
+Episode 5600/10000
+  Training Reward: -0.08
+  Eval Reward: 0.22 ± 1.19
+  Eval Return: 0.37 ± 1.59
+  Win Rate: 27.00%
+Episode 5600/10000 - Reward: -0.08
+Episode 5610/10000 - Reward: -0.03
+Episode 5620/10000 - Reward: -0.05
+Episode 5630/10000 - Reward: -2.30
+Episode 5640/10000 - Reward: -2.30
+Episode 5650/10000 - Reward: 2.21
+Episode 5660/10000 - Reward: -0.11
+Episode 5670/10000 - Reward: 2.20
+Episode 5680/10000 - Reward: -0.08
+Episode 5690/10000 - Reward: -0.05
+Episode 5700/10000
+  Training Reward: -0.06
+  Eval Reward: 0.42 ± 1.17
+  Eval Return: 0.62 ± 1.55
+  Win Rate: 30.00%
+Episode 5700/10000 - Reward: -0.06
+Episode 5710/10000 - Reward: -0.02
+Episode 5720/10000 - Reward: -2.28
+Episode 5730/10000 - Reward: 1.46
+Episode 5740/10000 - Reward: 2.22
+Episode 5750/10000 - Reward: -0.02
+Episode 5760/10000 - Reward: -0.02
+Episode 5770/10000 - Reward: 1.47
+Episode 5780/10000 - Reward: 1.46
+Episode 5790/10000 - Reward: -0.01
+Episode 5800/10000
+  Training Reward: -0.02
+  Eval Reward: 0.39 ± 1.08
+  Eval Return: 0.55 ± 1.44
+  Win Rate: 28.00%
+Episode 5800/10000 - Reward: -0.02
+Episode 5810/10000 - Reward: -0.04
+Episode 5820/10000 - Reward: -0.02
+Episode 5830/10000 - Reward: -0.02
+Episode 5840/10000 - Reward: 2.23
+Episode 5850/10000 - Reward: -0.03
+Episode 5860/10000 - Reward: -0.02
+Episode 5870/10000 - Reward: -0.01
+Episode 5880/10000 - Reward: -0.01
+Episode 5890/10000 - Reward: -0.01
+Episode 5900/10000
+  Training Reward: -0.01
+  Eval Reward: 0.43 ± 1.05
+  Eval Return: 0.60 ± 1.39
+  Win Rate: 27.00%
+Episode 5900/10000 - Reward: -0.01
+Episode 5910/10000 - Reward: 2.22
+Episode 5920/10000 - Reward: -0.03
+Episode 5930/10000 - Reward: 2.22
+Episode 5940/10000 - Reward: -0.04
+Episode 5950/10000 - Reward: -0.09
+Episode 5960/10000 - Reward: -0.04
+Episode 5970/10000 - Reward: 0.69
+Episode 5980/10000 - Reward: -0.04
+Episode 5990/10000 - Reward: -0.05
+Episode 6000/10000
+  Training Reward: -2.29
+  Eval Reward: 0.32 ± 1.27
+  Eval Return: 0.46 ± 1.70
+  Win Rate: 41.00%
+Episode 6000/10000 - Reward: -2.29
+Episode 6010/10000 - Reward: 0.00
+Episode 6020/10000 - Reward: 2.24
+Episode 6030/10000 - Reward: -1.50
+Episode 6040/10000 - Reward: 2.24
+Episode 6050/10000 - Reward: 2.24
+Episode 6060/10000 - Reward: -0.02
+Episode 6070/10000 - Reward: 0.71
+Episode 6080/10000 - Reward: -0.02
+Episode 6090/10000 - Reward: -0.02
+Episode 6100/10000
+  Training Reward: -2.27
+  Eval Reward: 0.13 ± 1.17
+  Eval Return: 0.24 ± 1.56
+  Win Rate: 24.00%
+Episode 6100/10000 - Reward: -2.27
+Episode 6110/10000 - Reward: -0.08
+Episode 6120/10000 - Reward: -1.57
+Episode 6130/10000 - Reward: -0.07
+Episode 6140/10000 - Reward: -0.06
+Episode 6150/10000 - Reward: -0.05
+Episode 6160/10000 - Reward: -0.06
+Episode 6170/10000 - Reward: -0.05
+Episode 6180/10000 - Reward: 2.21
+Episode 6190/10000 - Reward: -0.04
+Episode 6200/10000
+  Training Reward: -0.06
+  Eval Reward: 0.23 ± 1.01
+  Eval Return: 0.37 ± 1.35
+  Win Rate: 21.00%
+Episode 6200/10000 - Reward: -0.06
+Episode 6210/10000 - Reward: -0.05
+Episode 6220/10000 - Reward: -1.55
+Episode 6230/10000 - Reward: -2.30
+Episode 6240/10000 - Reward: -0.06
+Episode 6250/10000 - Reward: -0.06
+Episode 6260/10000 - Reward: 0.66
+Episode 6270/10000 - Reward: -0.06
+Episode 6280/10000 - Reward: -1.56
+Episode 6290/10000 - Reward: -1.58
+Episode 6300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.28 ± 1.07
+  Eval Return: 0.44 ± 1.42
+  Win Rate: 25.00%
+Episode 6300/10000 - Reward: -0.05
+Episode 6310/10000 - Reward: -0.04
+Episode 6320/10000 - Reward: -0.04
+Episode 6330/10000 - Reward: -0.04
+Episode 6340/10000 - Reward: -0.07
+Episode 6350/10000 - Reward: -0.05
+Episode 6360/10000 - Reward: 2.20
+Episode 6370/10000 - Reward: -0.06
+Episode 6380/10000 - Reward: 2.20
+Episode 6390/10000 - Reward: -0.04
+Episode 6400/10000
+  Training Reward: -0.06
+  Eval Reward: 0.31 ± 1.15
+  Eval Return: 0.47 ± 1.54
+  Win Rate: 26.00%
+Episode 6400/10000 - Reward: -0.06
+Episode 6410/10000 - Reward: -0.04
+Episode 6420/10000 - Reward: 2.21
+Episode 6430/10000 - Reward: -0.03
+Episode 6440/10000 - Reward: -2.29
+Episode 6450/10000 - Reward: -0.03
+Episode 6460/10000 - Reward: -0.04
+Episode 6470/10000 - Reward: -0.06
+Episode 6480/10000 - Reward: -2.30
+Episode 6490/10000 - Reward: -0.05
+Episode 6500/10000
+  Training Reward: -0.05
+  Eval Reward: 0.11 ± 1.24
+  Eval Return: 0.22 ± 1.65
+  Win Rate: 25.00%
+Episode 6500/10000 - Reward: -0.05
+Episode 6510/10000 - Reward: 1.43
+Episode 6520/10000 - Reward: -0.05
+Episode 6530/10000 - Reward: -0.05
+Episode 6540/10000 - Reward: -0.06
+Episode 6550/10000 - Reward: -0.08
+Episode 6560/10000 - Reward: -0.05
+Episode 6570/10000 - Reward: 1.43
+Episode 6580/10000 - Reward: -0.05
+Episode 6590/10000 - Reward: -0.05
+Episode 6600/10000
+  Training Reward: -2.30
+  Eval Reward: 0.15 ± 1.23
+  Eval Return: 0.27 ± 1.64
+  Win Rate: 24.00%
+Episode 6600/10000 - Reward: -2.30
+Episode 6610/10000 - Reward: -2.32
+Episode 6620/10000 - Reward: -2.28
+Episode 6630/10000 - Reward: -0.04
+Episode 6640/10000 - Reward: -0.04
+Episode 6650/10000 - Reward: -0.05
+Episode 6660/10000 - Reward: -0.04
+Episode 6670/10000 - Reward: 1.44
+Episode 6680/10000 - Reward: 2.20
+Episode 6690/10000 - Reward: -0.03
+Episode 6700/10000
+  Training Reward: 2.22
+  Eval Reward: 0.32 ± 1.08
+  Eval Return: 0.48 ± 1.44
+  Win Rate: 23.00%
+Episode 6700/10000 - Reward: 2.22
+Episode 6710/10000 - Reward: -0.03
+Episode 6720/10000 - Reward: -0.03
+Episode 6730/10000 - Reward: -0.03
+Episode 6740/10000 - Reward: -0.04
+Episode 6750/10000 - Reward: -0.06
+Episode 6760/10000 - Reward: -0.04
+Episode 6770/10000 - Reward: -0.06
+Episode 6780/10000 - Reward: -0.04
+Episode 6790/10000 - Reward: -0.04
+Episode 6800/10000
+  Training Reward: 1.44
+  Eval Reward: 0.28 ± 1.19
+  Eval Return: 0.44 ± 1.58
+  Win Rate: 28.00%
+Episode 6800/10000 - Reward: 1.44
+Episode 6810/10000 - Reward: -0.03
+Episode 6820/10000 - Reward: -2.28
+Episode 6830/10000 - Reward: 2.22
+Episode 6840/10000 - Reward: -0.04
+Episode 6850/10000 - Reward: -0.03
+Episode 6860/10000 - Reward: -0.03
+Episode 6870/10000 - Reward: -0.03
+Episode 6880/10000 - Reward: -1.56
+Episode 6890/10000 - Reward: -0.04
+Episode 6900/10000
+  Training Reward: -0.07
+  Eval Reward: 0.37 ± 1.17
+  Eval Return: 0.56 ± 1.56
+  Win Rate: 29.00%
+Episode 6900/10000 - Reward: -0.07
+Episode 6910/10000 - Reward: -0.04
+Episode 6920/10000 - Reward: -0.07
+Episode 6930/10000 - Reward: 2.20
+Episode 6940/10000 - Reward: 2.21
+Episode 6950/10000 - Reward: -2.30
+Episode 6960/10000 - Reward: -0.03
+Episode 6970/10000 - Reward: -0.04
+Episode 6980/10000 - Reward: -2.32
+Episode 6990/10000 - Reward: -0.06
+Episode 7000/10000
+  Training Reward: -0.04
+  Eval Reward: 0.34 ± 1.24
+  Eval Return: 0.49 ± 1.65
+  Win Rate: 31.00%
+Episode 7000/10000 - Reward: -0.04
+Episode 7010/10000 - Reward: -0.03
+Episode 7020/10000 - Reward: -0.03
+Episode 7030/10000 - Reward: -0.03
+Episode 7040/10000 - Reward: -0.05
+Episode 7050/10000 - Reward: -0.04
+Episode 7060/10000 - Reward: 2.22
+Episode 7070/10000 - Reward: -0.03
+Episode 7080/10000 - Reward: 2.22
+Episode 7090/10000 - Reward: 1.45
+Episode 7100/10000
+  Training Reward: -0.02
+  Eval Reward: 0.25 ± 1.30
+  Eval Return: 0.38 ± 1.74
+  Win Rate: 26.00%
+Episode 7100/10000 - Reward: -0.02
+Episode 7110/10000 - Reward: -0.04
+Episode 7120/10000 - Reward: -0.04
+Episode 7130/10000 - Reward: 2.21
+Episode 7140/10000 - Reward: -0.03
+Episode 7150/10000 - Reward: -1.55
+Episode 7160/10000 - Reward: -0.03
+Episode 7170/10000 - Reward: -0.03
+Episode 7180/10000 - Reward: -0.05
+Episode 7190/10000 - Reward: -0.05
+Episode 7200/10000
+  Training Reward: -2.28
+  Eval Reward: 0.30 ± 1.17
+  Eval Return: 0.45 ± 1.56
+  Win Rate: 27.00%
+Episode 7200/10000 - Reward: -2.28
+Episode 7210/10000 - Reward: -2.29
+Episode 7220/10000 - Reward: -0.04
+Episode 7230/10000 - Reward: -0.04
+Episode 7240/10000 - Reward: 2.21
+Episode 7250/10000 - Reward: -0.04
+Episode 7260/10000 - Reward: 2.21
+Episode 7270/10000 - Reward: -0.04
+Episode 7280/10000 - Reward: 2.21
+Episode 7290/10000 - Reward: -0.03
+Episode 7300/10000
+  Training Reward: -0.03
+  Eval Reward: 0.07 ± 1.05
+  Eval Return: 0.16 ± 1.41
+  Win Rate: 17.00%
+Episode 7300/10000 - Reward: -0.03
+Episode 7310/10000 - Reward: -0.06
+Episode 7320/10000 - Reward: -0.06
+Episode 7330/10000 - Reward: -0.09
+Episode 7340/10000 - Reward: -0.06
+Episode 7350/10000 - Reward: -2.31
+Episode 7360/10000 - Reward: -0.06
+Episode 7370/10000 - Reward: 1.40
+Episode 7380/10000 - Reward: 1.41
+Episode 7390/10000 - Reward: 1.41
+Episode 7400/10000
+  Training Reward: -0.08
+  Eval Reward: 0.19 ± 1.23
+  Eval Return: 0.33 ± 1.63
+  Win Rate: 22.00%
+Episode 7400/10000 - Reward: -0.08
+Episode 7410/10000 - Reward: -2.29
+Episode 7420/10000 - Reward: -0.07
+Episode 7430/10000 - Reward: -0.07
+Episode 7440/10000 - Reward: -0.07
+Episode 7450/10000 - Reward: -0.05
+Episode 7460/10000 - Reward: -0.06
+Episode 7470/10000 - Reward: 2.20
+Episode 7480/10000 - Reward: -0.05
+Episode 7490/10000 - Reward: -0.05
+Episode 7500/10000
+  Training Reward: -0.07
+  Eval Reward: 0.04 ± 1.36
+  Eval Return: 0.13 ± 1.81
+  Win Rate: 23.00%
+Episode 7500/10000 - Reward: -0.07
+Episode 7510/10000 - Reward: -0.07
+Episode 7520/10000 - Reward: 2.20
+Episode 7530/10000 - Reward: -0.06
+Episode 7540/10000 - Reward: 2.18
+Episode 7550/10000 - Reward: -0.07
+Episode 7560/10000 - Reward: -0.04
+Episode 7570/10000 - Reward: -0.04
+Episode 7580/10000 - Reward: -0.04
+Episode 7590/10000 - Reward: 1.43
+Episode 7600/10000
+  Training Reward: -0.05
+  Eval Reward: 0.21 ± 1.08
+  Eval Return: 0.35 ± 1.44
+  Win Rate: 19.00%
+Episode 7600/10000 - Reward: -0.05
+Episode 7610/10000 - Reward: -0.05
+Episode 7620/10000 - Reward: 2.21
+Episode 7630/10000 - Reward: -0.05
+Episode 7640/10000 - Reward: 2.21
+Episode 7650/10000 - Reward: -0.03
+Episode 7660/10000 - Reward: -0.04
+Episode 7670/10000 - Reward: 2.22
+Episode 7680/10000 - Reward: -0.03
+Episode 7690/10000 - Reward: -0.03
+Episode 7700/10000
+  Training Reward: -2.27
+  Eval Reward: 0.22 ± 1.37
+  Eval Return: 0.33 ± 1.83
+  Win Rate: 26.00%
+Episode 7700/10000 - Reward: -2.27
+Episode 7710/10000 - Reward: 2.21
+Episode 7720/10000 - Reward: -0.04
+Episode 7730/10000 - Reward: 2.21
+Episode 7740/10000 - Reward: -0.03
+Episode 7750/10000 - Reward: 2.22
+Episode 7760/10000 - Reward: -0.05
+Episode 7770/10000 - Reward: 2.22
+Episode 7780/10000 - Reward: 2.19
+Episode 7790/10000 - Reward: -0.03
+Episode 7800/10000
+  Training Reward: -0.03
+  Eval Reward: 0.20 ± 1.22
+  Eval Return: 0.33 ± 1.62
+  Win Rate: 22.00%
+Episode 7800/10000 - Reward: -0.03
+Episode 7810/10000 - Reward: -0.05
+Episode 7820/10000 - Reward: -0.09
+Episode 7830/10000 - Reward: -2.30
+Episode 7840/10000 - Reward: -0.04
+Episode 7850/10000 - Reward: -0.06
+Episode 7860/10000 - Reward: -0.05
+Episode 7870/10000 - Reward: -0.04
+Episode 7880/10000 - Reward: -0.06
+Episode 7890/10000 - Reward: -0.09
+Episode 7900/10000
+  Training Reward: 2.19
+  Eval Reward: 0.57 ± 1.16
+  Eval Return: 0.82 ± 1.55
+  Win Rate: 34.00%
+  Saved best model (eval reward: 0.57)
+Episode 7900/10000 - Reward: 2.19
+Episode 7910/10000 - Reward: -2.25
+Episode 7920/10000 - Reward: -0.01
+Episode 7930/10000 - Reward: 2.24
+Episode 7940/10000 - Reward: 0.00
+Episode 7950/10000 - Reward: 2.24
+Episode 7960/10000 - Reward: 2.25
+Episode 7970/10000 - Reward: 0.00
+Episode 7980/10000 - Reward: -0.00
+Episode 7990/10000 - Reward: 2.24
+Episode 8000/10000
+  Training Reward: -0.01
+  Eval Reward: 0.29 ± 1.30
+  Eval Return: 0.43 ± 1.73
+  Win Rate: 25.00%
+Episode 8000/10000 - Reward: -0.01
+Episode 8010/10000 - Reward: 2.19
+Episode 8020/10000 - Reward: -0.04
+Episode 8030/10000 - Reward: -0.07
+Episode 8040/10000 - Reward: -0.09
+Episode 8050/10000 - Reward: -0.05
+Episode 8060/10000 - Reward: -0.05
+Episode 8070/10000 - Reward: -0.09
+Episode 8080/10000 - Reward: -0.05
+Episode 8090/10000 - Reward: -0.05
+Episode 8100/10000
+  Training Reward: -0.04
+  Eval Reward: 0.51 ± 1.25
+  Eval Return: 0.74 ± 1.67
+  Win Rate: 32.00%
+Episode 8100/10000 - Reward: -0.04
+Episode 8110/10000 - Reward: -0.02
+Episode 8120/10000 - Reward: -0.02
+Episode 8130/10000 - Reward: -0.03
+Episode 8140/10000 - Reward: -0.02
+Episode 8150/10000 - Reward: -0.02
+Episode 8160/10000 - Reward: 2.23
+Episode 8170/10000 - Reward: -0.03
+Episode 8180/10000 - Reward: -0.03
+Episode 8190/10000 - Reward: -0.03
+Episode 8200/10000
+  Training Reward: -0.03
+  Eval Reward: 0.10 ± 1.31
+  Eval Return: 0.20 ± 1.74
+  Win Rate: 23.00%
+Episode 8200/10000 - Reward: -0.03
+Episode 8210/10000 - Reward: -0.05
+Episode 8220/10000 - Reward: -0.05
+Episode 8230/10000 - Reward: -0.05
+Episode 8240/10000 - Reward: -0.08
+Episode 8250/10000 - Reward: -0.05
+Episode 8260/10000 - Reward: 2.17
+Episode 8270/10000 - Reward: -0.05
+Episode 8280/10000 - Reward: -0.05
+Episode 8290/10000 - Reward: 1.45
+Episode 8300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.38 ± 1.42
+  Eval Return: 0.56 ± 1.89
+  Win Rate: 34.00%
+Episode 8300/10000 - Reward: -0.04
+Episode 8310/10000 - Reward: -0.02
+Episode 8320/10000 - Reward: 2.23
+Episode 8330/10000 - Reward: -0.01
+Episode 8340/10000 - Reward: -0.02
+Episode 8350/10000 - Reward: 2.23
+Episode 8360/10000 - Reward: 2.22
+Episode 8370/10000 - Reward: -0.02
+Episode 8380/10000 - Reward: -2.27
+Episode 8390/10000 - Reward: -0.03
+Episode 8400/10000
+  Training Reward: -1.52
+  Eval Reward: -0.02 ± 1.47
+  Eval Return: 0.02 ± 1.96
+  Win Rate: 26.00%
+Episode 8400/10000 - Reward: -1.52
+Episode 8410/10000 - Reward: -0.05
+Episode 8420/10000 - Reward: 2.20
+Episode 8430/10000 - Reward: -0.04
+Episode 8440/10000 - Reward: 2.22
+Episode 8450/10000 - Reward: -0.04
+Episode 8460/10000 - Reward: -0.04
+Episode 8470/10000 - Reward: -0.04
+Episode 8480/10000 - Reward: -0.04
+Episode 8490/10000 - Reward: -0.04
+Episode 8500/10000
+  Training Reward: -0.05
+  Eval Reward: 0.41 ± 1.03
+  Eval Return: 0.60 ± 1.38
+  Win Rate: 25.00%
+Episode 8500/10000 - Reward: -0.05
+Episode 8510/10000 - Reward: -0.05
+Episode 8520/10000 - Reward: 2.22
+Episode 8530/10000 - Reward: -0.03
+Episode 8540/10000 - Reward: -0.03
+Episode 8550/10000 - Reward: -0.03
+Episode 8560/10000 - Reward: -0.03
+Episode 8570/10000 - Reward: -0.03
+Episode 8580/10000 - Reward: -2.28
+Episode 8590/10000 - Reward: -0.04
+Episode 8600/10000
+  Training Reward: 1.43
+  Eval Reward: 0.19 ± 1.41
+  Eval Return: 0.33 ± 1.88
+  Win Rate: 27.00%
+Episode 8600/10000 - Reward: 1.43
+Episode 8610/10000 - Reward: 2.21
+Episode 8620/10000 - Reward: -0.05
+Episode 8630/10000 - Reward: -0.04
+Episode 8640/10000 - Reward: -0.04
+Episode 8650/10000 - Reward: -0.05
+Episode 8660/10000 - Reward: -0.08
+Episode 8670/10000 - Reward: -0.05
+Episode 8680/10000 - Reward: -2.30
+Episode 8690/10000 - Reward: -0.05
+Episode 8700/10000
+  Training Reward: -0.06
+  Eval Reward: 0.22 ± 1.37
+  Eval Return: 0.37 ± 1.83
+  Win Rate: 26.00%
+Episode 8700/10000 - Reward: -0.06
+Episode 8710/10000 - Reward: -0.04
+Episode 8720/10000 - Reward: 2.20
+Episode 8730/10000 - Reward: 2.21
+Episode 8740/10000 - Reward: -0.05
+Episode 8750/10000 - Reward: -0.06
+Episode 8760/10000 - Reward: 2.22
+Episode 8770/10000 - Reward: -2.30
+Episode 8780/10000 - Reward: 2.22
+Episode 8790/10000 - Reward: -0.03
+Episode 8800/10000
+  Training Reward: -0.03
+  Eval Reward: 0.38 ± 1.20
+  Eval Return: 0.55 ± 1.60
+  Win Rate: 26.00%
+Episode 8800/10000 - Reward: -0.03
+Episode 8810/10000 - Reward: -2.30
+Episode 8820/10000 - Reward: -0.04
+Episode 8830/10000 - Reward: 2.20
+Episode 8840/10000 - Reward: -2.29
+Episode 8850/10000 - Reward: 2.16
+Episode 8860/10000 - Reward: 1.43
+Episode 8870/10000 - Reward: 1.42
+Episode 8880/10000 - Reward: -0.08
+Episode 8890/10000 - Reward: -0.05
+Episode 8900/10000
+  Training Reward: -0.07
+  Eval Reward: 0.31 ± 1.22
+  Eval Return: 0.48 ± 1.63
+  Win Rate: 24.00%
+Episode 8900/10000 - Reward: -0.07
+Episode 8910/10000 - Reward: 2.17
+Episode 8920/10000 - Reward: 2.20
+Episode 8930/10000 - Reward: -0.05
+Episode 8940/10000 - Reward: -0.03
+Episode 8950/10000 - Reward: -0.05
+Episode 8960/10000 - Reward: -0.03
+Episode 8970/10000 - Reward: -0.04
+Episode 8980/10000 - Reward: -0.04
+Episode 8990/10000 - Reward: 2.21
+Episode 9000/10000
+  Training Reward: 2.21
+  Eval Reward: -0.18 ± 1.29
+  Eval Return: -0.15 ± 1.72
+  Win Rate: 16.00%
+Episode 9000/10000 - Reward: 2.21
+Episode 9010/10000 - Reward: -0.11
+Episode 9020/10000 - Reward: 2.14
+Episode 9030/10000 - Reward: -0.07
+Episode 9040/10000 - Reward: 2.18
+Episode 9050/10000 - Reward: 2.20
+Episode 9060/10000 - Reward: 2.18
+Episode 9070/10000 - Reward: -0.04
+Episode 9080/10000 - Reward: 2.21
+Episode 9090/10000 - Reward: -2.28
+Episode 9100/10000
+  Training Reward: -0.02
+  Eval Reward: 0.26 ± 1.24
+  Eval Return: 0.40 ± 1.66
+  Win Rate: 23.00%
+Episode 9100/10000 - Reward: -0.02
+Episode 9110/10000 - Reward: 2.22
+Episode 9120/10000 - Reward: -0.03
+Episode 9130/10000 - Reward: -0.02
+Episode 9140/10000 - Reward: -0.01
+Episode 9150/10000 - Reward: 2.24
+Episode 9160/10000 - Reward: 2.24
+Episode 9170/10000 - Reward: -0.01
+Episode 9180/10000 - Reward: -0.01
+Episode 9190/10000 - Reward: -0.03
+Episode 9200/10000
+  Training Reward: -0.02
+  Eval Reward: 0.20 ± 1.27
+  Eval Return: 0.34 ± 1.69
+  Win Rate: 24.00%
+Episode 9200/10000 - Reward: -0.02
+Episode 9210/10000 - Reward: 2.16
+Episode 9220/10000 - Reward: -0.04
+Episode 9230/10000 - Reward: -0.04
+Episode 9240/10000 - Reward: -0.03
+Episode 9250/10000 - Reward: -0.07
+Episode 9260/10000 - Reward: -0.04
+Episode 9270/10000 - Reward: 2.22
+Episode 9280/10000 - Reward: -0.03
+Episode 9290/10000 - Reward: -2.28
+Episode 9300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.45 ± 1.35
+  Eval Return: 0.65 ± 1.79
+  Win Rate: 32.00%
+Episode 9300/10000 - Reward: -0.04
+Episode 9310/10000 - Reward: -0.04
+Episode 9320/10000 - Reward: 2.22
+Episode 9330/10000 - Reward: -0.04
+Episode 9340/10000 - Reward: 1.46
+Episode 9350/10000 - Reward: -0.03
+Episode 9360/10000 - Reward: -0.04
+Episode 9370/10000 - Reward: -0.04
+Episode 9380/10000 - Reward: -0.05
+Episode 9390/10000 - Reward: -2.30
+Episode 9400/10000
+  Training Reward: -0.06
+  Eval Reward: 0.34 ± 1.22
+  Eval Return: 0.52 ± 1.62
+  Win Rate: 27.00%
+Episode 9400/10000 - Reward: -0.06
+Episode 9410/10000 - Reward: -2.29
+Episode 9420/10000 - Reward: -0.02
+Episode 9430/10000 - Reward: -0.05
+Episode 9440/10000 - Reward: -0.03
+Episode 9450/10000 - Reward: -0.04
+Episode 9460/10000 - Reward: -0.03
+Episode 9470/10000 - Reward: -2.29
+Episode 9480/10000 - Reward: -0.03
+Episode 9490/10000 - Reward: 2.22
+Episode 9500/10000
+  Training Reward: 1.46
+  Eval Reward: 0.06 ± 1.19
+  Eval Return: 0.15 ± 1.59
+  Win Rate: 18.00%
+Episode 9500/10000 - Reward: 1.46
+Episode 9510/10000 - Reward: -0.05
+Episode 9520/10000 - Reward: 2.20
+Episode 9530/10000 - Reward: -0.05
+Episode 9540/10000 - Reward: -2.32
+Episode 9550/10000 - Reward: -0.04
+Episode 9560/10000 - Reward: -0.03
+Episode 9570/10000 - Reward: 2.20
+Episode 9580/10000 - Reward: 2.22
+Episode 9590/10000 - Reward: -2.30
+Episode 9600/10000
+  Training Reward: -0.04
+  Eval Reward: 0.29 ± 0.96
+  Eval Return: 0.45 ± 1.28
+  Win Rate: 19.00%
+Episode 9600/10000 - Reward: -0.04
+Episode 9610/10000 - Reward: -0.05
+Episode 9620/10000 - Reward: 2.20
+Episode 9630/10000 - Reward: -0.06
+Episode 9640/10000 - Reward: -0.06
+Episode 9650/10000 - Reward: -0.07
+Episode 9660/10000 - Reward: -0.05
+Episode 9670/10000 - Reward: -0.08
+Episode 9680/10000 - Reward: -0.07
+Episode 9690/10000 - Reward: 1.43
+Episode 9700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.39 ± 1.28
+  Eval Return: 0.56 ± 1.71
+  Win Rate: 29.00%
+Episode 9700/10000 - Reward: -0.03
+Episode 9710/10000 - Reward: -2.29
+Episode 9720/10000 - Reward: -0.03
+Episode 9730/10000 - Reward: -0.03
+Episode 9740/10000 - Reward: -0.02
+Episode 9750/10000 - Reward: -0.01
+Episode 9760/10000 - Reward: -2.26
+Episode 9770/10000 - Reward: -0.01
+Episode 9780/10000 - Reward: -0.02
+Episode 9790/10000 - Reward: 2.23
+Episode 9800/10000
+  Training Reward: -0.02
+  Eval Reward: 0.42 ± 1.20
+  Eval Return: 0.61 ± 1.60
+  Win Rate: 30.00%
+Episode 9800/10000 - Reward: -0.02
+Episode 9810/10000 - Reward: -0.02
+Episode 9820/10000 - Reward: -2.28
+Episode 9830/10000 - Reward: -2.27
+Episode 9840/10000 - Reward: -0.02
+Episode 9850/10000 - Reward: -0.02
+Episode 9860/10000 - Reward: -0.02
+Episode 9870/10000 - Reward: -0.03
+Episode 9880/10000 - Reward: -0.06
+Episode 9890/10000 - Reward: -0.03
+Episode 9900/10000
+  Training Reward: -0.79
+  Eval Reward: 0.18 ± 1.32
+  Eval Return: 0.32 ± 1.76
+  Win Rate: 25.00%
+Episode 9900/10000 - Reward: -0.79
+Episode 9910/10000 - Reward: -0.05
+Episode 9920/10000 - Reward: -0.08
+Episode 9930/10000 - Reward: -0.06
+Episode 9940/10000 - Reward: -0.10
+Episode 9950/10000 - Reward: -0.06
+Episode 9960/10000 - Reward: 1.41
+Episode 9970/10000 - Reward: -0.05
+Episode 9980/10000 - Reward: -0.06
+Episode 9990/10000 - Reward: -0.07
+Episode 10000/10000
+  Training Reward: -0.06
+  Eval Reward: 0.39 ± 1.14
+  Eval Return: 0.59 ± 1.52
+  Win Rate: 25.00%
+Episode 10000/10000 - Reward: -0.06
+
+Training complete! Results saved to results/dqn_20251202_205740
+Best evaluation reward: 0.57
+✓ DQN training completed successfully
+  Duration: 22 seconds
+
+----------------------------------------
+Training DDQN...
+Started at: Tue Dec  2 20:58:01 PST 2025
+----------------------------------------
+Training DDQN for 10000 episodes...
+Episode 10/10000 - Reward: 2.14
+Episode 20/10000 - Reward: -2.34
+Episode 30/10000 - Reward: -0.84
+Episode 40/10000 - Reward: -0.10
+Episode 50/10000 - Reward: -0.10
+Episode 60/10000 - Reward: -0.84
+Episode 70/10000 - Reward: -2.34
+Episode 80/10000 - Reward: -0.84
+Episode 90/10000 - Reward: -0.09
+Episode 100/10000
+  Training Reward: -0.09
+  Eval Reward: -0.12 ± 0.37
+  Eval Return: -0.04 ± 0.49
+  Win Rate: 10.00%
+  Saved best model (eval reward: -0.12)
+Episode 100/10000 - Reward: -0.09
+Episode 110/10000 - Reward: -0.08
+Episode 120/10000 - Reward: -0.82
+Episode 130/10000 - Reward: -0.07
+Episode 140/10000 - Reward: -0.07
+Episode 150/10000 - Reward: -2.33
+Episode 160/10000 - Reward: -0.08
+Episode 170/10000 - Reward: -0.08
+Episode 180/10000 - Reward: 2.18
+Episode 190/10000 - Reward: -0.07
+Episode 200/10000
+  Training Reward: -0.08
+  Eval Reward: -0.04 ± 0.47
+  Eval Return: 0.04 ± 0.63
+  Win Rate: 22.00%
+  Saved best model (eval reward: -0.04)
+Episode 200/10000 - Reward: -0.08
+Episode 210/10000 - Reward: -2.30
+Episode 220/10000 - Reward: -0.04
+Episode 230/10000 - Reward: -0.04
+Episode 240/10000 - Reward: -0.04
+Episode 250/10000 - Reward: -0.04
+Episode 260/10000 - Reward: -0.07
+Episode 270/10000 - Reward: -0.06
+Episode 280/10000 - Reward: -0.06
+Episode 290/10000 - Reward: -0.06
+Episode 300/10000
+  Training Reward: -0.06
+  Eval Reward: 0.01 ± 0.33
+  Eval Return: 0.11 ± 0.44
+  Win Rate: 13.00%
+  Saved best model (eval reward: 0.01)
+Episode 300/10000 - Reward: -0.06
+Episode 310/10000 - Reward: -0.07
+Episode 320/10000 - Reward: -0.07
+Episode 330/10000 - Reward: -0.07
+Episode 340/10000 - Reward: -0.06
+Episode 350/10000 - Reward: -0.06
+Episode 360/10000 - Reward: -0.06
+Episode 370/10000 - Reward: -0.06
+Episode 380/10000 - Reward: -0.07
+Episode 390/10000 - Reward: 0.69
+Episode 400/10000
+  Training Reward: -0.81
+  Eval Reward: 0.09 ± 0.48
+  Eval Return: 0.18 ± 0.64
+  Win Rate: 20.00%
+  Saved best model (eval reward: 0.09)
+Episode 400/10000 - Reward: -0.81
+Episode 410/10000 - Reward: -0.05
+Episode 420/10000 - Reward: -0.04
+Episode 430/10000 - Reward: 0.70
+Episode 440/10000 - Reward: -0.05
+Episode 450/10000 - Reward: -0.05
+Episode 460/10000 - Reward: -0.06
+Episode 470/10000 - Reward: 0.69
+Episode 480/10000 - Reward: -0.06
+Episode 490/10000 - Reward: 2.19
+Episode 500/10000
+  Training Reward: -0.81
+  Eval Reward: -0.08 ± 1.01
+  Eval Return: -0.02 ± 1.34
+  Win Rate: 18.00%
+Episode 500/10000 - Reward: -0.81
+Episode 510/10000 - Reward: -0.06
+Episode 520/10000 - Reward: -0.06
+Episode 530/10000 - Reward: -0.81
+Episode 540/10000 - Reward: -0.06
+Episode 550/10000 - Reward: -0.07
+Episode 560/10000 - Reward: -0.06
+Episode 570/10000 - Reward: -0.06
+Episode 580/10000 - Reward: -0.11
+Episode 590/10000 - Reward: -0.07
+Episode 600/10000
+  Training Reward: -0.07
+  Eval Reward: 0.10 ± 0.66
+  Eval Return: 0.23 ± 0.88
+  Win Rate: 17.00%
+  Saved best model (eval reward: 0.10)
+Episode 600/10000 - Reward: -0.07
+Episode 610/10000 - Reward: -0.06
+Episode 620/10000 - Reward: -0.06
+Episode 630/10000 - Reward: 0.69
+Episode 640/10000 - Reward: -0.06
+Episode 650/10000 - Reward: -0.05
+Episode 660/10000 - Reward: -0.05
+Episode 670/10000 - Reward: -0.06
+Episode 680/10000 - Reward: 1.44
+Episode 690/10000 - Reward: -0.81
+Episode 700/10000
+  Training Reward: 0.69
+  Eval Reward: 0.06 ± 0.56
+  Eval Return: 0.18 ± 0.74
+  Win Rate: 16.00%
+Episode 700/10000 - Reward: 0.69
+Episode 710/10000 - Reward: 0.69
+Episode 720/10000 - Reward: -0.06
+Episode 730/10000 - Reward: 0.69
+Episode 740/10000 - Reward: -0.05
+Episode 750/10000 - Reward: -0.05
+Episode 760/10000 - Reward: 0.70
+Episode 770/10000 - Reward: -0.05
+Episode 780/10000 - Reward: -0.80
+Episode 790/10000 - Reward: -0.05
+Episode 800/10000
+  Training Reward: -0.06
+  Eval Reward: 0.03 ± 0.68
+  Eval Return: 0.13 ± 0.90
+  Win Rate: 10.00%
+Episode 800/10000 - Reward: -0.06
+Episode 810/10000 - Reward: -0.07
+Episode 820/10000 - Reward: -0.07
+Episode 830/10000 - Reward: -0.10
+Episode 840/10000 - Reward: -0.07
+Episode 850/10000 - Reward: -0.07
+Episode 860/10000 - Reward: -0.07
+Episode 870/10000 - Reward: -0.10
+Episode 880/10000 - Reward: -0.81
+Episode 890/10000 - Reward: -0.06
+Episode 900/10000
+  Training Reward: -0.06
+  Eval Reward: 0.05 ± 0.60
+  Eval Return: 0.15 ± 0.80
+  Win Rate: 22.00%
+Episode 900/10000 - Reward: -0.06
+Episode 910/10000 - Reward: 0.70
+Episode 920/10000 - Reward: 0.70
+Episode 930/10000 - Reward: 0.70
+Episode 940/10000 - Reward: -0.05
+Episode 950/10000 - Reward: -0.06
+Episode 960/10000 - Reward: -0.05
+Episode 970/10000 - Reward: -0.05
+Episode 980/10000 - Reward: -0.06
+Episode 990/10000 - Reward: -0.82
+Episode 1000/10000
+  Training Reward: -0.08
+  Eval Reward: -0.05 ± 0.71
+  Eval Return: 0.03 ± 0.94
+  Win Rate: 17.00%
+Episode 1000/10000 - Reward: -0.08
+Episode 1010/10000 - Reward: -0.07
+Episode 1020/10000 - Reward: -0.06
+Episode 1030/10000 - Reward: -2.35
+Episode 1040/10000 - Reward: 0.69
+Episode 1050/10000 - Reward: -0.06
+Episode 1060/10000 - Reward: -0.06
+Episode 1070/10000 - Reward: 0.69
+Episode 1080/10000 - Reward: -0.06
+Episode 1090/10000 - Reward: -0.06
+Episode 1100/10000
+  Training Reward: -0.06
+  Eval Reward: 0.05 ± 0.30
+  Eval Return: 0.14 ± 0.40
+  Win Rate: 16.00%
+Episode 1100/10000 - Reward: -0.06
+Episode 1110/10000 - Reward: -0.07
+Episode 1120/10000 - Reward: -0.04
+Episode 1130/10000 - Reward: -0.06
+Episode 1140/10000 - Reward: -0.05
+Episode 1150/10000 - Reward: -0.05
+Episode 1160/10000 - Reward: -0.05
+Episode 1170/10000 - Reward: 2.17
+Episode 1180/10000 - Reward: -0.05
+Episode 1190/10000 - Reward: -0.06
+Episode 1200/10000
+  Training Reward: -0.79
+  Eval Reward: 0.02 ± 1.12
+  Eval Return: 0.11 ± 1.49
+  Win Rate: 18.00%
+Episode 1200/10000 - Reward: -0.79
+Episode 1210/10000 - Reward: -0.06
+Episode 1220/10000 - Reward: -2.31
+Episode 1230/10000 - Reward: -0.07
+Episode 1240/10000 - Reward: -0.07
+Episode 1250/10000 - Reward: -0.11
+Episode 1260/10000 - Reward: -0.12
+Episode 1270/10000 - Reward: 2.18
+Episode 1280/10000 - Reward: 2.18
+Episode 1290/10000 - Reward: -0.06
+Episode 1300/10000
+  Training Reward: -0.10
+  Eval Reward: 0.35 ± 0.96
+  Eval Return: 0.53 ± 1.28
+  Win Rate: 26.00%
+  Saved best model (eval reward: 0.35)
+Episode 1300/10000 - Reward: -0.10
+Episode 1310/10000 - Reward: -2.29
+Episode 1320/10000 - Reward: -0.10
+Episode 1330/10000 - Reward: -0.05
+Episode 1340/10000 - Reward: -0.04
+Episode 1350/10000 - Reward: 2.20
+Episode 1360/10000 - Reward: 2.20
+Episode 1370/10000 - Reward: -0.06
+Episode 1380/10000 - Reward: -1.58
+Episode 1390/10000 - Reward: -0.06
+Episode 1400/10000
+  Training Reward: 2.20
+  Eval Reward: 0.32 ± 0.92
+  Eval Return: 0.50 ± 1.22
+  Win Rate: 19.00%
+Episode 1400/10000 - Reward: 2.20
+Episode 1410/10000 - Reward: -0.05
+Episode 1420/10000 - Reward: -0.05
+Episode 1430/10000 - Reward: -0.05
+Episode 1440/10000 - Reward: 2.20
+Episode 1450/10000 - Reward: -0.05
+Episode 1460/10000 - Reward: -0.06
+Episode 1470/10000 - Reward: -0.08
+Episode 1480/10000 - Reward: 1.42
+Episode 1490/10000 - Reward: -0.09
+Episode 1500/10000
+  Training Reward: -0.07
+  Eval Reward: 0.26 ± 1.05
+  Eval Return: 0.43 ± 1.39
+  Win Rate: 21.00%
+Episode 1500/10000 - Reward: -0.07
+Episode 1510/10000 - Reward: -0.05
+Episode 1520/10000 - Reward: -0.05
+Episode 1530/10000 - Reward: -0.06
+Episode 1540/10000 - Reward: -0.08
+Episode 1550/10000 - Reward: 2.20
+Episode 1560/10000 - Reward: -0.05
+Episode 1570/10000 - Reward: -0.05
+Episode 1580/10000 - Reward: -0.06
+Episode 1590/10000 - Reward: -0.10
+Episode 1600/10000
+  Training Reward: 2.15
+  Eval Reward: 0.17 ± 1.23
+  Eval Return: 0.30 ± 1.65
+  Win Rate: 22.00%
+Episode 1600/10000 - Reward: 2.15
+Episode 1610/10000 - Reward: -0.05
+Episode 1620/10000 - Reward: -0.06
+Episode 1630/10000 - Reward: -0.05
+Episode 1640/10000 - Reward: 2.20
+Episode 1650/10000 - Reward: -0.07
+Episode 1660/10000 - Reward: -0.07
+Episode 1670/10000 - Reward: -0.04
+Episode 1680/10000 - Reward: -0.05
+Episode 1690/10000 - Reward: -0.04
+Episode 1700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.04 ± 1.26
+  Eval Return: 0.13 ± 1.68
+  Win Rate: 22.00%
+Episode 1700/10000 - Reward: -0.04
+Episode 1710/10000 - Reward: -0.08
+Episode 1720/10000 - Reward: -0.05
+Episode 1730/10000 - Reward: -0.04
+Episode 1740/10000 - Reward: -0.05
+Episode 1750/10000 - Reward: -1.53
+Episode 1760/10000 - Reward: -0.04
+Episode 1770/10000 - Reward: -0.04
+Episode 1780/10000 - Reward: -0.04
+Episode 1790/10000 - Reward: -0.03
+Episode 1800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.01 ± 1.01
+  Eval Return: 0.09 ± 1.35
+  Win Rate: 14.00%
+Episode 1800/10000 - Reward: -0.04
+Episode 1810/10000 - Reward: 2.19
+Episode 1820/10000 - Reward: -0.05
+Episode 1830/10000 - Reward: -0.05
+Episode 1840/10000 - Reward: -0.05
+Episode 1850/10000 - Reward: -0.04
+Episode 1860/10000 - Reward: 2.21
+Episode 1870/10000 - Reward: -0.03
+Episode 1880/10000 - Reward: -0.05
+Episode 1890/10000 - Reward: -0.03
+Episode 1900/10000
+  Training Reward: -0.03
+  Eval Reward: 0.26 ± 1.09
+  Eval Return: 0.41 ± 1.45
+  Win Rate: 21.00%
+Episode 1900/10000 - Reward: -0.03
+Episode 1910/10000 - Reward: -0.05
+Episode 1920/10000 - Reward: -2.30
+Episode 1930/10000 - Reward: -0.05
+Episode 1940/10000 - Reward: -0.06
+Episode 1950/10000 - Reward: -0.05
+Episode 1960/10000 - Reward: 2.20
+Episode 1970/10000 - Reward: -0.05
+Episode 1980/10000 - Reward: 2.21
+Episode 1990/10000 - Reward: -0.05
+Episode 2000/10000
+  Training Reward: -0.03
+  Eval Reward: 0.41 ± 1.25
+  Eval Return: 0.58 ± 1.67
+  Win Rate: 29.00%
+  Saved best model (eval reward: 0.41)
+Episode 2000/10000 - Reward: -0.03
+Episode 2010/10000 - Reward: 2.22
+Episode 2020/10000 - Reward: -0.05
+Episode 2030/10000 - Reward: 2.21
+Episode 2040/10000 - Reward: -0.07
+Episode 2050/10000 - Reward: -0.06
+Episode 2060/10000 - Reward: -2.30
+Episode 2070/10000 - Reward: -0.04
+Episode 2080/10000 - Reward: -2.29
+Episode 2090/10000 - Reward: -0.05
+Episode 2100/10000
+  Training Reward: -0.05
+  Eval Reward: 0.21 ± 0.90
+  Eval Return: 0.35 ± 1.20
+  Win Rate: 19.00%
+Episode 2100/10000 - Reward: -0.05
+Episode 2110/10000 - Reward: -0.05
+Episode 2120/10000 - Reward: -2.30
+Episode 2130/10000 - Reward: 2.19
+Episode 2140/10000 - Reward: -0.05
+Episode 2150/10000 - Reward: -0.05
+Episode 2160/10000 - Reward: -0.05
+Episode 2170/10000 - Reward: -2.30
+Episode 2180/10000 - Reward: -0.05
+Episode 2190/10000 - Reward: 2.20
+Episode 2200/10000
+  Training Reward: -0.04
+  Eval Reward: 0.20 ± 1.28
+  Eval Return: 0.33 ± 1.71
+  Win Rate: 25.00%
+Episode 2200/10000 - Reward: -0.04
+Episode 2210/10000 - Reward: -0.05
+Episode 2220/10000 - Reward: 2.21
+Episode 2230/10000 - Reward: -0.06
+Episode 2240/10000 - Reward: -0.04
+Episode 2250/10000 - Reward: 2.21
+Episode 2260/10000 - Reward: -0.04
+Episode 2270/10000 - Reward: 2.21
+Episode 2280/10000 - Reward: -0.06
+Episode 2290/10000 - Reward: -0.04
+Episode 2300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.12 ± 0.99
+  Eval Return: 0.23 ± 1.33
+  Win Rate: 19.00%
+Episode 2300/10000 - Reward: -0.04
+Episode 2310/10000 - Reward: -2.31
+Episode 2320/10000 - Reward: -0.06
+Episode 2330/10000 - Reward: -0.07
+Episode 2340/10000 - Reward: 2.21
+Episode 2350/10000 - Reward: 2.21
+Episode 2360/10000 - Reward: -2.30
+Episode 2370/10000 - Reward: -0.04
+Episode 2380/10000 - Reward: -0.03
+Episode 2390/10000 - Reward: -0.03
+Episode 2400/10000
+  Training Reward: 2.21
+  Eval Reward: 0.26 ± 1.01
+  Eval Return: 0.42 ± 1.34
+  Win Rate: 18.00%
+Episode 2400/10000 - Reward: 2.21
+Episode 2410/10000 - Reward: -2.30
+Episode 2420/10000 - Reward: -0.05
+Episode 2430/10000 - Reward: -0.07
+Episode 2440/10000 - Reward: -0.08
+Episode 2450/10000 - Reward: -0.08
+Episode 2460/10000 - Reward: -0.06
+Episode 2470/10000 - Reward: 2.19
+Episode 2480/10000 - Reward: 2.19
+Episode 2490/10000 - Reward: -0.09
+Episode 2500/10000
+  Training Reward: -0.07
+  Eval Reward: 0.26 ± 1.07
+  Eval Return: 0.43 ± 1.43
+  Win Rate: 21.00%
+Episode 2500/10000 - Reward: -0.07
+Episode 2510/10000 - Reward: -0.04
+Episode 2520/10000 - Reward: 2.21
+Episode 2530/10000 - Reward: -0.04
+Episode 2540/10000 - Reward: -0.04
+Episode 2550/10000 - Reward: -0.04
+Episode 2560/10000 - Reward: -1.55
+Episode 2570/10000 - Reward: 1.43
+Episode 2580/10000 - Reward: -0.04
+Episode 2590/10000 - Reward: -0.04
+Episode 2600/10000
+  Training Reward: -0.04
+  Eval Reward: 0.33 ± 1.24
+  Eval Return: 0.49 ± 1.66
+  Win Rate: 27.00%
+Episode 2600/10000 - Reward: -0.04
+Episode 2610/10000 - Reward: -0.04
+Episode 2620/10000 - Reward: -2.29
+Episode 2630/10000 - Reward: -0.03
+Episode 2640/10000 - Reward: 0.69
+Episode 2650/10000 - Reward: -0.04
+Episode 2660/10000 - Reward: -0.03
+Episode 2670/10000 - Reward: -0.05
+Episode 2680/10000 - Reward: -0.04
+Episode 2690/10000 - Reward: -0.05
+Episode 2700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.18 ± 1.29
+  Eval Return: 0.32 ± 1.71
+  Win Rate: 32.00%
+Episode 2700/10000 - Reward: -0.04
+Episode 2710/10000 - Reward: -0.06
+Episode 2720/10000 - Reward: -0.03
+Episode 2730/10000 - Reward: -0.03
+Episode 2740/10000 - Reward: -0.03
+Episode 2750/10000 - Reward: -1.54
+Episode 2760/10000 - Reward: -0.03
+Episode 2770/10000 - Reward: -0.03
+Episode 2780/10000 - Reward: -0.04
+Episode 2790/10000 - Reward: 2.21
+Episode 2800/10000
+  Training Reward: -0.08
+  Eval Reward: 0.23 ± 1.00
+  Eval Return: 0.38 ± 1.33
+  Win Rate: 18.00%
+Episode 2800/10000 - Reward: -0.08
+Episode 2810/10000 - Reward: -0.06
+Episode 2820/10000 - Reward: -0.06
+Episode 2830/10000 - Reward: 2.19
+Episode 2840/10000 - Reward: 2.18
+Episode 2850/10000 - Reward: -0.07
+Episode 2860/10000 - Reward: -0.13
+Episode 2870/10000 - Reward: -0.06
+Episode 2880/10000 - Reward: -0.06
+Episode 2890/10000 - Reward: -0.06
+Episode 2900/10000
+  Training Reward: -0.06
+  Eval Reward: 0.40 ± 1.03
+  Eval Return: 0.60 ± 1.38
+  Win Rate: 29.00%
+Episode 2900/10000 - Reward: -0.06
+Episode 2910/10000 - Reward: -0.02
+Episode 2920/10000 - Reward: -0.03
+Episode 2930/10000 - Reward: 2.22
+Episode 2940/10000 - Reward: -0.03
+Episode 2950/10000 - Reward: -0.03
+Episode 2960/10000 - Reward: 2.21
+Episode 2970/10000 - Reward: 2.20
+Episode 2980/10000 - Reward: 2.20
+Episode 2990/10000 - Reward: -0.05
+Episode 3000/10000
+  Training Reward: -0.07
+  Eval Reward: 0.42 ± 1.06
+  Eval Return: 0.62 ± 1.41
+  Win Rate: 27.00%
+  Saved best model (eval reward: 0.42)
+Episode 3000/10000 - Reward: -0.07
+Episode 3010/10000 - Reward: 2.22
+Episode 3020/10000 - Reward: 1.45
+Episode 3030/10000 - Reward: -0.04
+Episode 3040/10000 - Reward: -0.03
+Episode 3050/10000 - Reward: -0.03
+Episode 3060/10000 - Reward: -2.29
+Episode 3070/10000 - Reward: -0.06
+Episode 3080/10000 - Reward: -2.29
+Episode 3090/10000 - Reward: -0.04
+Episode 3100/10000
+  Training Reward: -1.58
+  Eval Reward: 0.30 ± 0.94
+  Eval Return: 0.47 ± 1.24
+  Win Rate: 20.00%
+Episode 3100/10000 - Reward: -1.58
+Episode 3110/10000 - Reward: -0.05
+Episode 3120/10000 - Reward: -0.05
+Episode 3130/10000 - Reward: -0.05
+Episode 3140/10000 - Reward: 2.19
+Episode 3150/10000 - Reward: -0.06
+Episode 3160/10000 - Reward: -0.06
+Episode 3170/10000 - Reward: -0.06
+Episode 3180/10000 - Reward: -2.32
+Episode 3190/10000 - Reward: -0.06
+Episode 3200/10000
+  Training Reward: -0.06
+  Eval Reward: 0.36 ± 1.06
+  Eval Return: 0.54 ± 1.41
+  Win Rate: 23.00%
+Episode 3200/10000 - Reward: -0.06
+Episode 3210/10000 - Reward: -0.05
+Episode 3220/10000 - Reward: -0.04
+Episode 3230/10000 - Reward: 2.22
+Episode 3240/10000 - Reward: -0.04
+Episode 3250/10000 - Reward: -0.09
+Episode 3260/10000 - Reward: -0.08
+Episode 3270/10000 - Reward: -0.04
+Episode 3280/10000 - Reward: -0.04
+Episode 3290/10000 - Reward: -0.04
+Episode 3300/10000
+  Training Reward: 2.21
+  Eval Reward: 0.29 ± 1.11
+  Eval Return: 0.45 ± 1.48
+  Win Rate: 25.00%
+Episode 3300/10000 - Reward: 2.21
+Episode 3310/10000 - Reward: -2.29
+Episode 3320/10000 - Reward: 1.44
+Episode 3330/10000 - Reward: -0.04
+Episode 3340/10000 - Reward: -0.05
+Episode 3350/10000 - Reward: 2.21
+Episode 3360/10000 - Reward: -0.04
+Episode 3370/10000 - Reward: -0.04
+Episode 3380/10000 - Reward: -1.54
+Episode 3390/10000 - Reward: -0.04
+Episode 3400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.48 ± 1.11
+  Eval Return: 0.69 ± 1.47
+  Win Rate: 30.00%
+  Saved best model (eval reward: 0.48)
+Episode 3400/10000 - Reward: -0.04
+Episode 3410/10000 - Reward: -0.02
+Episode 3420/10000 - Reward: -1.54
+Episode 3430/10000 - Reward: -0.03
+Episode 3440/10000 - Reward: -0.04
+Episode 3450/10000 - Reward: -0.03
+Episode 3460/10000 - Reward: 2.23
+Episode 3470/10000 - Reward: 2.23
+Episode 3480/10000 - Reward: -0.02
+Episode 3490/10000 - Reward: -0.03
+Episode 3500/10000
+  Training Reward: -0.03
+  Eval Reward: 0.33 ± 1.16
+  Eval Return: 0.49 ± 1.55
+  Win Rate: 25.00%
+Episode 3500/10000 - Reward: -0.03
+Episode 3510/10000 - Reward: -0.07
+Episode 3520/10000 - Reward: -0.03
+Episode 3530/10000 - Reward: -0.03
+Episode 3540/10000 - Reward: 2.22
+Episode 3550/10000 - Reward: -0.03
+Episode 3560/10000 - Reward: -0.03
+Episode 3570/10000 - Reward: -0.05
+Episode 3580/10000 - Reward: -0.03
+Episode 3590/10000 - Reward: 2.22
+Episode 3600/10000
+  Training Reward: -0.03
+  Eval Reward: 0.32 ± 1.01
+  Eval Return: 0.49 ± 1.35
+  Win Rate: 21.00%
+Episode 3600/10000 - Reward: -0.03
+Episode 3610/10000 - Reward: -0.07
+Episode 3620/10000 - Reward: -0.07
+Episode 3630/10000 - Reward: -0.09
+Episode 3640/10000 - Reward: -0.06
+Episode 3650/10000 - Reward: -0.05
+Episode 3660/10000 - Reward: 1.43
+Episode 3670/10000 - Reward: 2.20
+Episode 3680/10000 - Reward: 1.42
+Episode 3690/10000 - Reward: 2.21
+Episode 3700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.38 ± 1.01
+  Eval Return: 0.56 ± 1.35
+  Win Rate: 23.00%
+Episode 3700/10000 - Reward: -0.04
+Episode 3710/10000 - Reward: -0.03
+Episode 3720/10000 - Reward: -0.05
+Episode 3730/10000 - Reward: -0.04
+Episode 3740/10000 - Reward: -0.03
+Episode 3750/10000 - Reward: -0.02
+Episode 3760/10000 - Reward: -0.02
+Episode 3770/10000 - Reward: -0.03
+Episode 3780/10000 - Reward: -1.56
+Episode 3790/10000 - Reward: -0.04
+Episode 3800/10000
+  Training Reward: -0.03
+  Eval Reward: 0.28 ± 1.06
+  Eval Return: 0.43 ± 1.41
+  Win Rate: 21.00%
+Episode 3800/10000 - Reward: -0.03
+Episode 3810/10000 - Reward: 2.21
+Episode 3820/10000 - Reward: -0.06
+Episode 3830/10000 - Reward: 2.20
+Episode 3840/10000 - Reward: -0.05
+Episode 3850/10000 - Reward: -0.05
+Episode 3860/10000 - Reward: 2.19
+Episode 3870/10000 - Reward: 2.19
+Episode 3880/10000 - Reward: -1.56
+Episode 3890/10000 - Reward: 2.20
+Episode 3900/10000
+  Training Reward: 2.20
+  Eval Reward: 0.54 ± 1.11
+  Eval Return: 0.77 ± 1.48
+  Win Rate: 32.00%
+  Saved best model (eval reward: 0.54)
+Episode 3900/10000 - Reward: 2.20
+Episode 3910/10000 - Reward: -0.02
+Episode 3920/10000 - Reward: -0.03
+Episode 3930/10000 - Reward: 2.22
+Episode 3940/10000 - Reward: -0.03
+Episode 3950/10000 - Reward: -0.04
+Episode 3960/10000 - Reward: -2.28
+Episode 3970/10000 - Reward: -2.31
+Episode 3980/10000 - Reward: -0.04
+Episode 3990/10000 - Reward: -0.06
+Episode 4000/10000
+  Training Reward: 2.20
+  Eval Reward: -0.03 ± 1.07
+  Eval Return: 0.06 ± 1.43
+  Win Rate: 13.00%
+Episode 4000/10000 - Reward: 2.20
+Episode 4010/10000 - Reward: -0.07
+Episode 4020/10000 - Reward: 2.18
+Episode 4030/10000 - Reward: -0.14
+Episode 4040/10000 - Reward: -0.10
+Episode 4050/10000 - Reward: 2.19
+Episode 4060/10000 - Reward: -0.04
+Episode 4070/10000 - Reward: -0.07
+Episode 4080/10000 - Reward: -0.07
+Episode 4090/10000 - Reward: -0.05
+Episode 4100/10000
+  Training Reward: -0.05
+  Eval Reward: 0.21 ± 1.06
+  Eval Return: 0.36 ± 1.41
+  Win Rate: 21.00%
+Episode 4100/10000 - Reward: -0.05
+Episode 4110/10000 - Reward: -0.05
+Episode 4120/10000 - Reward: -0.05
+Episode 4130/10000 - Reward: -0.05
+Episode 4140/10000 - Reward: -0.10
+Episode 4150/10000 - Reward: -0.05
+Episode 4160/10000 - Reward: -0.05
+Episode 4170/10000 - Reward: -1.58
+Episode 4180/10000 - Reward: -0.07
+Episode 4190/10000 - Reward: -0.05
+Episode 4200/10000
+  Training Reward: -0.04
+  Eval Reward: 0.22 ± 1.21
+  Eval Return: 0.36 ± 1.61
+  Win Rate: 27.00%
+Episode 4200/10000 - Reward: -0.04
+Episode 4210/10000 - Reward: -0.04
+Episode 4220/10000 - Reward: -0.04
+Episode 4230/10000 - Reward: -0.04
+Episode 4240/10000 - Reward: -1.54
+Episode 4250/10000 - Reward: 2.20
+Episode 4260/10000 - Reward: -0.06
+Episode 4270/10000 - Reward: 2.19
+Episode 4280/10000 - Reward: -0.06
+Episode 4290/10000 - Reward: -0.06
+Episode 4300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.33 ± 1.03
+  Eval Return: 0.52 ± 1.37
+  Win Rate: 22.00%
+Episode 4300/10000 - Reward: -0.05
+Episode 4310/10000 - Reward: 2.21
+Episode 4320/10000 - Reward: -0.03
+Episode 4330/10000 - Reward: -0.04
+Episode 4340/10000 - Reward: -0.05
+Episode 4350/10000 - Reward: 1.46
+Episode 4360/10000 - Reward: 2.20
+Episode 4370/10000 - Reward: -0.01
+Episode 4380/10000 - Reward: -2.27
+Episode 4390/10000 - Reward: 2.23
+Episode 4400/10000
+  Training Reward: -0.03
+  Eval Reward: 0.43 ± 1.33
+  Eval Return: 0.62 ± 1.78
+  Win Rate: 31.00%
+Episode 4400/10000 - Reward: -0.03
+Episode 4410/10000 - Reward: -0.02
+Episode 4420/10000 - Reward: -0.02
+Episode 4430/10000 - Reward: -0.02
+Episode 4440/10000 - Reward: -0.77
+Episode 4450/10000 - Reward: -0.03
+Episode 4460/10000 - Reward: 2.22
+Episode 4470/10000 - Reward: -0.03
+Episode 4480/10000 - Reward: -0.01
+Episode 4490/10000 - Reward: -0.02
+Episode 4500/10000
+  Training Reward: 2.23
+  Eval Reward: 0.23 ± 1.06
+  Eval Return: 0.36 ± 1.41
+  Win Rate: 21.00%
+Episode 4500/10000 - Reward: 2.23
+Episode 4510/10000 - Reward: -0.05
+Episode 4520/10000 - Reward: -0.06
+Episode 4530/10000 - Reward: -0.06
+Episode 4540/10000 - Reward: -0.05
+Episode 4550/10000 - Reward: -0.08
+Episode 4560/10000 - Reward: 2.20
+Episode 4570/10000 - Reward: 2.21
+Episode 4580/10000 - Reward: -0.04
+Episode 4590/10000 - Reward: -0.04
+Episode 4600/10000
+  Training Reward: 1.45
+  Eval Reward: 0.07 ± 1.11
+  Eval Return: 0.16 ± 1.48
+  Win Rate: 17.00%
+Episode 4600/10000 - Reward: 1.45
+Episode 4610/10000 - Reward: -0.05
+Episode 4620/10000 - Reward: -0.10
+Episode 4630/10000 - Reward: 2.20
+Episode 4640/10000 - Reward: 1.42
+Episode 4650/10000 - Reward: -0.07
+Episode 4660/10000 - Reward: -1.54
+Episode 4670/10000 - Reward: -0.05
+Episode 4680/10000 - Reward: -0.05
+Episode 4690/10000 - Reward: -0.06
+Episode 4700/10000
+  Training Reward: -0.12
+  Eval Reward: 0.46 ± 1.19
+  Eval Return: 0.68 ± 1.59
+  Win Rate: 29.00%
+Episode 4700/10000 - Reward: -0.12
+Episode 4710/10000 - Reward: -0.03
+Episode 4720/10000 - Reward: -0.04
+Episode 4730/10000 - Reward: 2.20
+Episode 4740/10000 - Reward: -0.05
+Episode 4750/10000 - Reward: -0.05
+Episode 4760/10000 - Reward: -0.05
+Episode 4770/10000 - Reward: -0.07
+Episode 4780/10000 - Reward: -0.06
+Episode 4790/10000 - Reward: -0.05
+Episode 4800/10000
+  Training Reward: -0.08
+  Eval Reward: 0.45 ± 1.18
+  Eval Return: 0.66 ± 1.57
+  Win Rate: 32.00%
+Episode 4800/10000 - Reward: -0.08
+Episode 4810/10000 - Reward: -0.02
+Episode 4820/10000 - Reward: -2.27
+Episode 4830/10000 - Reward: -0.04
+Episode 4840/10000 - Reward: 2.24
+Episode 4850/10000 - Reward: -0.01
+Episode 4860/10000 - Reward: 2.23
+Episode 4870/10000 - Reward: 2.24
+Episode 4880/10000 - Reward: -0.02
+Episode 4890/10000 - Reward: 2.24
+Episode 4900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.29 ± 1.22
+  Eval Return: 0.43 ± 1.63
+  Win Rate: 24.00%
+Episode 4900/10000 - Reward: -0.02
+Episode 4910/10000 - Reward: -2.32
+Episode 4920/10000 - Reward: -0.06
+Episode 4930/10000 - Reward: -0.04
+Episode 4940/10000 - Reward: -0.04
+Episode 4950/10000 - Reward: -0.04
+Episode 4960/10000 - Reward: -0.04
+Episode 4970/10000 - Reward: -1.55
+Episode 4980/10000 - Reward: 2.20
+Episode 4990/10000 - Reward: -0.05
+Episode 5000/10000
+  Training Reward: -0.06
+  Eval Reward: 0.37 ± 1.21
+  Eval Return: 0.57 ± 1.61
+  Win Rate: 29.00%
+Episode 5000/10000 - Reward: -0.06
+Episode 5010/10000 - Reward: -0.03
+Episode 5020/10000 - Reward: -0.05
+Episode 5030/10000 - Reward: -0.04
+Episode 5040/10000 - Reward: -0.05
+Episode 5050/10000 - Reward: -0.04
+Episode 5060/10000 - Reward: -0.04
+Episode 5070/10000 - Reward: -0.06
+Episode 5080/10000 - Reward: -0.03
+Episode 5090/10000 - Reward: 2.22
+Episode 5100/10000
+  Training Reward: -0.03
+  Eval Reward: 0.09 ± 1.49
+  Eval Return: 0.18 ± 1.98
+  Win Rate: 25.00%
+Episode 5100/10000 - Reward: -0.03
+Episode 5110/10000 - Reward: -0.04
+Episode 5120/10000 - Reward: -0.06
+Episode 5130/10000 - Reward: 2.21
+Episode 5140/10000 - Reward: -0.08
+Episode 5150/10000 - Reward: -0.05
+Episode 5160/10000 - Reward: -0.05
+Episode 5170/10000 - Reward: -0.06
+Episode 5180/10000 - Reward: -0.06
+Episode 5190/10000 - Reward: -0.07
+Episode 5200/10000
+  Training Reward: -0.07
+  Eval Reward: 0.34 ± 0.96
+  Eval Return: 0.55 ± 1.28
+  Win Rate: 22.00%
+Episode 5200/10000 - Reward: -0.07
+Episode 5210/10000 - Reward: -0.04
+Episode 5220/10000 - Reward: -0.05
+Episode 5230/10000 - Reward: -0.79
+Episode 5240/10000 - Reward: -0.05
+Episode 5250/10000 - Reward: -0.07
+Episode 5260/10000 - Reward: -0.05
+Episode 5270/10000 - Reward: 2.20
+Episode 5280/10000 - Reward: -2.30
+Episode 5290/10000 - Reward: -0.08
+Episode 5300/10000
+  Training Reward: 2.20
+  Eval Reward: 0.24 ± 1.23
+  Eval Return: 0.38 ± 1.64
+  Win Rate: 23.00%
+Episode 5300/10000 - Reward: 2.20
+Episode 5310/10000 - Reward: -0.05
+Episode 5320/10000 - Reward: 2.20
+Episode 5330/10000 - Reward: 2.18
+Episode 5340/10000 - Reward: 2.21
+Episode 5350/10000 - Reward: -0.04
+Episode 5360/10000 - Reward: 2.19
+Episode 5370/10000 - Reward: 2.21
+Episode 5380/10000 - Reward: 2.22
+Episode 5390/10000 - Reward: -0.03
+Episode 5400/10000
+  Training Reward: 1.46
+  Eval Reward: 0.54 ± 1.10
+  Eval Return: 0.75 ± 1.47
+  Win Rate: 29.00%
+Episode 5400/10000 - Reward: 1.46
+Episode 5410/10000 - Reward: -2.28
+Episode 5420/10000 - Reward: -2.29
+Episode 5430/10000 - Reward: -0.04
+Episode 5440/10000 - Reward: -0.04
+Episode 5450/10000 - Reward: 1.46
+Episode 5460/10000 - Reward: 2.21
+Episode 5470/10000 - Reward: -2.32
+Episode 5480/10000 - Reward: 2.19
+Episode 5490/10000 - Reward: -2.30
+Episode 5500/10000
+  Training Reward: 2.20
+  Eval Reward: 0.43 ± 1.02
+  Eval Return: 0.63 ± 1.36
+  Win Rate: 23.00%
+Episode 5500/10000 - Reward: 2.20
+Episode 5510/10000 - Reward: -0.08
+Episode 5520/10000 - Reward: -0.03
+Episode 5530/10000 - Reward: -0.04
+Episode 5540/10000 - Reward: -0.04
+Episode 5550/10000 - Reward: -0.03
+Episode 5560/10000 - Reward: -0.03
+Episode 5570/10000 - Reward: -0.04
+Episode 5580/10000 - Reward: 2.19
+Episode 5590/10000 - Reward: -2.29
+Episode 5600/10000
+  Training Reward: -0.05
+  Eval Reward: 0.34 ± 1.09
+  Eval Return: 0.51 ± 1.45
+  Win Rate: 22.00%
+Episode 5600/10000 - Reward: -0.05
+Episode 5610/10000 - Reward: 2.21
+Episode 5620/10000 - Reward: -0.06
+Episode 5630/10000 - Reward: 2.21
+Episode 5640/10000 - Reward: -0.04
+Episode 5650/10000 - Reward: 2.21
+Episode 5660/10000 - Reward: -0.04
+Episode 5670/10000 - Reward: -0.06
+Episode 5680/10000 - Reward: -0.04
+Episode 5690/10000 - Reward: -0.04
+Episode 5700/10000
+  Training Reward: 1.45
+  Eval Reward: 0.44 ± 1.32
+  Eval Return: 0.62 ± 1.75
+  Win Rate: 30.00%
+Episode 5700/10000 - Reward: 1.45
+Episode 5710/10000 - Reward: -2.28
+Episode 5720/10000 - Reward: -0.03
+Episode 5730/10000 - Reward: 2.20
+Episode 5740/10000 - Reward: 2.19
+Episode 5750/10000 - Reward: -0.04
+Episode 5760/10000 - Reward: -0.06
+Episode 5770/10000 - Reward: -0.04
+Episode 5780/10000 - Reward: 2.19
+Episode 5790/10000 - Reward: -2.30
+Episode 5800/10000
+  Training Reward: -0.05
+  Eval Reward: 0.17 ± 1.27
+  Eval Return: 0.33 ± 1.69
+  Win Rate: 22.00%
+Episode 5800/10000 - Reward: -0.05
+Episode 5810/10000 - Reward: -2.32
+Episode 5820/10000 - Reward: 1.44
+Episode 5830/10000 - Reward: 2.22
+Episode 5840/10000 - Reward: -2.28
+Episode 5850/10000 - Reward: -0.03
+Episode 5860/10000 - Reward: -0.03
+Episode 5870/10000 - Reward: -2.29
+Episode 5880/10000 - Reward: -0.03
+Episode 5890/10000 - Reward: -0.02
+Episode 5900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.34 ± 1.27
+  Eval Return: 0.51 ± 1.70
+  Win Rate: 26.00%
+Episode 5900/10000 - Reward: -0.02
+Episode 5910/10000 - Reward: -0.03
+Episode 5920/10000 - Reward: 2.19
+Episode 5930/10000 - Reward: -0.05
+Episode 5940/10000 - Reward: -0.05
+Episode 5950/10000 - Reward: 2.17
+Episode 5960/10000 - Reward: -0.05
+Episode 5970/10000 - Reward: -0.05
+Episode 5980/10000 - Reward: -0.05
+Episode 5990/10000 - Reward: -0.09
+Episode 6000/10000
+  Training Reward: 2.15
+  Eval Reward: 0.01 ± 1.05
+  Eval Return: 0.12 ± 1.40
+  Win Rate: 13.00%
+Episode 6000/10000 - Reward: 2.15
+Episode 6010/10000 - Reward: 2.19
+Episode 6020/10000 - Reward: -0.06
+Episode 6030/10000 - Reward: -0.05
+Episode 6040/10000 - Reward: -0.05
+Episode 6050/10000 - Reward: -0.04
+Episode 6060/10000 - Reward: -2.31
+Episode 6070/10000 - Reward: -2.29
+Episode 6080/10000 - Reward: -0.05
+Episode 6090/10000 - Reward: -0.04
+Episode 6100/10000
+  Training Reward: -0.03
+  Eval Reward: 0.43 ± 1.12
+  Eval Return: 0.63 ± 1.49
+  Win Rate: 25.00%
+Episode 6100/10000 - Reward: -0.03
+Episode 6110/10000 - Reward: -0.04
+Episode 6120/10000 - Reward: 2.19
+Episode 6130/10000 - Reward: -0.04
+Episode 6140/10000 - Reward: -0.07
+Episode 6150/10000 - Reward: -0.08
+Episode 6160/10000 - Reward: -0.04
+Episode 6170/10000 - Reward: -0.05
+Episode 6180/10000 - Reward: -0.04
+Episode 6190/10000 - Reward: -0.04
+Episode 6200/10000
+  Training Reward: -0.05
+  Eval Reward: 0.33 ± 1.01
+  Eval Return: 0.51 ± 1.35
+  Win Rate: 20.00%
+Episode 6200/10000 - Reward: -0.05
+Episode 6210/10000 - Reward: 2.20
+Episode 6220/10000 - Reward: -0.05
+Episode 6230/10000 - Reward: -0.06
+Episode 6240/10000 - Reward: -0.05
+Episode 6250/10000 - Reward: -0.06
+Episode 6260/10000 - Reward: -0.06
+Episode 6270/10000 - Reward: -0.06
+Episode 6280/10000 - Reward: -0.06
+Episode 6290/10000 - Reward: -2.34
+Episode 6300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.54 ± 1.18
+  Eval Return: 0.78 ± 1.57
+  Win Rate: 30.00%
+  Saved best model (eval reward: 0.54)
+Episode 6300/10000 - Reward: -0.05
+Episode 6310/10000 - Reward: -0.01
+Episode 6320/10000 - Reward: -0.01
+Episode 6330/10000 - Reward: -0.03
+Episode 6340/10000 - Reward: 2.23
+Episode 6350/10000 - Reward: -0.01
+Episode 6360/10000 - Reward: -0.04
+Episode 6370/10000 - Reward: 2.23
+Episode 6380/10000 - Reward: 2.20
+Episode 6390/10000 - Reward: -0.05
+Episode 6400/10000
+  Training Reward: -0.03
+  Eval Reward: 0.05 ± 1.25
+  Eval Return: 0.15 ± 1.66
+  Win Rate: 18.00%
+Episode 6400/10000 - Reward: -0.03
+Episode 6410/10000 - Reward: -0.06
+Episode 6420/10000 - Reward: -0.06
+Episode 6430/10000 - Reward: 2.18
+Episode 6440/10000 - Reward: 2.19
+Episode 6450/10000 - Reward: -0.06
+Episode 6460/10000 - Reward: -0.05
+Episode 6470/10000 - Reward: 2.20
+Episode 6480/10000 - Reward: -0.04
+Episode 6490/10000 - Reward: -0.03
+Episode 6500/10000
+  Training Reward: -0.78
+  Eval Reward: 0.47 ± 1.21
+  Eval Return: 0.66 ± 1.62
+  Win Rate: 29.00%
+Episode 6500/10000 - Reward: -0.78
+Episode 6510/10000 - Reward: -0.03
+Episode 6520/10000 - Reward: -0.03
+Episode 6530/10000 - Reward: -0.05
+Episode 6540/10000 - Reward: -0.03
+Episode 6550/10000 - Reward: -0.04
+Episode 6560/10000 - Reward: -0.04
+Episode 6570/10000 - Reward: 1.43
+Episode 6580/10000 - Reward: -0.04
+Episode 6590/10000 - Reward: 2.21
+Episode 6600/10000
+  Training Reward: 2.21
+  Eval Reward: 0.25 ± 1.08
+  Eval Return: 0.40 ± 1.45
+  Win Rate: 21.00%
+Episode 6600/10000 - Reward: 2.21
+Episode 6610/10000 - Reward: -2.30
+Episode 6620/10000 - Reward: 2.20
+Episode 6630/10000 - Reward: 2.17
+Episode 6640/10000 - Reward: -0.05
+Episode 6650/10000 - Reward: -0.04
+Episode 6660/10000 - Reward: -0.04
+Episode 6670/10000 - Reward: -2.29
+Episode 6680/10000 - Reward: 2.23
+Episode 6690/10000 - Reward: -2.27
+Episode 6700/10000
+  Training Reward: -0.02
+  Eval Reward: 0.10 ± 1.10
+  Eval Return: 0.20 ± 1.47
+  Win Rate: 16.00%
+Episode 6700/10000 - Reward: -0.02
+Episode 6710/10000 - Reward: -0.06
+Episode 6720/10000 - Reward: -0.13
+Episode 6730/10000 - Reward: -0.09
+Episode 6740/10000 - Reward: 2.20
+Episode 6750/10000 - Reward: -0.05
+Episode 6760/10000 - Reward: -0.05
+Episode 6770/10000 - Reward: -0.04
+Episode 6780/10000 - Reward: 2.21
+Episode 6790/10000 - Reward: -2.29
+Episode 6800/10000
+  Training Reward: -0.10
+  Eval Reward: 0.16 ± 0.99
+  Eval Return: 0.29 ± 1.32
+  Win Rate: 17.00%
+Episode 6800/10000 - Reward: -0.10
+Episode 6810/10000 - Reward: -0.06
+Episode 6820/10000 - Reward: -0.10
+Episode 6830/10000 - Reward: -0.06
+Episode 6840/10000 - Reward: -0.05
+Episode 6850/10000 - Reward: 2.17
+Episode 6860/10000 - Reward: -0.05
+Episode 6870/10000 - Reward: -0.05
+Episode 6880/10000 - Reward: -0.07
+Episode 6890/10000 - Reward: -0.04
+Episode 6900/10000
+  Training Reward: -0.06
+  Eval Reward: 0.43 ± 1.25
+  Eval Return: 0.63 ± 1.66
+  Win Rate: 28.00%
+Episode 6900/10000 - Reward: -0.06
+Episode 6910/10000 - Reward: 2.22
+Episode 6920/10000 - Reward: -0.02
+Episode 6930/10000 - Reward: -0.04
+Episode 6940/10000 - Reward: -0.04
+Episode 6950/10000 - Reward: 2.22
+Episode 6960/10000 - Reward: 2.22
+Episode 6970/10000 - Reward: 2.23
+Episode 6980/10000 - Reward: -0.03
+Episode 6990/10000 - Reward: 2.20
+Episode 7000/10000
+  Training Reward: 2.22
+  Eval Reward: 0.40 ± 1.32
+  Eval Return: 0.59 ± 1.76
+  Win Rate: 30.00%
+Episode 7000/10000 - Reward: 2.22
+Episode 7010/10000 - Reward: -0.04
+Episode 7020/10000 - Reward: -0.03
+Episode 7030/10000 - Reward: -0.04
+Episode 7040/10000 - Reward: -0.02
+Episode 7050/10000 - Reward: -0.01
+Episode 7060/10000 - Reward: -0.02
+Episode 7070/10000 - Reward: -0.01
+Episode 7080/10000 - Reward: -0.02
+Episode 7090/10000 - Reward: -0.02
+Episode 7100/10000
+  Training Reward: -0.04
+  Eval Reward: 0.28 ± 1.23
+  Eval Return: 0.42 ± 1.64
+  Win Rate: 23.00%
+Episode 7100/10000 - Reward: -0.04
+Episode 7110/10000 - Reward: 2.20
+Episode 7120/10000 - Reward: -0.04
+Episode 7130/10000 - Reward: -0.04
+Episode 7140/10000 - Reward: 2.18
+Episode 7150/10000 - Reward: -0.07
+Episode 7160/10000 - Reward: -0.10
+Episode 7170/10000 - Reward: 2.20
+Episode 7180/10000 - Reward: 2.20
+Episode 7190/10000 - Reward: -0.04
+Episode 7200/10000
+  Training Reward: -0.04
+  Eval Reward: 0.55 ± 1.16
+  Eval Return: 0.79 ± 1.54
+  Win Rate: 32.00%
+  Saved best model (eval reward: 0.55)
+Episode 7200/10000 - Reward: -0.04
+Episode 7210/10000 - Reward: -0.03
+Episode 7220/10000 - Reward: 2.21
+Episode 7230/10000 - Reward: 2.23
+Episode 7240/10000 - Reward: -0.02
+Episode 7250/10000 - Reward: -0.01
+Episode 7260/10000 - Reward: -0.02
+Episode 7270/10000 - Reward: -0.02
+Episode 7280/10000 - Reward: -0.03
+Episode 7290/10000 - Reward: -0.04
+Episode 7300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.40 ± 1.38
+  Eval Return: 0.57 ± 1.83
+  Win Rate: 30.00%
+Episode 7300/10000 - Reward: -0.04
+Episode 7310/10000 - Reward: -0.03
+Episode 7320/10000 - Reward: -0.06
+Episode 7330/10000 - Reward: -0.04
+Episode 7340/10000 - Reward: -0.04
+Episode 7350/10000 - Reward: -0.06
+Episode 7360/10000 - Reward: -0.05
+Episode 7370/10000 - Reward: -0.07
+Episode 7380/10000 - Reward: -0.03
+Episode 7390/10000 - Reward: 2.21
+Episode 7400/10000
+  Training Reward: -0.09
+  Eval Reward: 0.20 ± 1.05
+  Eval Return: 0.33 ± 1.40
+  Win Rate: 20.00%
+Episode 7400/10000 - Reward: -0.09
+Episode 7410/10000 - Reward: -0.05
+Episode 7420/10000 - Reward: -0.05
+Episode 7430/10000 - Reward: -0.06
+Episode 7440/10000 - Reward: -0.06
+Episode 7450/10000 - Reward: -2.31
+Episode 7460/10000 - Reward: -0.07
+Episode 7470/10000 - Reward: -0.07
+Episode 7480/10000 - Reward: -0.07
+Episode 7490/10000 - Reward: 2.18
+Episode 7500/10000
+  Training Reward: 2.19
+  Eval Reward: 0.52 ± 1.16
+  Eval Return: 0.75 ± 1.55
+  Win Rate: 29.00%
+Episode 7500/10000 - Reward: 2.19
+Episode 7510/10000 - Reward: 2.22
+Episode 7520/10000 - Reward: -0.04
+Episode 7530/10000 - Reward: -0.02
+Episode 7540/10000 - Reward: -0.03
+Episode 7550/10000 - Reward: -0.05
+Episode 7560/10000 - Reward: -0.02
+Episode 7570/10000 - Reward: -0.02
+Episode 7580/10000 - Reward: 2.22
+Episode 7590/10000 - Reward: -0.03
+Episode 7600/10000
+  Training Reward: 2.21
+  Eval Reward: 0.51 ± 1.15
+  Eval Return: 0.72 ± 1.54
+  Win Rate: 28.00%
+Episode 7600/10000 - Reward: 2.21
+Episode 7610/10000 - Reward: -0.03
+Episode 7620/10000 - Reward: -2.29
+Episode 7630/10000 - Reward: -0.05
+Episode 7640/10000 - Reward: -2.29
+Episode 7650/10000 - Reward: -0.05
+Episode 7660/10000 - Reward: -0.05
+Episode 7670/10000 - Reward: 2.21
+Episode 7680/10000 - Reward: -0.04
+Episode 7690/10000 - Reward: 2.20
+Episode 7700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.20 ± 1.29
+  Eval Return: 0.34 ± 1.73
+  Win Rate: 23.00%
+Episode 7700/10000 - Reward: -0.04
+Episode 7710/10000 - Reward: -0.05
+Episode 7720/10000 - Reward: -2.30
+Episode 7730/10000 - Reward: -0.09
+Episode 7740/10000 - Reward: -0.05
+Episode 7750/10000 - Reward: -0.05
+Episode 7760/10000 - Reward: -0.05
+Episode 7770/10000 - Reward: 2.20
+Episode 7780/10000 - Reward: -0.05
+Episode 7790/10000 - Reward: 2.21
+Episode 7800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.45 ± 1.14
+  Eval Return: 0.64 ± 1.52
+  Win Rate: 26.00%
+Episode 7800/10000 - Reward: -0.04
+Episode 7810/10000 - Reward: 2.22
+Episode 7820/10000 - Reward: -0.04
+Episode 7830/10000 - Reward: 1.45
+Episode 7840/10000 - Reward: 2.22
+Episode 7850/10000 - Reward: -0.03
+Episode 7860/10000 - Reward: -0.03
+Episode 7870/10000 - Reward: -0.03
+Episode 7880/10000 - Reward: -0.03
+Episode 7890/10000 - Reward: -0.05
+Episode 7900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.19 ± 1.17
+  Eval Return: 0.30 ± 1.56
+  Win Rate: 19.00%
+Episode 7900/10000 - Reward: -0.02
+Episode 7910/10000 - Reward: 1.45
+Episode 7920/10000 - Reward: 2.17
+Episode 7930/10000 - Reward: -0.05
+Episode 7940/10000 - Reward: -0.05
+Episode 7950/10000 - Reward: 2.19
+Episode 7960/10000 - Reward: -1.54
+Episode 7970/10000 - Reward: -0.06
+Episode 7980/10000 - Reward: -0.04
+Episode 7990/10000 - Reward: -0.03
+Episode 8000/10000
+  Training Reward: -0.03
+  Eval Reward: 0.28 ± 1.20
+  Eval Return: 0.42 ± 1.60
+  Win Rate: 25.00%
+Episode 8000/10000 - Reward: -0.03
+Episode 8010/10000 - Reward: -0.14
+Episode 8020/10000 - Reward: -0.06
+Episode 8030/10000 - Reward: 2.20
+Episode 8040/10000 - Reward: -2.30
+Episode 8050/10000 - Reward: -0.04
+Episode 8060/10000 - Reward: 2.21
+Episode 8070/10000 - Reward: -0.04
+Episode 8080/10000 - Reward: -0.79
+Episode 8090/10000 - Reward: -0.06
+Episode 8100/10000
+  Training Reward: -0.04
+  Eval Reward: 0.14 ± 1.11
+  Eval Return: 0.27 ± 1.48
+  Win Rate: 19.00%
+Episode 8100/10000 - Reward: -0.04
+Episode 8110/10000 - Reward: -0.06
+Episode 8120/10000 - Reward: -1.55
+Episode 8130/10000 - Reward: -0.80
+Episode 8140/10000 - Reward: -0.07
+Episode 8150/10000 - Reward: -0.07
+Episode 8160/10000 - Reward: 2.18
+Episode 8170/10000 - Reward: 2.18
+Episode 8180/10000 - Reward: -0.04
+Episode 8190/10000 - Reward: 0.72
+Episode 8200/10000
+  Training Reward: 2.21
+  Eval Reward: 0.29 ± 0.92
+  Eval Return: 0.44 ± 1.23
+  Win Rate: 20.00%
+Episode 8200/10000 - Reward: 2.21
+Episode 8210/10000 - Reward: 2.21
+Episode 8220/10000 - Reward: -0.05
+Episode 8230/10000 - Reward: 2.20
+Episode 8240/10000 - Reward: -0.04
+Episode 8250/10000 - Reward: -0.03
+Episode 8260/10000 - Reward: 2.23
+Episode 8270/10000 - Reward: -0.04
+Episode 8280/10000 - Reward: -0.03
+Episode 8290/10000 - Reward: -2.29
+Episode 8300/10000
+  Training Reward: 2.21
+  Eval Reward: 0.39 ± 1.22
+  Eval Return: 0.58 ± 1.62
+  Win Rate: 27.00%
+Episode 8300/10000 - Reward: 2.21
+Episode 8310/10000 - Reward: -0.78
+Episode 8320/10000 - Reward: -2.28
+Episode 8330/10000 - Reward: -0.04
+Episode 8340/10000 - Reward: 2.21
+Episode 8350/10000 - Reward: -0.07
+Episode 8360/10000 - Reward: 2.17
+Episode 8370/10000 - Reward: 2.20
+Episode 8380/10000 - Reward: 2.19
+Episode 8390/10000 - Reward: -0.78
+Episode 8400/10000
+  Training Reward: 2.22
+  Eval Reward: 0.05 ± 1.19
+  Eval Return: 0.14 ± 1.59
+  Win Rate: 19.00%
+Episode 8400/10000 - Reward: 2.22
+Episode 8410/10000 - Reward: -0.05
+Episode 8420/10000 - Reward: -0.09
+Episode 8430/10000 - Reward: -0.04
+Episode 8440/10000 - Reward: -0.04
+Episode 8450/10000 - Reward: -0.07
+Episode 8460/10000 - Reward: -0.08
+Episode 8470/10000 - Reward: 2.22
+Episode 8480/10000 - Reward: -0.06
+Episode 8490/10000 - Reward: -0.04
+Episode 8500/10000
+  Training Reward: 2.19
+  Eval Reward: 0.34 ± 1.18
+  Eval Return: 0.52 ± 1.57
+  Win Rate: 25.00%
+Episode 8500/10000 - Reward: 2.19
+Episode 8510/10000 - Reward: 2.20
+Episode 8520/10000 - Reward: -0.07
+Episode 8530/10000 - Reward: 2.20
+Episode 8540/10000 - Reward: -0.05
+Episode 8550/10000 - Reward: -0.05
+Episode 8560/10000 - Reward: -0.05
+Episode 8570/10000 - Reward: 2.18
+Episode 8580/10000 - Reward: -0.04
+Episode 8590/10000 - Reward: -0.04
+Episode 8600/10000
+  Training Reward: -0.05
+  Eval Reward: 0.62 ± 1.12
+  Eval Return: 0.86 ± 1.50
+  Win Rate: 31.00%
+  Saved best model (eval reward: 0.62)
+Episode 8600/10000 - Reward: -0.05
+Episode 8610/10000 - Reward: -0.01
+Episode 8620/10000 - Reward: -0.04
+Episode 8630/10000 - Reward: -0.03
+Episode 8640/10000 - Reward: -0.02
+Episode 8650/10000 - Reward: -0.02
+Episode 8660/10000 - Reward: -0.03
+Episode 8670/10000 - Reward: 2.22
+Episode 8680/10000 - Reward: 2.24
+Episode 8690/10000 - Reward: -0.01
+Episode 8700/10000
+  Training Reward: -0.02
+  Eval Reward: 0.38 ± 1.25
+  Eval Return: 0.56 ± 1.67
+  Win Rate: 27.00%
+Episode 8700/10000 - Reward: -0.02
+Episode 8710/10000 - Reward: 2.19
+Episode 8720/10000 - Reward: -0.03
+Episode 8730/10000 - Reward: -2.28
+Episode 8740/10000 - Reward: -0.04
+Episode 8750/10000 - Reward: 2.19
+Episode 8760/10000 - Reward: 2.20
+Episode 8770/10000 - Reward: -0.04
+Episode 8780/10000 - Reward: -0.09
+Episode 8790/10000 - Reward: -0.04
+Episode 8800/10000
+  Training Reward: -0.05
+  Eval Reward: 0.24 ± 1.20
+  Eval Return: 0.41 ± 1.60
+  Win Rate: 23.00%
+Episode 8800/10000 - Reward: -0.05
+Episode 8810/10000 - Reward: 2.20
+Episode 8820/10000 - Reward: 2.21
+Episode 8830/10000 - Reward: 2.21
+Episode 8840/10000 - Reward: -0.79
+Episode 8850/10000 - Reward: -0.04
+Episode 8860/10000 - Reward: -0.04
+Episode 8870/10000 - Reward: -0.04
+Episode 8880/10000 - Reward: 2.21
+Episode 8890/10000 - Reward: -0.04
+Episode 8900/10000
+  Training Reward: -0.04
+  Eval Reward: 0.31 ± 1.09
+  Eval Return: 0.48 ± 1.45
+  Win Rate: 21.00%
+Episode 8900/10000 - Reward: -0.04
+Episode 8910/10000 - Reward: -0.05
+Episode 8920/10000 - Reward: 2.18
+Episode 8930/10000 - Reward: 2.21
+Episode 8940/10000 - Reward: -0.04
+Episode 8950/10000 - Reward: -0.03
+Episode 8960/10000 - Reward: -0.04
+Episode 8970/10000 - Reward: -0.03
+Episode 8980/10000 - Reward: -0.05
+Episode 8990/10000 - Reward: -0.05
+Episode 9000/10000
+  Training Reward: -2.29
+  Eval Reward: 0.31 ± 0.94
+  Eval Return: 0.48 ± 1.25
+  Win Rate: 18.00%
+Episode 9000/10000 - Reward: -2.29
+Episode 9010/10000 - Reward: -0.05
+Episode 9020/10000 - Reward: -0.05
+Episode 9030/10000 - Reward: 2.20
+Episode 9040/10000 - Reward: -0.06
+Episode 9050/10000 - Reward: -0.09
+Episode 9060/10000 - Reward: 2.19
+Episode 9070/10000 - Reward: -0.09
+Episode 9080/10000 - Reward: -0.05
+Episode 9090/10000 - Reward: -0.05
+Episode 9100/10000
+  Training Reward: -0.04
+  Eval Reward: 0.26 ± 1.36
+  Eval Return: 0.40 ± 1.81
+  Win Rate: 26.00%
+Episode 9100/10000 - Reward: -0.04
+Episode 9110/10000 - Reward: -0.04
+Episode 9120/10000 - Reward: -0.04
+Episode 9130/10000 - Reward: -0.04
+Episode 9140/10000 - Reward: -0.05
+Episode 9150/10000 - Reward: 1.42
+Episode 9160/10000 - Reward: -0.05
+Episode 9170/10000 - Reward: -0.03
+Episode 9180/10000 - Reward: -0.05
+Episode 9190/10000 - Reward: -0.04
+Episode 9200/10000
+  Training Reward: 2.23
+  Eval Reward: 0.42 ± 1.25
+  Eval Return: 0.58 ± 1.66
+  Win Rate: 28.00%
+Episode 9200/10000 - Reward: 2.23
+Episode 9210/10000 - Reward: 2.21
+Episode 9220/10000 - Reward: 2.21
+Episode 9230/10000 - Reward: -0.04
+Episode 9240/10000 - Reward: -0.04
+Episode 9250/10000 - Reward: 2.20
+Episode 9260/10000 - Reward: -0.05
+Episode 9270/10000 - Reward: 2.21
+Episode 9280/10000 - Reward: -0.04
+Episode 9290/10000 - Reward: -0.07
+Episode 9300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.22 ± 1.08
+  Eval Return: 0.38 ± 1.43
+  Win Rate: 19.00%
+Episode 9300/10000 - Reward: -0.05
+Episode 9310/10000 - Reward: -0.05
+Episode 9320/10000 - Reward: -2.30
+Episode 9330/10000 - Reward: -0.07
+Episode 9340/10000 - Reward: -0.06
+Episode 9350/10000 - Reward: -0.06
+Episode 9360/10000 - Reward: 2.19
+Episode 9370/10000 - Reward: -0.05
+Episode 9380/10000 - Reward: -2.30
+Episode 9390/10000 - Reward: -0.06
+Episode 9400/10000
+  Training Reward: 2.22
+  Eval Reward: 0.34 ± 1.35
+  Eval Return: 0.51 ± 1.80
+  Win Rate: 28.00%
+Episode 9400/10000 - Reward: 2.22
+Episode 9410/10000 - Reward: -0.04
+Episode 9420/10000 - Reward: 2.21
+Episode 9430/10000 - Reward: 2.22
+Episode 9440/10000 - Reward: -0.04
+Episode 9450/10000 - Reward: -0.04
+Episode 9460/10000 - Reward: -0.03
+Episode 9470/10000 - Reward: 2.21
+Episode 9480/10000 - Reward: -0.04
+Episode 9490/10000 - Reward: 2.21
+Episode 9500/10000
+  Training Reward: -0.08
+  Eval Reward: 0.35 ± 1.21
+  Eval Return: 0.54 ± 1.62
+  Win Rate: 27.00%
+Episode 9500/10000 - Reward: -0.08
+Episode 9510/10000 - Reward: -0.04
+Episode 9520/10000 - Reward: -0.04
+Episode 9530/10000 - Reward: -2.27
+Episode 9540/10000 - Reward: -0.03
+Episode 9550/10000 - Reward: 2.22
+Episode 9560/10000 - Reward: -0.04
+Episode 9570/10000 - Reward: -0.05
+Episode 9580/10000 - Reward: -0.04
+Episode 9590/10000 - Reward: -0.04
+Episode 9600/10000
+  Training Reward: 2.19
+  Eval Reward: 0.44 ± 1.12
+  Eval Return: 0.64 ± 1.49
+  Win Rate: 27.00%
+Episode 9600/10000 - Reward: 2.19
+Episode 9610/10000 - Reward: 2.23
+Episode 9620/10000 - Reward: -0.03
+Episode 9630/10000 - Reward: -0.03
+Episode 9640/10000 - Reward: -0.02
+Episode 9650/10000 - Reward: -0.02
+Episode 9660/10000 - Reward: 2.22
+Episode 9670/10000 - Reward: -0.04
+Episode 9680/10000 - Reward: -0.04
+Episode 9690/10000 - Reward: 2.22
+Episode 9700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.41 ± 1.19
+  Eval Return: 0.60 ± 1.59
+  Win Rate: 26.00%
+Episode 9700/10000 - Reward: -0.03
+Episode 9710/10000 - Reward: 2.21
+Episode 9720/10000 - Reward: -0.02
+Episode 9730/10000 - Reward: 2.22
+Episode 9740/10000 - Reward: 2.23
+Episode 9750/10000 - Reward: 2.23
+Episode 9760/10000 - Reward: -0.02
+Episode 9770/10000 - Reward: 2.24
+Episode 9780/10000 - Reward: -2.26
+Episode 9790/10000 - Reward: -0.01
+Episode 9800/10000
+  Training Reward: -2.27
+  Eval Reward: 0.49 ± 1.18
+  Eval Return: 0.69 ± 1.58
+  Win Rate: 28.00%
+Episode 9800/10000 - Reward: -2.27
+Episode 9810/10000 - Reward: -0.02
+Episode 9820/10000 - Reward: 2.21
+Episode 9830/10000 - Reward: -0.10
+Episode 9840/10000 - Reward: -0.06
+Episode 9850/10000 - Reward: -0.03
+Episode 9860/10000 - Reward: -0.03
+Episode 9870/10000 - Reward: -0.03
+Episode 9880/10000 - Reward: -0.03
+Episode 9890/10000 - Reward: -2.29
+Episode 9900/10000
+  Training Reward: -0.03
+  Eval Reward: 0.44 ± 1.28
+  Eval Return: 0.63 ± 1.71
+  Win Rate: 29.00%
+Episode 9900/10000 - Reward: -0.03
+Episode 9910/10000 - Reward: -0.03
+Episode 9920/10000 - Reward: 2.20
+Episode 9930/10000 - Reward: -0.05
+Episode 9940/10000 - Reward: -2.29
+Episode 9950/10000 - Reward: -0.05
+Episode 9960/10000 - Reward: -0.06
+Episode 9970/10000 - Reward: 2.21
+Episode 9980/10000 - Reward: 2.22
+Episode 9990/10000 - Reward: -0.04
+Episode 10000/10000
+  Training Reward: -2.29
+  Eval Reward: 0.38 ± 1.30
+  Eval Return: 0.57 ± 1.73
+  Win Rate: 28.00%
+Episode 10000/10000 - Reward: -2.29
+
+Training complete! Results saved to results/ddqn_20251202_205802
+Best evaluation reward: 0.62
+✓ DDQN training completed successfully
+  Duration: 22 seconds
+
+----------------------------------------
+Training DUELING_DDQN...
+Started at: Tue Dec  2 20:58:23 PST 2025
+----------------------------------------
+Training DUELING_DDQN for 10000 episodes...
+Episode 10/10000 - Reward: -0.08
+Episode 20/10000 - Reward: -0.10
+Episode 30/10000 - Reward: 0.68
+Episode 40/10000 - Reward: 1.43
+Episode 50/10000 - Reward: -0.06
+Episode 60/10000 - Reward: 0.69
+Episode 70/10000 - Reward: 2.19
+Episode 80/10000 - Reward: -0.06
+Episode 90/10000 - Reward: -0.81
+Episode 100/10000
+  Training Reward: 2.19
+  Eval Reward: -0.21 ± 1.19
+  Eval Return: -0.22 ± 1.59
+  Win Rate: 41.00%
+  Saved best model (eval reward: -0.21)
+Episode 100/10000 - Reward: 2.19
+Episode 110/10000 - Reward: -0.03
+Episode 120/10000 - Reward: -0.79
+Episode 130/10000 - Reward: -0.78
+Episode 140/10000 - Reward: -0.03
+Episode 150/10000 - Reward: -0.03
+Episode 160/10000 - Reward: 0.71
+Episode 170/10000 - Reward: -2.28
+Episode 180/10000 - Reward: -0.04
+Episode 190/10000 - Reward: -1.55
+Episode 200/10000
+  Training Reward: -0.06
+  Eval Reward: -0.06 ± 0.43
+  Eval Return: 0.01 ± 0.57
+  Win Rate: 16.00%
+  Saved best model (eval reward: -0.06)
+Episode 200/10000 - Reward: -0.06
+Episode 210/10000 - Reward: -0.07
+Episode 220/10000 - Reward: -0.82
+Episode 230/10000 - Reward: 1.43
+Episode 240/10000 - Reward: -0.06
+Episode 250/10000 - Reward: -0.06
+Episode 260/10000 - Reward: 0.69
+Episode 270/10000 - Reward: 1.43
+Episode 280/10000 - Reward: -0.04
+Episode 290/10000 - Reward: -0.04
+Episode 300/10000
+  Training Reward: -0.79
+  Eval Reward: 0.02 ± 0.55
+  Eval Return: 0.10 ± 0.73
+  Win Rate: 9.00%
+  Saved best model (eval reward: 0.02)
+Episode 300/10000 - Reward: -0.79
+Episode 310/10000 - Reward: -0.82
+Episode 320/10000 - Reward: -0.07
+Episode 330/10000 - Reward: -0.07
+Episode 340/10000 - Reward: -0.11
+Episode 350/10000 - Reward: -0.07
+Episode 360/10000 - Reward: -0.06
+Episode 370/10000 - Reward: -0.06
+Episode 380/10000 - Reward: -0.81
+Episode 390/10000 - Reward: -0.06
+Episode 400/10000
+  Training Reward: -0.05
+  Eval Reward: 0.14 ± 0.91
+  Eval Return: 0.24 ± 1.22
+  Win Rate: 29.00%
+  Saved best model (eval reward: 0.14)
+Episode 400/10000 - Reward: -0.05
+Episode 410/10000 - Reward: -0.03
+Episode 420/10000 - Reward: -0.04
+Episode 430/10000 - Reward: 2.21
+Episode 440/10000 - Reward: 2.21
+Episode 450/10000 - Reward: 2.20
+Episode 460/10000 - Reward: -0.05
+Episode 470/10000 - Reward: -0.80
+Episode 480/10000 - Reward: -0.06
+Episode 490/10000 - Reward: -0.07
+Episode 500/10000
+  Training Reward: -0.07
+  Eval Reward: 0.15 ± 1.13
+  Eval Return: 0.29 ± 1.51
+  Win Rate: 20.00%
+  Saved best model (eval reward: 0.15)
+Episode 500/10000 - Reward: -0.07
+Episode 510/10000 - Reward: -0.06
+Episode 520/10000 - Reward: -0.08
+Episode 530/10000 - Reward: -2.30
+Episode 540/10000 - Reward: -2.30
+Episode 550/10000 - Reward: 2.20
+Episode 560/10000 - Reward: -0.05
+Episode 570/10000 - Reward: -0.05
+Episode 580/10000 - Reward: -0.05
+Episode 590/10000 - Reward: -0.05
+Episode 600/10000
+  Training Reward: -0.05
+  Eval Reward: 0.28 ± 1.41
+  Eval Return: 0.43 ± 1.88
+  Win Rate: 29.00%
+  Saved best model (eval reward: 0.28)
+Episode 600/10000 - Reward: -0.05
+Episode 610/10000 - Reward: 2.21
+Episode 620/10000 - Reward: -0.04
+Episode 630/10000 - Reward: -0.05
+Episode 640/10000 - Reward: -0.04
+Episode 650/10000 - Reward: -0.05
+Episode 660/10000 - Reward: -2.31
+Episode 670/10000 - Reward: -0.06
+Episode 680/10000 - Reward: -0.06
+Episode 690/10000 - Reward: -0.06
+Episode 700/10000
+  Training Reward: -0.07
+  Eval Reward: -0.03 ± 0.40
+  Eval Return: 0.05 ± 0.54
+  Win Rate: 14.00%
+Episode 700/10000 - Reward: -0.07
+Episode 710/10000 - Reward: -0.06
+Episode 720/10000 - Reward: -0.06
+Episode 730/10000 - Reward: -0.05
+Episode 740/10000 - Reward: 2.19
+Episode 750/10000 - Reward: -0.06
+Episode 760/10000 - Reward: -0.06
+Episode 770/10000 - Reward: -0.06
+Episode 780/10000 - Reward: 2.20
+Episode 790/10000 - Reward: -0.05
+Episode 800/10000
+  Training Reward: -0.06
+  Eval Reward: 0.35 ± 1.02
+  Eval Return: 0.54 ± 1.37
+  Win Rate: 21.00%
+  Saved best model (eval reward: 0.35)
+Episode 800/10000 - Reward: -0.06
+Episode 810/10000 - Reward: -0.05
+Episode 820/10000 - Reward: -0.04
+Episode 830/10000 - Reward: -0.04
+Episode 840/10000 - Reward: -0.05
+Episode 850/10000 - Reward: 2.21
+Episode 860/10000 - Reward: -0.05
+Episode 870/10000 - Reward: -0.06
+Episode 880/10000 - Reward: -0.06
+Episode 890/10000 - Reward: 2.17
+Episode 900/10000
+  Training Reward: -0.05
+  Eval Reward: 0.22 ± 1.19
+  Eval Return: 0.37 ± 1.59
+  Win Rate: 21.00%
+Episode 900/10000 - Reward: -0.05
+Episode 910/10000 - Reward: -0.05
+Episode 920/10000 - Reward: -0.80
+Episode 930/10000 - Reward: 1.41
+Episode 940/10000 - Reward: -0.06
+Episode 950/10000 - Reward: -0.04
+Episode 960/10000 - Reward: -0.04
+Episode 970/10000 - Reward: -0.04
+Episode 980/10000 - Reward: -2.29
+Episode 990/10000 - Reward: 2.21
+Episode 1000/10000
+  Training Reward: -2.29
+  Eval Reward: 0.13 ± 1.18
+  Eval Return: 0.24 ± 1.57
+  Win Rate: 18.00%
+Episode 1000/10000 - Reward: -2.29
+Episode 1010/10000 - Reward: -0.06
+Episode 1020/10000 - Reward: -0.06
+Episode 1030/10000 - Reward: -0.06
+Episode 1040/10000 - Reward: -0.06
+Episode 1050/10000 - Reward: -2.31
+Episode 1060/10000 - Reward: -0.06
+Episode 1070/10000 - Reward: -2.31
+Episode 1080/10000 - Reward: -0.06
+Episode 1090/10000 - Reward: 2.19
+Episode 1100/10000
+  Training Reward: -0.06
+  Eval Reward: 0.42 ± 0.99
+  Eval Return: 0.63 ± 1.32
+  Win Rate: 25.00%
+  Saved best model (eval reward: 0.42)
+Episode 1100/10000 - Reward: -0.06
+Episode 1110/10000 - Reward: 2.21
+Episode 1120/10000 - Reward: -0.04
+Episode 1130/10000 - Reward: -0.03
+Episode 1140/10000 - Reward: 2.21
+Episode 1150/10000 - Reward: -0.06
+Episode 1160/10000 - Reward: -0.05
+Episode 1170/10000 - Reward: -0.07
+Episode 1180/10000 - Reward: -0.04
+Episode 1190/10000 - Reward: 2.21
+Episode 1200/10000
+  Training Reward: -0.04
+  Eval Reward: 0.25 ± 1.06
+  Eval Return: 0.42 ± 1.41
+  Win Rate: 19.00%
+Episode 1200/10000 - Reward: -0.04
+Episode 1210/10000 - Reward: 2.21
+Episode 1220/10000 - Reward: -0.04
+Episode 1230/10000 - Reward: -0.04
+Episode 1240/10000 - Reward: 1.44
+Episode 1250/10000 - Reward: -0.04
+Episode 1260/10000 - Reward: -0.05
+Episode 1270/10000 - Reward: -0.02
+Episode 1280/10000 - Reward: 2.22
+Episode 1290/10000 - Reward: -0.03
+Episode 1300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.01 ± 1.10
+  Eval Return: 0.09 ± 1.46
+  Win Rate: 16.00%
+Episode 1300/10000 - Reward: -0.04
+Episode 1310/10000 - Reward: -2.32
+Episode 1320/10000 - Reward: -0.07
+Episode 1330/10000 - Reward: 2.19
+Episode 1340/10000 - Reward: -0.06
+Episode 1350/10000 - Reward: -0.07
+Episode 1360/10000 - Reward: -0.06
+Episode 1370/10000 - Reward: 2.19
+Episode 1380/10000 - Reward: -0.05
+Episode 1390/10000 - Reward: -0.04
+Episode 1400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.29 ± 1.11
+  Eval Return: 0.44 ± 1.48
+  Win Rate: 21.00%
+Episode 1400/10000 - Reward: -0.04
+Episode 1410/10000 - Reward: -0.06
+Episode 1420/10000 - Reward: -0.05
+Episode 1430/10000 - Reward: -1.57
+Episode 1440/10000 - Reward: 2.20
+Episode 1450/10000 - Reward: -0.05
+Episode 1460/10000 - Reward: -0.05
+Episode 1470/10000 - Reward: -0.05
+Episode 1480/10000 - Reward: -0.07
+Episode 1490/10000 - Reward: -0.06
+Episode 1500/10000
+  Training Reward: -0.06
+  Eval Reward: 0.17 ± 1.24
+  Eval Return: 0.30 ± 1.66
+  Win Rate: 23.00%
+Episode 1500/10000 - Reward: -0.06
+Episode 1510/10000 - Reward: -0.04
+Episode 1520/10000 - Reward: -2.29
+Episode 1530/10000 - Reward: -0.05
+Episode 1540/10000 - Reward: -0.04
+Episode 1550/10000 - Reward: -0.05
+Episode 1560/10000 - Reward: -0.05
+Episode 1570/10000 - Reward: 2.20
+Episode 1580/10000 - Reward: -0.10
+Episode 1590/10000 - Reward: 2.21
+Episode 1600/10000
+  Training Reward: -2.29
+  Eval Reward: 0.34 ± 1.19
+  Eval Return: 0.50 ± 1.58
+  Win Rate: 31.00%
+Episode 1600/10000 - Reward: -2.29
+Episode 1610/10000 - Reward: -1.54
+Episode 1620/10000 - Reward: -0.04
+Episode 1630/10000 - Reward: -0.05
+Episode 1640/10000 - Reward: -0.04
+Episode 1650/10000 - Reward: -0.08
+Episode 1660/10000 - Reward: 2.21
+Episode 1670/10000 - Reward: -0.05
+Episode 1680/10000 - Reward: -0.05
+Episode 1690/10000 - Reward: -0.06
+Episode 1700/10000
+  Training Reward: -0.05
+  Eval Reward: 0.07 ± 0.96
+  Eval Return: 0.18 ± 1.28
+  Win Rate: 15.00%
+Episode 1700/10000 - Reward: -0.05
+Episode 1710/10000 - Reward: -0.13
+Episode 1720/10000 - Reward: -0.05
+Episode 1730/10000 - Reward: -0.07
+Episode 1740/10000 - Reward: -0.05
+Episode 1750/10000 - Reward: -0.05
+Episode 1760/10000 - Reward: 2.18
+Episode 1770/10000 - Reward: -0.04
+Episode 1780/10000 - Reward: 2.21
+Episode 1790/10000 - Reward: -1.55
+Episode 1800/10000
+  Training Reward: 2.21
+  Eval Reward: 0.19 ± 1.24
+  Eval Return: 0.32 ± 1.65
+  Win Rate: 27.00%
+Episode 1800/10000 - Reward: 2.21
+Episode 1810/10000 - Reward: -0.05
+Episode 1820/10000 - Reward: -2.32
+Episode 1830/10000 - Reward: 2.20
+Episode 1840/10000 - Reward: -0.08
+Episode 1850/10000 - Reward: -0.05
+Episode 1860/10000 - Reward: -0.05
+Episode 1870/10000 - Reward: 2.20
+Episode 1880/10000 - Reward: -0.05
+Episode 1890/10000 - Reward: -0.09
+Episode 1900/10000
+  Training Reward: -0.06
+  Eval Reward: 0.41 ± 1.12
+  Eval Return: 0.59 ± 1.49
+  Win Rate: 25.00%
+Episode 1900/10000 - Reward: -0.06
+Episode 1910/10000 - Reward: 2.21
+Episode 1920/10000 - Reward: -0.04
+Episode 1930/10000 - Reward: 2.20
+Episode 1940/10000 - Reward: -0.04
+Episode 1950/10000 - Reward: -0.07
+Episode 1960/10000 - Reward: -0.05
+Episode 1970/10000 - Reward: -0.06
+Episode 1980/10000 - Reward: 2.21
+Episode 1990/10000 - Reward: -0.07
+Episode 2000/10000
+  Training Reward: 2.21
+  Eval Reward: 0.15 ± 1.15
+  Eval Return: 0.28 ± 1.54
+  Win Rate: 20.00%
+Episode 2000/10000 - Reward: 2.21
+Episode 2010/10000 - Reward: -0.05
+Episode 2020/10000 - Reward: -0.05
+Episode 2030/10000 - Reward: -0.06
+Episode 2040/10000 - Reward: -2.30
+Episode 2050/10000 - Reward: -0.85
+Episode 2060/10000 - Reward: -0.08
+Episode 2070/10000 - Reward: -0.05
+Episode 2080/10000 - Reward: 2.20
+Episode 2090/10000 - Reward: -0.09
+Episode 2100/10000
+  Training Reward: -0.06
+  Eval Reward: 0.28 ± 1.19
+  Eval Return: 0.43 ± 1.59
+  Win Rate: 26.00%
+Episode 2100/10000 - Reward: -0.06
+Episode 2110/10000 - Reward: -0.03
+Episode 2120/10000 - Reward: -0.04
+Episode 2130/10000 - Reward: -0.82
+Episode 2140/10000 - Reward: -0.05
+Episode 2150/10000 - Reward: -0.06
+Episode 2160/10000 - Reward: -0.06
+Episode 2170/10000 - Reward: 2.20
+Episode 2180/10000 - Reward: -0.08
+Episode 2190/10000 - Reward: -0.05
+Episode 2200/10000
+  Training Reward: 1.43
+  Eval Reward: 0.16 ± 1.22
+  Eval Return: 0.28 ± 1.63
+  Win Rate: 22.00%
+Episode 2200/10000 - Reward: 1.43
+Episode 2210/10000 - Reward: -0.04
+Episode 2220/10000 - Reward: -0.05
+Episode 2230/10000 - Reward: -0.07
+Episode 2240/10000 - Reward: -0.05
+Episode 2250/10000 - Reward: -0.04
+Episode 2260/10000 - Reward: -2.29
+Episode 2270/10000 - Reward: -0.06
+Episode 2280/10000 - Reward: -0.06
+Episode 2290/10000 - Reward: 2.20
+Episode 2300/10000
+  Training Reward: 2.22
+  Eval Reward: 0.19 ± 1.28
+  Eval Return: 0.31 ± 1.71
+  Win Rate: 26.00%
+Episode 2300/10000 - Reward: 2.22
+Episode 2310/10000 - Reward: -0.05
+Episode 2320/10000 - Reward: -0.06
+Episode 2330/10000 - Reward: -0.05
+Episode 2340/10000 - Reward: -0.05
+Episode 2350/10000 - Reward: 2.21
+Episode 2360/10000 - Reward: -0.04
+Episode 2370/10000 - Reward: 1.43
+Episode 2380/10000 - Reward: 2.20
+Episode 2390/10000 - Reward: -0.05
+Episode 2400/10000
+  Training Reward: -0.06
+  Eval Reward: 0.33 ± 1.23
+  Eval Return: 0.52 ± 1.64
+  Win Rate: 26.00%
+Episode 2400/10000 - Reward: -0.06
+Episode 2410/10000 - Reward: -2.28
+Episode 2420/10000 - Reward: -0.03
+Episode 2430/10000 - Reward: -0.03
+Episode 2440/10000 - Reward: -0.05
+Episode 2450/10000 - Reward: -0.03
+Episode 2460/10000 - Reward: -0.02
+Episode 2470/10000 - Reward: -0.03
+Episode 2480/10000 - Reward: -0.02
+Episode 2490/10000 - Reward: -0.03
+Episode 2500/10000
+  Training Reward: -0.06
+  Eval Reward: 0.52 ± 1.11
+  Eval Return: 0.74 ± 1.49
+  Win Rate: 30.00%
+  Saved best model (eval reward: 0.52)
+Episode 2500/10000 - Reward: -0.06
+Episode 2510/10000 - Reward: -0.03
+Episode 2520/10000 - Reward: -0.04
+Episode 2530/10000 - Reward: -2.29
+Episode 2540/10000 - Reward: -0.03
+Episode 2550/10000 - Reward: 2.22
+Episode 2560/10000 - Reward: -0.03
+Episode 2570/10000 - Reward: -0.03
+Episode 2580/10000 - Reward: -0.07
+Episode 2590/10000 - Reward: -0.04
+Episode 2600/10000
+  Training Reward: -0.03
+  Eval Reward: 0.22 ± 1.28
+  Eval Return: 0.36 ± 1.70
+  Win Rate: 24.00%
+Episode 2600/10000 - Reward: -0.03
+Episode 2610/10000 - Reward: -2.32
+Episode 2620/10000 - Reward: -0.10
+Episode 2630/10000 - Reward: 2.18
+Episode 2640/10000 - Reward: -2.29
+Episode 2650/10000 - Reward: -0.02
+Episode 2660/10000 - Reward: -0.03
+Episode 2670/10000 - Reward: -0.03
+Episode 2680/10000 - Reward: 2.22
+Episode 2690/10000 - Reward: 2.22
+Episode 2700/10000
+  Training Reward: -0.05
+  Eval Reward: 0.31 ± 1.10
+  Eval Return: 0.46 ± 1.46
+  Win Rate: 26.00%
+Episode 2700/10000 - Reward: -0.05
+Episode 2710/10000 - Reward: -2.29
+Episode 2720/10000 - Reward: -0.04
+Episode 2730/10000 - Reward: 2.21
+Episode 2740/10000 - Reward: -0.09
+Episode 2750/10000 - Reward: -0.04
+Episode 2760/10000 - Reward: 2.21
+Episode 2770/10000 - Reward: 2.21
+Episode 2780/10000 - Reward: 2.21
+Episode 2790/10000 - Reward: -0.04
+Episode 2800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.14 ± 1.18
+  Eval Return: 0.26 ± 1.58
+  Win Rate: 19.00%
+Episode 2800/10000 - Reward: -0.04
+Episode 2810/10000 - Reward: -0.05
+Episode 2820/10000 - Reward: -0.05
+Episode 2830/10000 - Reward: -0.05
+Episode 2840/10000 - Reward: -0.07
+Episode 2850/10000 - Reward: -0.05
+Episode 2860/10000 - Reward: 2.21
+Episode 2870/10000 - Reward: -0.05
+Episode 2880/10000 - Reward: -0.05
+Episode 2890/10000 - Reward: -0.05
+Episode 2900/10000
+  Training Reward: -2.30
+  Eval Reward: 0.17 ± 1.34
+  Eval Return: 0.30 ± 1.78
+  Win Rate: 26.00%
+Episode 2900/10000 - Reward: -2.30
+Episode 2910/10000 - Reward: -0.04
+Episode 2920/10000 - Reward: -0.03
+Episode 2930/10000 - Reward: 2.22
+Episode 2940/10000 - Reward: -0.02
+Episode 2950/10000 - Reward: -2.28
+Episode 2960/10000 - Reward: -0.02
+Episode 2970/10000 - Reward: 2.23
+Episode 2980/10000 - Reward: -0.01
+Episode 2990/10000 - Reward: -0.02
+Episode 3000/10000
+  Training Reward: 2.23
+  Eval Reward: 0.36 ± 0.94
+  Eval Return: 0.53 ± 1.25
+  Win Rate: 22.00%
+Episode 3000/10000 - Reward: 2.23
+Episode 3010/10000 - Reward: -0.04
+Episode 3020/10000 - Reward: -0.05
+Episode 3030/10000 - Reward: 2.20
+Episode 3040/10000 - Reward: -0.05
+Episode 3050/10000 - Reward: 2.19
+Episode 3060/10000 - Reward: 0.69
+Episode 3070/10000 - Reward: -0.06
+Episode 3080/10000 - Reward: 2.20
+Episode 3090/10000 - Reward: -0.06
+Episode 3100/10000
+  Training Reward: -0.09
+  Eval Reward: 0.39 ± 1.20
+  Eval Return: 0.58 ± 1.60
+  Win Rate: 30.00%
+Episode 3100/10000 - Reward: -0.09
+Episode 3110/10000 - Reward: 0.71
+Episode 3120/10000 - Reward: -0.03
+Episode 3130/10000 - Reward: 2.23
+Episode 3140/10000 - Reward: -0.03
+Episode 3150/10000 - Reward: -0.03
+Episode 3160/10000 - Reward: -0.04
+Episode 3170/10000 - Reward: -0.03
+Episode 3180/10000 - Reward: -2.31
+Episode 3190/10000 - Reward: -0.04
+Episode 3200/10000
+  Training Reward: -0.04
+  Eval Reward: 0.27 ± 1.26
+  Eval Return: 0.43 ± 1.68
+  Win Rate: 24.00%
+Episode 3200/10000 - Reward: -0.04
+Episode 3210/10000 - Reward: 2.21
+Episode 3220/10000 - Reward: -0.03
+Episode 3230/10000 - Reward: 2.22
+Episode 3240/10000 - Reward: 2.23
+Episode 3250/10000 - Reward: -0.03
+Episode 3260/10000 - Reward: -0.02
+Episode 3270/10000 - Reward: 2.23
+Episode 3280/10000 - Reward: -0.00
+Episode 3290/10000 - Reward: 2.25
+Episode 3300/10000
+  Training Reward: -0.01
+  Eval Reward: 0.25 ± 1.03
+  Eval Return: 0.39 ± 1.37
+  Win Rate: 18.00%
+Episode 3300/10000 - Reward: -0.01
+Episode 3310/10000 - Reward: -1.58
+Episode 3320/10000 - Reward: 2.20
+Episode 3330/10000 - Reward: -0.04
+Episode 3340/10000 - Reward: -0.06
+Episode 3350/10000 - Reward: -0.05
+Episode 3360/10000 - Reward: -0.04
+Episode 3370/10000 - Reward: -0.04
+Episode 3380/10000 - Reward: -0.05
+Episode 3390/10000 - Reward: -0.06
+Episode 3400/10000
+  Training Reward: 2.21
+  Eval Reward: 0.34 ± 1.28
+  Eval Return: 0.50 ± 1.70
+  Win Rate: 27.00%
+Episode 3400/10000 - Reward: 2.21
+Episode 3410/10000 - Reward: -0.06
+Episode 3420/10000 - Reward: -0.09
+Episode 3430/10000 - Reward: 2.18
+Episode 3440/10000 - Reward: 2.21
+Episode 3450/10000 - Reward: 2.21
+Episode 3460/10000 - Reward: -0.07
+Episode 3470/10000 - Reward: 2.20
+Episode 3480/10000 - Reward: -0.04
+Episode 3490/10000 - Reward: -0.81
+Episode 3500/10000
+  Training Reward: -0.06
+  Eval Reward: 0.31 ± 1.14
+  Eval Return: 0.48 ± 1.52
+  Win Rate: 23.00%
+Episode 3500/10000 - Reward: -0.06
+Episode 3510/10000 - Reward: 2.21
+Episode 3520/10000 - Reward: -0.04
+Episode 3530/10000 - Reward: -0.05
+Episode 3540/10000 - Reward: -0.06
+Episode 3550/10000 - Reward: -2.31
+Episode 3560/10000 - Reward: -0.07
+Episode 3570/10000 - Reward: -0.07
+Episode 3580/10000 - Reward: -0.06
+Episode 3590/10000 - Reward: -0.82
+Episode 3600/10000
+  Training Reward: -0.07
+  Eval Reward: 0.07 ± 1.21
+  Eval Return: 0.18 ± 1.61
+  Win Rate: 21.00%
+Episode 3600/10000 - Reward: -0.07
+Episode 3610/10000 - Reward: 2.19
+Episode 3620/10000 - Reward: -0.05
+Episode 3630/10000 - Reward: 0.71
+Episode 3640/10000 - Reward: -0.04
+Episode 3650/10000 - Reward: 2.22
+Episode 3660/10000 - Reward: -0.04
+Episode 3670/10000 - Reward: -0.04
+Episode 3680/10000 - Reward: 2.22
+Episode 3690/10000 - Reward: -0.03
+Episode 3700/10000
+  Training Reward: -0.04
+  Eval Reward: 0.42 ± 1.34
+  Eval Return: 0.59 ± 1.78
+  Win Rate: 33.00%
+Episode 3700/10000 - Reward: -0.04
+Episode 3710/10000 - Reward: -0.02
+Episode 3720/10000 - Reward: -2.27
+Episode 3730/10000 - Reward: -0.01
+Episode 3740/10000 - Reward: -0.01
+Episode 3750/10000 - Reward: 2.22
+Episode 3760/10000 - Reward: -2.27
+Episode 3770/10000 - Reward: -0.03
+Episode 3780/10000 - Reward: -0.03
+Episode 3790/10000 - Reward: -0.05
+Episode 3800/10000
+  Training Reward: 2.23
+  Eval Reward: 0.37 ± 1.28
+  Eval Return: 0.53 ± 1.71
+  Win Rate: 27.00%
+Episode 3800/10000 - Reward: 2.23
+Episode 3810/10000 - Reward: -0.06
+Episode 3820/10000 - Reward: 2.22
+Episode 3830/10000 - Reward: -0.03
+Episode 3840/10000 - Reward: -0.03
+Episode 3850/10000 - Reward: -0.04
+Episode 3860/10000 - Reward: -0.09
+Episode 3870/10000 - Reward: 2.21
+Episode 3880/10000 - Reward: -0.07
+Episode 3890/10000 - Reward: 2.21
+Episode 3900/10000
+  Training Reward: 2.18
+  Eval Reward: 0.33 ± 1.15
+  Eval Return: 0.49 ± 1.53
+  Win Rate: 25.00%
+Episode 3900/10000 - Reward: 2.18
+Episode 3910/10000 - Reward: 2.21
+Episode 3920/10000 - Reward: -0.03
+Episode 3930/10000 - Reward: -0.04
+Episode 3940/10000 - Reward: -0.04
+Episode 3950/10000 - Reward: -0.07
+Episode 3960/10000 - Reward: -0.04
+Episode 3970/10000 - Reward: 2.22
+Episode 3980/10000 - Reward: -0.04
+Episode 3990/10000 - Reward: -0.05
+Episode 4000/10000
+  Training Reward: -0.04
+  Eval Reward: 0.23 ± 1.17
+  Eval Return: 0.38 ± 1.55
+  Win Rate: 21.00%
+Episode 4000/10000 - Reward: -0.04
+Episode 4010/10000 - Reward: 2.20
+Episode 4020/10000 - Reward: -0.04
+Episode 4030/10000 - Reward: -0.04
+Episode 4040/10000 - Reward: -0.05
+Episode 4050/10000 - Reward: -0.04
+Episode 4060/10000 - Reward: 1.41
+Episode 4070/10000 - Reward: 2.21
+Episode 4080/10000 - Reward: -0.04
+Episode 4090/10000 - Reward: -0.04
+Episode 4100/10000
+  Training Reward: -0.07
+  Eval Reward: 0.21 ± 1.07
+  Eval Return: 0.35 ± 1.43
+  Win Rate: 20.00%
+Episode 4100/10000 - Reward: -0.07
+Episode 4110/10000 - Reward: -2.30
+Episode 4120/10000 - Reward: -0.05
+Episode 4130/10000 - Reward: -0.04
+Episode 4140/10000 - Reward: 2.19
+Episode 4150/10000 - Reward: -0.04
+Episode 4160/10000 - Reward: -2.31
+Episode 4170/10000 - Reward: -0.05
+Episode 4180/10000 - Reward: 2.16
+Episode 4190/10000 - Reward: -0.05
+Episode 4200/10000
+  Training Reward: -0.05
+  Eval Reward: 0.43 ± 1.18
+  Eval Return: 0.65 ± 1.58
+  Win Rate: 28.00%
+Episode 4200/10000 - Reward: -0.05
+Episode 4210/10000 - Reward: -0.04
+Episode 4220/10000 - Reward: 2.19
+Episode 4230/10000 - Reward: -0.04
+Episode 4240/10000 - Reward: -0.03
+Episode 4250/10000 - Reward: -0.03
+Episode 4260/10000 - Reward: 2.20
+Episode 4270/10000 - Reward: 0.71
+Episode 4280/10000 - Reward: -0.04
+Episode 4290/10000 - Reward: -0.04
+Episode 4300/10000
+  Training Reward: 2.21
+  Eval Reward: 0.32 ± 1.29
+  Eval Return: 0.49 ± 1.72
+  Win Rate: 27.00%
+Episode 4300/10000 - Reward: 2.21
+Episode 4310/10000 - Reward: 2.22
+Episode 4320/10000 - Reward: -0.03
+Episode 4330/10000 - Reward: -0.04
+Episode 4340/10000 - Reward: 2.19
+Episode 4350/10000 - Reward: -0.05
+Episode 4360/10000 - Reward: 1.47
+Episode 4370/10000 - Reward: -0.03
+Episode 4380/10000 - Reward: -0.02
+Episode 4390/10000 - Reward: 2.21
+Episode 4400/10000
+  Training Reward: -0.03
+  Eval Reward: 0.46 ± 1.22
+  Eval Return: 0.65 ± 1.63
+  Win Rate: 28.00%
+Episode 4400/10000 - Reward: -0.03
+Episode 4410/10000 - Reward: -0.04
+Episode 4420/10000 - Reward: 1.44
+Episode 4430/10000 - Reward: -2.30
+Episode 4440/10000 - Reward: -0.05
+Episode 4450/10000 - Reward: -0.79
+Episode 4460/10000 - Reward: -0.04
+Episode 4470/10000 - Reward: 2.22
+Episode 4480/10000 - Reward: -0.04
+Episode 4490/10000 - Reward: -0.04
+Episode 4500/10000
+  Training Reward: 2.18
+  Eval Reward: 0.45 ± 1.10
+  Eval Return: 0.65 ± 1.47
+  Win Rate: 28.00%
+Episode 4500/10000 - Reward: 2.18
+Episode 4510/10000 - Reward: 2.22
+Episode 4520/10000 - Reward: -0.02
+Episode 4530/10000 - Reward: -0.04
+Episode 4540/10000 - Reward: -0.04
+Episode 4550/10000 - Reward: -0.03
+Episode 4560/10000 - Reward: -0.02
+Episode 4570/10000 - Reward: 2.22
+Episode 4580/10000 - Reward: -0.03
+Episode 4590/10000 - Reward: -0.04
+Episode 4600/10000
+  Training Reward: -0.03
+  Eval Reward: 0.20 ± 1.21
+  Eval Return: 0.33 ± 1.62
+  Win Rate: 25.00%
+Episode 4600/10000 - Reward: -0.03
+Episode 4610/10000 - Reward: -0.05
+Episode 4620/10000 - Reward: -0.05
+Episode 4630/10000 - Reward: -0.05
+Episode 4640/10000 - Reward: -0.04
+Episode 4650/10000 - Reward: -0.03
+Episode 4660/10000 - Reward: -0.77
+Episode 4670/10000 - Reward: -0.02
+Episode 4680/10000 - Reward: 2.22
+Episode 4690/10000 - Reward: 2.22
+Episode 4700/10000
+  Training Reward: -0.78
+  Eval Reward: 0.45 ± 1.28
+  Eval Return: 0.65 ± 1.71
+  Win Rate: 33.00%
+Episode 4700/10000 - Reward: -0.78
+Episode 4710/10000 - Reward: -0.02
+Episode 4720/10000 - Reward: -2.27
+Episode 4730/10000 - Reward: -0.04
+Episode 4740/10000 - Reward: -0.04
+Episode 4750/10000 - Reward: 2.22
+Episode 4760/10000 - Reward: -0.05
+Episode 4770/10000 - Reward: -0.79
+Episode 4780/10000 - Reward: -0.04
+Episode 4790/10000 - Reward: -0.04
+Episode 4800/10000
+  Training Reward: 2.21
+  Eval Reward: 0.32 ± 1.31
+  Eval Return: 0.46 ± 1.75
+  Win Rate: 30.00%
+Episode 4800/10000 - Reward: 2.21
+Episode 4810/10000 - Reward: -0.78
+Episode 4820/10000 - Reward: -0.79
+Episode 4830/10000 - Reward: -0.04
+Episode 4840/10000 - Reward: -0.03
+Episode 4850/10000 - Reward: -0.04
+Episode 4860/10000 - Reward: -0.07
+Episode 4870/10000 - Reward: 2.20
+Episode 4880/10000 - Reward: -0.07
+Episode 4890/10000 - Reward: -0.05
+Episode 4900/10000
+  Training Reward: -0.05
+  Eval Reward: 0.40 ± 1.06
+  Eval Return: 0.59 ± 1.41
+  Win Rate: 23.00%
+Episode 4900/10000 - Reward: -0.05
+Episode 4910/10000 - Reward: 2.21
+Episode 4920/10000 - Reward: -0.04
+Episode 4930/10000 - Reward: -0.05
+Episode 4940/10000 - Reward: -0.04
+Episode 4950/10000 - Reward: -0.03
+Episode 4960/10000 - Reward: 2.22
+Episode 4970/10000 - Reward: -0.03
+Episode 4980/10000 - Reward: -0.78
+Episode 4990/10000 - Reward: -0.03
+Episode 5000/10000
+  Training Reward: -0.03
+  Eval Reward: 0.49 ± 1.09
+  Eval Return: 0.70 ± 1.45
+  Win Rate: 27.00%
+Episode 5000/10000 - Reward: -0.03
+Episode 5010/10000 - Reward: -0.03
+Episode 5020/10000 - Reward: -0.03
+Episode 5030/10000 - Reward: -0.06
+Episode 5040/10000 - Reward: -0.04
+Episode 5050/10000 - Reward: -0.05
+Episode 5060/10000 - Reward: -0.04
+Episode 5070/10000 - Reward: -2.27
+Episode 5080/10000 - Reward: -0.02
+Episode 5090/10000 - Reward: -0.02
+Episode 5100/10000
+  Training Reward: -0.03
+  Eval Reward: 0.29 ± 1.26
+  Eval Return: 0.42 ± 1.67
+  Win Rate: 29.00%
+Episode 5100/10000 - Reward: -0.03
+Episode 5110/10000 - Reward: -0.05
+Episode 5120/10000 - Reward: -0.06
+Episode 5130/10000 - Reward: -0.04
+Episode 5140/10000 - Reward: -1.55
+Episode 5150/10000 - Reward: -0.07
+Episode 5160/10000 - Reward: 2.18
+Episode 5170/10000 - Reward: 2.21
+Episode 5180/10000 - Reward: -0.05
+Episode 5190/10000 - Reward: -0.05
+Episode 5200/10000
+  Training Reward: -2.30
+  Eval Reward: 0.19 ± 1.18
+  Eval Return: 0.33 ± 1.57
+  Win Rate: 21.00%
+Episode 5200/10000 - Reward: -2.30
+Episode 5210/10000 - Reward: -0.08
+Episode 5220/10000 - Reward: -0.05
+Episode 5230/10000 - Reward: -0.05
+Episode 5240/10000 - Reward: -0.05
+Episode 5250/10000 - Reward: -0.05
+Episode 5260/10000 - Reward: -0.05
+Episode 5270/10000 - Reward: -0.05
+Episode 5280/10000 - Reward: 2.21
+Episode 5290/10000 - Reward: -0.04
+Episode 5300/10000
+  Training Reward: -2.29
+  Eval Reward: 0.44 ± 1.05
+  Eval Return: 0.64 ± 1.40
+  Win Rate: 26.00%
+Episode 5300/10000 - Reward: -2.29
+Episode 5310/10000 - Reward: -0.03
+Episode 5320/10000 - Reward: -0.05
+Episode 5330/10000 - Reward: -0.06
+Episode 5340/10000 - Reward: -0.07
+Episode 5350/10000 - Reward: -0.06
+Episode 5360/10000 - Reward: -0.05
+Episode 5370/10000 - Reward: 2.20
+Episode 5380/10000 - Reward: 2.21
+Episode 5390/10000 - Reward: 2.21
+Episode 5400/10000
+  Training Reward: -0.05
+  Eval Reward: 0.24 ± 1.26
+  Eval Return: 0.37 ± 1.67
+  Win Rate: 26.00%
+Episode 5400/10000 - Reward: -0.05
+Episode 5410/10000 - Reward: 2.21
+Episode 5420/10000 - Reward: 2.21
+Episode 5430/10000 - Reward: -0.04
+Episode 5440/10000 - Reward: -2.31
+Episode 5450/10000 - Reward: -0.04
+Episode 5460/10000 - Reward: 2.21
+Episode 5470/10000 - Reward: -0.07
+Episode 5480/10000 - Reward: -0.07
+Episode 5490/10000 - Reward: -0.07
+Episode 5500/10000
+  Training Reward: 2.19
+  Eval Reward: 0.33 ± 0.95
+  Eval Return: 0.50 ± 1.26
+  Win Rate: 22.00%
+Episode 5500/10000 - Reward: 2.19
+Episode 5510/10000 - Reward: 2.19
+Episode 5520/10000 - Reward: -0.06
+Episode 5530/10000 - Reward: 2.20
+Episode 5540/10000 - Reward: 0.71
+Episode 5550/10000 - Reward: -0.04
+Episode 5560/10000 - Reward: -0.03
+Episode 5570/10000 - Reward: -0.06
+Episode 5580/10000 - Reward: -0.04
+Episode 5590/10000 - Reward: -0.03
+Episode 5600/10000
+  Training Reward: -0.03
+  Eval Reward: 0.33 ± 1.20
+  Eval Return: 0.49 ± 1.60
+  Win Rate: 25.00%
+Episode 5600/10000 - Reward: -0.03
+Episode 5610/10000 - Reward: -0.04
+Episode 5620/10000 - Reward: -0.04
+Episode 5630/10000 - Reward: -0.04
+Episode 5640/10000 - Reward: 2.19
+Episode 5650/10000 - Reward: -0.04
+Episode 5660/10000 - Reward: -0.02
+Episode 5670/10000 - Reward: -0.03
+Episode 5680/10000 - Reward: -0.02
+Episode 5690/10000 - Reward: -0.04
+Episode 5700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.35 ± 1.17
+  Eval Return: 0.52 ± 1.56
+  Win Rate: 25.00%
+Episode 5700/10000 - Reward: -0.03
+Episode 5710/10000 - Reward: -0.05
+Episode 5720/10000 - Reward: -0.04
+Episode 5730/10000 - Reward: 2.21
+Episode 5740/10000 - Reward: 2.21
+Episode 5750/10000 - Reward: -0.04
+Episode 5760/10000 - Reward: -0.04
+Episode 5770/10000 - Reward: -0.06
+Episode 5780/10000 - Reward: 0.71
+Episode 5790/10000 - Reward: 2.21
+Episode 5800/10000
+  Training Reward: 0.72
+  Eval Reward: 0.48 ± 1.11
+  Eval Return: 0.67 ± 1.48
+  Win Rate: 29.00%
+Episode 5800/10000 - Reward: 0.72
+Episode 5810/10000 - Reward: -0.78
+Episode 5820/10000 - Reward: 2.22
+Episode 5830/10000 - Reward: -0.05
+Episode 5840/10000 - Reward: -0.05
+Episode 5850/10000 - Reward: -0.04
+Episode 5860/10000 - Reward: -0.05
+Episode 5870/10000 - Reward: 2.21
+Episode 5880/10000 - Reward: 2.18
+Episode 5890/10000 - Reward: -0.04
+Episode 5900/10000
+  Training Reward: -0.04
+  Eval Reward: 0.22 ± 1.12
+  Eval Return: 0.36 ± 1.50
+  Win Rate: 23.00%
+Episode 5900/10000 - Reward: -0.04
+Episode 5910/10000 - Reward: -0.05
+Episode 5920/10000 - Reward: 2.19
+Episode 5930/10000 - Reward: -0.04
+Episode 5940/10000 - Reward: -0.05
+Episode 5950/10000 - Reward: -0.07
+Episode 5960/10000 - Reward: -0.04
+Episode 5970/10000 - Reward: 2.20
+Episode 5980/10000 - Reward: 2.21
+Episode 5990/10000 - Reward: -0.03
+Episode 6000/10000
+  Training Reward: -0.03
+  Eval Reward: 0.28 ± 0.98
+  Eval Return: 0.42 ± 1.31
+  Win Rate: 20.00%
+Episode 6000/10000 - Reward: -0.03
+Episode 6010/10000 - Reward: -0.05
+Episode 6020/10000 - Reward: -2.37
+Episode 6030/10000 - Reward: -0.09
+Episode 6040/10000 - Reward: 1.44
+Episode 6050/10000 - Reward: -0.06
+Episode 6060/10000 - Reward: -0.08
+Episode 6070/10000 - Reward: -0.05
+Episode 6080/10000 - Reward: 2.18
+Episode 6090/10000 - Reward: -0.05
+Episode 6100/10000
+  Training Reward: -0.05
+  Eval Reward: 0.41 ± 0.98
+  Eval Return: 0.60 ± 1.30
+  Win Rate: 23.00%
+Episode 6100/10000 - Reward: -0.05
+Episode 6110/10000 - Reward: -0.03
+Episode 6120/10000 - Reward: -0.04
+Episode 6130/10000 - Reward: -0.02
+Episode 6140/10000 - Reward: -0.03
+Episode 6150/10000 - Reward: -0.04
+Episode 6160/10000 - Reward: -0.04
+Episode 6170/10000 - Reward: -0.80
+Episode 6180/10000 - Reward: -0.04
+Episode 6190/10000 - Reward: -2.32
+Episode 6200/10000
+  Training Reward: -0.05
+  Eval Reward: 0.44 ± 1.09
+  Eval Return: 0.65 ± 1.45
+  Win Rate: 28.00%
+Episode 6200/10000 - Reward: -0.05
+Episode 6210/10000 - Reward: -0.03
+Episode 6220/10000 - Reward: -0.03
+Episode 6230/10000 - Reward: -0.04
+Episode 6240/10000 - Reward: 2.21
+Episode 6250/10000 - Reward: -0.04
+Episode 6260/10000 - Reward: -0.08
+Episode 6270/10000 - Reward: -0.05
+Episode 6280/10000 - Reward: -1.55
+Episode 6290/10000 - Reward: -0.11
+Episode 6300/10000
+  Training Reward: -0.09
+  Eval Reward: 0.36 ± 1.12
+  Eval Return: 0.56 ± 1.49
+  Win Rate: 26.00%
+Episode 6300/10000 - Reward: -0.09
+Episode 6310/10000 - Reward: -0.05
+Episode 6320/10000 - Reward: -0.04
+Episode 6330/10000 - Reward: -2.29
+Episode 6340/10000 - Reward: -2.32
+Episode 6350/10000 - Reward: -0.04
+Episode 6360/10000 - Reward: -0.04
+Episode 6370/10000 - Reward: -0.05
+Episode 6380/10000 - Reward: -0.05
+Episode 6390/10000 - Reward: 2.21
+Episode 6400/10000
+  Training Reward: -0.05
+  Eval Reward: 0.11 ± 1.20
+  Eval Return: 0.21 ± 1.60
+  Win Rate: 20.00%
+Episode 6400/10000 - Reward: -0.05
+Episode 6410/10000 - Reward: -0.05
+Episode 6420/10000 - Reward: -0.05
+Episode 6430/10000 - Reward: -0.08
+Episode 6440/10000 - Reward: 2.20
+Episode 6450/10000 - Reward: -0.04
+Episode 6460/10000 - Reward: -0.05
+Episode 6470/10000 - Reward: -0.07
+Episode 6480/10000 - Reward: 2.21
+Episode 6490/10000 - Reward: -0.04
+Episode 6500/10000
+  Training Reward: -0.04
+  Eval Reward: 0.32 ± 1.15
+  Eval Return: 0.48 ± 1.53
+  Win Rate: 23.00%
+Episode 6500/10000 - Reward: -0.04
+Episode 6510/10000 - Reward: -0.04
+Episode 6520/10000 - Reward: -0.03
+Episode 6530/10000 - Reward: -0.04
+Episode 6540/10000 - Reward: -0.04
+Episode 6550/10000 - Reward: -0.05
+Episode 6560/10000 - Reward: 2.22
+Episode 6570/10000 - Reward: -0.03
+Episode 6580/10000 - Reward: -0.05
+Episode 6590/10000 - Reward: -0.05
+Episode 6600/10000
+  Training Reward: 2.21
+  Eval Reward: 0.27 ± 1.02
+  Eval Return: 0.42 ± 1.37
+  Win Rate: 19.00%
+Episode 6600/10000 - Reward: 2.21
+Episode 6610/10000 - Reward: -0.08
+Episode 6620/10000 - Reward: -0.07
+Episode 6630/10000 - Reward: -2.31
+Episode 6640/10000 - Reward: -0.04
+Episode 6650/10000 - Reward: -0.04
+Episode 6660/10000 - Reward: -0.03
+Episode 6670/10000 - Reward: -0.03
+Episode 6680/10000 - Reward: -0.04
+Episode 6690/10000 - Reward: 2.22
+Episode 6700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.35 ± 1.11
+  Eval Return: 0.51 ± 1.47
+  Win Rate: 22.00%
+Episode 6700/10000 - Reward: -0.03
+Episode 6710/10000 - Reward: 2.19
+Episode 6720/10000 - Reward: -2.30
+Episode 6730/10000 - Reward: -0.08
+Episode 6740/10000 - Reward: -0.04
+Episode 6750/10000 - Reward: -0.05
+Episode 6760/10000 - Reward: -0.05
+Episode 6770/10000 - Reward: -0.08
+Episode 6780/10000 - Reward: -0.79
+Episode 6790/10000 - Reward: -0.04
+Episode 6800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.48 ± 1.37
+  Eval Return: 0.68 ± 1.83
+  Win Rate: 34.00%
+Episode 6800/10000 - Reward: -0.04
+Episode 6810/10000 - Reward: -0.03
+Episode 6820/10000 - Reward: -0.03
+Episode 6830/10000 - Reward: 2.21
+Episode 6840/10000 - Reward: 2.22
+Episode 6850/10000 - Reward: -0.05
+Episode 6860/10000 - Reward: 2.22
+Episode 6870/10000 - Reward: 2.22
+Episode 6880/10000 - Reward: 1.47
+Episode 6890/10000 - Reward: 2.22
+Episode 6900/10000
+  Training Reward: -0.05
+  Eval Reward: 0.37 ± 1.00
+  Eval Return: 0.54 ± 1.34
+  Win Rate: 23.00%
+Episode 6900/10000 - Reward: -0.05
+Episode 6910/10000 - Reward: -0.03
+Episode 6920/10000 - Reward: -0.06
+Episode 6930/10000 - Reward: 1.44
+Episode 6940/10000 - Reward: -0.05
+Episode 6950/10000 - Reward: -0.03
+Episode 6960/10000 - Reward: -0.06
+Episode 6970/10000 - Reward: 2.21
+Episode 6980/10000 - Reward: 1.46
+Episode 6990/10000 - Reward: -0.03
+Episode 7000/10000
+  Training Reward: -0.06
+  Eval Reward: 0.51 ± 1.11
+  Eval Return: 0.72 ± 1.48
+  Win Rate: 28.00%
+Episode 7000/10000 - Reward: -0.06
+Episode 7010/10000 - Reward: 2.23
+Episode 7020/10000 - Reward: 1.47
+Episode 7030/10000 - Reward: -0.03
+Episode 7040/10000 - Reward: 2.19
+Episode 7050/10000 - Reward: -0.07
+Episode 7060/10000 - Reward: -0.04
+Episode 7070/10000 - Reward: 2.20
+Episode 7080/10000 - Reward: -0.04
+Episode 7090/10000 - Reward: 2.21
+Episode 7100/10000
+  Training Reward: 2.21
+  Eval Reward: 0.40 ± 1.31
+  Eval Return: 0.58 ± 1.75
+  Win Rate: 30.00%
+Episode 7100/10000 - Reward: 2.21
+Episode 7110/10000 - Reward: -0.03
+Episode 7120/10000 - Reward: -2.28
+Episode 7130/10000 - Reward: 2.21
+Episode 7140/10000 - Reward: 2.18
+Episode 7150/10000 - Reward: -0.05
+Episode 7160/10000 - Reward: -0.04
+Episode 7170/10000 - Reward: 2.21
+Episode 7180/10000 - Reward: -0.04
+Episode 7190/10000 - Reward: -0.04
+Episode 7200/10000
+  Training Reward: 2.21
+  Eval Reward: 0.27 ± 1.33
+  Eval Return: 0.40 ± 1.78
+  Win Rate: 28.00%
+Episode 7200/10000 - Reward: 2.21
+Episode 7210/10000 - Reward: -0.03
+Episode 7220/10000 - Reward: -0.04
+Episode 7230/10000 - Reward: -0.05
+Episode 7240/10000 - Reward: -0.07
+Episode 7250/10000 - Reward: 1.43
+Episode 7260/10000 - Reward: -2.29
+Episode 7270/10000 - Reward: -0.10
+Episode 7280/10000 - Reward: 2.18
+Episode 7290/10000 - Reward: -0.05
+Episode 7300/10000
+  Training Reward: -0.04
+  Eval Reward: 0.32 ± 1.26
+  Eval Return: 0.49 ± 1.68
+  Win Rate: 26.00%
+Episode 7300/10000 - Reward: -0.04
+Episode 7310/10000 - Reward: 2.22
+Episode 7320/10000 - Reward: -0.04
+Episode 7330/10000 - Reward: -0.03
+Episode 7340/10000 - Reward: 1.46
+Episode 7350/10000 - Reward: -0.04
+Episode 7360/10000 - Reward: -0.05
+Episode 7370/10000 - Reward: -2.29
+Episode 7380/10000 - Reward: -0.03
+Episode 7390/10000 - Reward: 1.47
+Episode 7400/10000
+  Training Reward: -0.05
+  Eval Reward: 0.24 ± 1.15
+  Eval Return: 0.39 ± 1.53
+  Win Rate: 23.00%
+Episode 7400/10000 - Reward: -0.05
+Episode 7410/10000 - Reward: -2.31
+Episode 7420/10000 - Reward: -0.04
+Episode 7430/10000 - Reward: -0.04
+Episode 7440/10000 - Reward: -0.79
+Episode 7450/10000 - Reward: -0.05
+Episode 7460/10000 - Reward: -0.04
+Episode 7470/10000 - Reward: 2.22
+Episode 7480/10000 - Reward: -2.29
+Episode 7490/10000 - Reward: -0.04
+Episode 7500/10000
+  Training Reward: 2.21
+  Eval Reward: 0.38 ± 1.31
+  Eval Return: 0.56 ± 1.75
+  Win Rate: 30.00%
+Episode 7500/10000 - Reward: 2.21
+Episode 7510/10000 - Reward: -2.29
+Episode 7520/10000 - Reward: -0.05
+Episode 7530/10000 - Reward: -0.04
+Episode 7540/10000 - Reward: 2.21
+Episode 7550/10000 - Reward: -0.07
+Episode 7560/10000 - Reward: -0.04
+Episode 7570/10000 - Reward: -0.05
+Episode 7580/10000 - Reward: -0.06
+Episode 7590/10000 - Reward: -0.04
+Episode 7600/10000
+  Training Reward: -0.04
+  Eval Reward: 0.38 ± 1.13
+  Eval Return: 0.56 ± 1.51
+  Win Rate: 28.00%
+Episode 7600/10000 - Reward: -0.04
+Episode 7610/10000 - Reward: -0.04
+Episode 7620/10000 - Reward: -0.03
+Episode 7630/10000 - Reward: -0.03
+Episode 7640/10000 - Reward: 2.22
+Episode 7650/10000 - Reward: 2.22
+Episode 7660/10000 - Reward: -2.27
+Episode 7670/10000 - Reward: 2.22
+Episode 7680/10000 - Reward: 2.19
+Episode 7690/10000 - Reward: -0.03
+Episode 7700/10000
+  Training Reward: -2.28
+  Eval Reward: 0.18 ± 1.15
+  Eval Return: 0.30 ± 1.54
+  Win Rate: 20.00%
+Episode 7700/10000 - Reward: -2.28
+Episode 7710/10000 - Reward: 2.19
+Episode 7720/10000 - Reward: -0.05
+Episode 7730/10000 - Reward: 2.21
+Episode 7740/10000 - Reward: -0.04
+Episode 7750/10000 - Reward: -0.04
+Episode 7760/10000 - Reward: -1.53
+Episode 7770/10000 - Reward: -0.04
+Episode 7780/10000 - Reward: -0.05
+Episode 7790/10000 - Reward: -0.05
+Episode 7800/10000
+  Training Reward: -0.04
+  Eval Reward: 0.45 ± 1.01
+  Eval Return: 0.66 ± 1.34
+  Win Rate: 24.00%
+Episode 7800/10000 - Reward: -0.04
+Episode 7810/10000 - Reward: -0.06
+Episode 7820/10000 - Reward: 2.20
+Episode 7830/10000 - Reward: -0.03
+Episode 7840/10000 - Reward: -2.29
+Episode 7850/10000 - Reward: -0.04
+Episode 7860/10000 - Reward: 2.20
+Episode 7870/10000 - Reward: -0.03
+Episode 7880/10000 - Reward: 2.22
+Episode 7890/10000 - Reward: -0.02
+Episode 7900/10000
+  Training Reward: -0.02
+  Eval Reward: 0.37 ± 0.96
+  Eval Return: 0.53 ± 1.28
+  Win Rate: 21.00%
+Episode 7900/10000 - Reward: -0.02
+Episode 7910/10000 - Reward: -0.07
+Episode 7920/10000 - Reward: -0.11
+Episode 7930/10000 - Reward: -0.09
+Episode 7940/10000 - Reward: -0.06
+Episode 7950/10000 - Reward: -1.57
+Episode 7960/10000 - Reward: -0.07
+Episode 7970/10000 - Reward: -0.07
+Episode 7980/10000 - Reward: -0.06
+Episode 7990/10000 - Reward: -0.06
+Episode 8000/10000
+  Training Reward: -2.30
+  Eval Reward: 0.37 ± 1.23
+  Eval Return: 0.54 ± 1.65
+  Win Rate: 29.00%
+Episode 8000/10000 - Reward: -2.30
+Episode 8010/10000 - Reward: -0.03
+Episode 8020/10000 - Reward: -0.05
+Episode 8030/10000 - Reward: -0.04
+Episode 8040/10000 - Reward: -0.06
+Episode 8050/10000 - Reward: -1.54
+Episode 8060/10000 - Reward: 2.21
+Episode 8070/10000 - Reward: -0.06
+Episode 8080/10000 - Reward: -0.04
+Episode 8090/10000 - Reward: -0.04
+Episode 8100/10000
+  Training Reward: -0.04
+  Eval Reward: 0.16 ± 1.20
+  Eval Return: 0.27 ± 1.61
+  Win Rate: 26.00%
+Episode 8100/10000 - Reward: -0.04
+Episode 8110/10000 - Reward: -0.05
+Episode 8120/10000 - Reward: -0.06
+Episode 8130/10000 - Reward: -0.06
+Episode 8140/10000 - Reward: -0.06
+Episode 8150/10000 - Reward: -0.06
+Episode 8160/10000 - Reward: -0.09
+Episode 8170/10000 - Reward: -0.05
+Episode 8180/10000 - Reward: -0.07
+Episode 8190/10000 - Reward: -0.07
+Episode 8200/10000
+  Training Reward: -0.07
+  Eval Reward: 0.25 ± 1.13
+  Eval Return: 0.43 ± 1.50
+  Win Rate: 23.00%
+Episode 8200/10000 - Reward: -0.07
+Episode 8210/10000 - Reward: 2.20
+Episode 8220/10000 - Reward: -0.03
+Episode 8230/10000 - Reward: 2.23
+Episode 8240/10000 - Reward: -0.03
+Episode 8250/10000 - Reward: -0.02
+Episode 8260/10000 - Reward: -0.03
+Episode 8270/10000 - Reward: -0.03
+Episode 8280/10000 - Reward: -0.03
+Episode 8290/10000 - Reward: -0.04
+Episode 8300/10000
+  Training Reward: -0.05
+  Eval Reward: 0.28 ± 1.21
+  Eval Return: 0.44 ± 1.61
+  Win Rate: 23.00%
+Episode 8300/10000 - Reward: -0.05
+Episode 8310/10000 - Reward: -0.04
+Episode 8320/10000 - Reward: 2.22
+Episode 8330/10000 - Reward: -0.05
+Episode 8340/10000 - Reward: -0.06
+Episode 8350/10000 - Reward: -2.30
+Episode 8360/10000 - Reward: -0.08
+Episode 8370/10000 - Reward: -0.05
+Episode 8380/10000 - Reward: -0.06
+Episode 8390/10000 - Reward: -0.04
+Episode 8400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.14 ± 1.42
+  Eval Return: 0.24 ± 1.90
+  Win Rate: 27.00%
+Episode 8400/10000 - Reward: -0.04
+Episode 8410/10000 - Reward: -0.04
+Episode 8420/10000 - Reward: -0.04
+Episode 8430/10000 - Reward: 2.21
+Episode 8440/10000 - Reward: -0.04
+Episode 8450/10000 - Reward: -0.04
+Episode 8460/10000 - Reward: 2.21
+Episode 8470/10000 - Reward: -0.06
+Episode 8480/10000 - Reward: -0.10
+Episode 8490/10000 - Reward: -0.09
+Episode 8500/10000
+  Training Reward: 2.21
+  Eval Reward: 0.36 ± 1.19
+  Eval Return: 0.53 ± 1.58
+  Win Rate: 27.00%
+Episode 8500/10000 - Reward: 2.21
+Episode 8510/10000 - Reward: -0.03
+Episode 8520/10000 - Reward: -0.03
+Episode 8530/10000 - Reward: -0.02
+Episode 8540/10000 - Reward: -0.03
+Episode 8550/10000 - Reward: -0.03
+Episode 8560/10000 - Reward: -0.03
+Episode 8570/10000 - Reward: 1.47
+Episode 8580/10000 - Reward: -0.03
+Episode 8590/10000 - Reward: -1.52
+Episode 8600/10000
+  Training Reward: -0.03
+  Eval Reward: 0.30 ± 1.12
+  Eval Return: 0.46 ± 1.49
+  Win Rate: 24.00%
+Episode 8600/10000 - Reward: -0.03
+Episode 8610/10000 - Reward: -0.04
+Episode 8620/10000 - Reward: -0.04
+Episode 8630/10000 - Reward: -0.03
+Episode 8640/10000 - Reward: -1.54
+Episode 8650/10000 - Reward: 2.21
+Episode 8660/10000 - Reward: -2.28
+Episode 8670/10000 - Reward: -0.78
+Episode 8680/10000 - Reward: 2.22
+Episode 8690/10000 - Reward: 2.19
+Episode 8700/10000
+  Training Reward: -0.03
+  Eval Reward: 0.35 ± 1.21
+  Eval Return: 0.51 ± 1.62
+  Win Rate: 25.00%
+Episode 8700/10000 - Reward: -0.03
+Episode 8710/10000 - Reward: -0.05
+Episode 8720/10000 - Reward: -0.05
+Episode 8730/10000 - Reward: -0.04
+Episode 8740/10000 - Reward: -0.04
+Episode 8750/10000 - Reward: -0.03
+Episode 8760/10000 - Reward: -0.04
+Episode 8770/10000 - Reward: -0.04
+Episode 8780/10000 - Reward: -0.04
+Episode 8790/10000 - Reward: -0.04
+Episode 8800/10000
+  Training Reward: 2.17
+  Eval Reward: 0.54 ± 1.26
+  Eval Return: 0.76 ± 1.68
+  Win Rate: 34.00%
+  Saved best model (eval reward: 0.54)
+Episode 8800/10000 - Reward: 2.17
+Episode 8810/10000 - Reward: -0.02
+Episode 8820/10000 - Reward: -0.01
+Episode 8830/10000 - Reward: -0.01
+Episode 8840/10000 - Reward: -0.01
+Episode 8850/10000 - Reward: -0.01
+Episode 8860/10000 - Reward: -0.01
+Episode 8870/10000 - Reward: 2.22
+Episode 8880/10000 - Reward: -0.03
+Episode 8890/10000 - Reward: 1.47
+Episode 8900/10000
+  Training Reward: 2.22
+  Eval Reward: 0.51 ± 1.26
+  Eval Return: 0.72 ± 1.67
+  Win Rate: 35.00%
+Episode 8900/10000 - Reward: 2.22
+Episode 8910/10000 - Reward: -0.01
+Episode 8920/10000 - Reward: -0.02
+Episode 8930/10000 - Reward: -0.03
+Episode 8940/10000 - Reward: -0.03
+Episode 8950/10000 - Reward: -0.03
+Episode 8960/10000 - Reward: -0.04
+Episode 8970/10000 - Reward: -0.04
+Episode 8980/10000 - Reward: 2.20
+Episode 8990/10000 - Reward: -1.54
+Episode 9000/10000
+  Training Reward: -1.55
+  Eval Reward: -0.01 ± 1.33
+  Eval Return: 0.06 ± 1.77
+  Win Rate: 21.00%
+Episode 9000/10000 - Reward: -1.55
+Episode 9010/10000 - Reward: -0.05
+Episode 9020/10000 - Reward: -0.05
+Episode 9030/10000 - Reward: -2.32
+Episode 9040/10000 - Reward: -0.09
+Episode 9050/10000 - Reward: -0.06
+Episode 9060/10000 - Reward: -0.06
+Episode 9070/10000 - Reward: 2.20
+Episode 9080/10000 - Reward: 2.21
+Episode 9090/10000 - Reward: -0.04
+Episode 9100/10000
+  Training Reward: -0.07
+  Eval Reward: 0.36 ± 1.24
+  Eval Return: 0.54 ± 1.66
+  Win Rate: 27.00%
+Episode 9100/10000 - Reward: -0.07
+Episode 9110/10000 - Reward: -0.04
+Episode 9120/10000 - Reward: -0.03
+Episode 9130/10000 - Reward: -0.05
+Episode 9140/10000 - Reward: -0.04
+Episode 9150/10000 - Reward: -0.04
+Episode 9160/10000 - Reward: -0.04
+Episode 9170/10000 - Reward: -0.07
+Episode 9180/10000 - Reward: -0.05
+Episode 9190/10000 - Reward: -0.04
+Episode 9200/10000
+  Training Reward: -0.05
+  Eval Reward: 0.24 ± 1.15
+  Eval Return: 0.39 ± 1.54
+  Win Rate: 21.00%
+Episode 9200/10000 - Reward: -0.05
+Episode 9210/10000 - Reward: 2.17
+Episode 9220/10000 - Reward: -0.06
+Episode 9230/10000 - Reward: -0.09
+Episode 9240/10000 - Reward: -0.06
+Episode 9250/10000 - Reward: -0.09
+Episode 9260/10000 - Reward: 2.19
+Episode 9270/10000 - Reward: -0.05
+Episode 9280/10000 - Reward: -0.05
+Episode 9290/10000 - Reward: -0.04
+Episode 9300/10000
+  Training Reward: 2.22
+  Eval Reward: 0.38 ± 1.20
+  Eval Return: 0.54 ± 1.60
+  Win Rate: 27.00%
+Episode 9300/10000 - Reward: 2.22
+Episode 9310/10000 - Reward: -0.03
+Episode 9320/10000 - Reward: -0.03
+Episode 9330/10000 - Reward: -0.01
+Episode 9340/10000 - Reward: -0.02
+Episode 9350/10000 - Reward: 2.23
+Episode 9360/10000 - Reward: -0.02
+Episode 9370/10000 - Reward: -0.02
+Episode 9380/10000 - Reward: -0.02
+Episode 9390/10000 - Reward: -0.03
+Episode 9400/10000
+  Training Reward: -0.04
+  Eval Reward: 0.28 ± 1.06
+  Eval Return: 0.43 ± 1.42
+  Win Rate: 21.00%
+Episode 9400/10000 - Reward: -0.04
+Episode 9410/10000 - Reward: -0.05
+Episode 9420/10000 - Reward: -0.05
+Episode 9430/10000 - Reward: -0.06
+Episode 9440/10000 - Reward: -1.56
+Episode 9450/10000 - Reward: -0.06
+Episode 9460/10000 - Reward: -0.06
+Episode 9470/10000 - Reward: -0.06
+Episode 9480/10000 - Reward: -0.06
+Episode 9490/10000 - Reward: 2.18
+Episode 9500/10000
+  Training Reward: -0.10
+  Eval Reward: 0.39 ± 1.19
+  Eval Return: 0.59 ± 1.58
+  Win Rate: 28.00%
+Episode 9500/10000 - Reward: -0.10
+Episode 9510/10000 - Reward: -0.02
+Episode 9520/10000 - Reward: -0.04
+Episode 9530/10000 - Reward: -2.28
+Episode 9540/10000 - Reward: 2.21
+Episode 9550/10000 - Reward: 2.22
+Episode 9560/10000 - Reward: -0.05
+Episode 9570/10000 - Reward: -0.02
+Episode 9580/10000 - Reward: -0.02
+Episode 9590/10000 - Reward: -0.03
+Episode 9600/10000
+  Training Reward: 2.20
+  Eval Reward: 0.25 ± 1.09
+  Eval Return: 0.40 ± 1.46
+  Win Rate: 23.00%
+Episode 9600/10000 - Reward: 2.20
+Episode 9610/10000 - Reward: -0.04
+Episode 9620/10000 - Reward: -0.06
+Episode 9630/10000 - Reward: -0.04
+Episode 9640/10000 - Reward: -2.30
+Episode 9650/10000 - Reward: -0.05
+Episode 9660/10000 - Reward: -0.06
+Episode 9670/10000 - Reward: -0.06
+Episode 9680/10000 - Reward: -0.06
+Episode 9690/10000 - Reward: 2.17
+Episode 9700/10000
+  Training Reward: -1.56
+  Eval Reward: 0.15 ± 1.14
+  Eval Return: 0.28 ± 1.52
+  Win Rate: 20.00%
+Episode 9700/10000 - Reward: -1.56
+Episode 9710/10000 - Reward: -0.05
+Episode 9720/10000 - Reward: -0.05
+Episode 9730/10000 - Reward: -0.08
+Episode 9740/10000 - Reward: 1.45
+Episode 9750/10000 - Reward: 2.16
+Episode 9760/10000 - Reward: -0.05
+Episode 9770/10000 - Reward: -0.05
+Episode 9780/10000 - Reward: -0.06
+Episode 9790/10000 - Reward: -0.03
+Episode 9800/10000
+  Training Reward: 2.21
+  Eval Reward: 0.15 ± 1.26
+  Eval Return: 0.27 ± 1.68
+  Win Rate: 24.00%
+Episode 9800/10000 - Reward: 2.21
+Episode 9810/10000 - Reward: -0.07
+Episode 9820/10000 - Reward: -0.05
+Episode 9830/10000 - Reward: 1.42
+Episode 9840/10000 - Reward: -0.04
+Episode 9850/10000 - Reward: -0.03
+Episode 9860/10000 - Reward: -0.02
+Episode 9870/10000 - Reward: -0.02
+Episode 9880/10000 - Reward: -0.03
+Episode 9890/10000 - Reward: -0.06
+Episode 9900/10000
+  Training Reward: -0.04
+  Eval Reward: 0.15 ± 1.55
+  Eval Return: 0.26 ± 2.07
+  Win Rate: 29.00%
+Episode 9900/10000 - Reward: -0.04
+Episode 9910/10000 - Reward: -0.04
+Episode 9920/10000 - Reward: -0.03
+Episode 9930/10000 - Reward: 2.22
+Episode 9940/10000 - Reward: -0.03
+Episode 9950/10000 - Reward: -2.28
+Episode 9960/10000 - Reward: 2.22
+Episode 9970/10000 - Reward: -2.28
+Episode 9980/10000 - Reward: -0.04
+Episode 9990/10000 - Reward: -0.02
+Episode 10000/10000
+  Training Reward: -1.52
+  Eval Reward: 0.23 ± 1.16
+  Eval Return: 0.37 ± 1.55
+  Win Rate: 23.00%
+Episode 10000/10000 - Reward: -1.52
+
+Training complete! Results saved to results/dueling_ddqn_20251202_205824
+Best evaluation reward: 0.54
+✓ DUELING_DDQN training completed successfully
+  Duration: 29 seconds
+
+----------------------------------------
+Training PPO...
+Started at: Tue Dec  2 20:58:52 PST 2025
+----------------------------------------
+Training PPO for 10000 episodes...
+Episode 10/10000 - Reward: 2.22
+Episode 20/10000 - Reward: -0.07
+Episode 30/10000 - Reward: -0.08
+Episode 40/10000 - Reward: -0.09
+Episode 50/10000 - Reward: -0.09
+Episode 60/10000 - Reward: -0.09
+Episode 70/10000 - Reward: -0.10
+Episode 80/10000 - Reward: -0.10
+Episode 90/10000 - Reward: -1.60
+Episode 100/10000
+  Training Reward: -1.66
+  Eval Reward: -1.77 ± 0.17
+  Eval Return: -2.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -1.77)
+Episode 100/10000 - Reward: -1.66
+Episode 110/10000 - Reward: -0.22
+Episode 120/10000 - Reward: -0.18
+Episode 130/10000 - Reward: -0.16
+Episode 140/10000 - Reward: -0.15
+Episode 150/10000 - Reward: -0.14
+Episode 160/10000 - Reward: -0.13
+Episode 170/10000 - Reward: -0.13
+Episode 180/10000 - Reward: -0.12
+Episode 190/10000 - Reward: -0.12
+Episode 200/10000
+  Training Reward: -0.11
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.10)
+Episode 200/10000 - Reward: -0.11
+Episode 210/10000 - Reward: -0.10
+Episode 220/10000 - Reward: -0.10
+Episode 230/10000 - Reward: -0.10
+Episode 240/10000 - Reward: -0.10
+Episode 250/10000 - Reward: -0.10
+Episode 260/10000 - Reward: -0.10
+Episode 270/10000 - Reward: -0.10
+Episode 280/10000 - Reward: -0.10
+Episode 290/10000 - Reward: -0.10
+Episode 300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.10)
+Episode 300/10000 - Reward: -0.10
+Episode 310/10000 - Reward: -0.10
+Episode 320/10000 - Reward: -0.10
+Episode 330/10000 - Reward: -0.10
+Episode 340/10000 - Reward: -0.10
+Episode 350/10000 - Reward: -0.10
+Episode 360/10000 - Reward: -0.10
+Episode 370/10000 - Reward: -0.10
+Episode 380/10000 - Reward: -0.10
+Episode 390/10000 - Reward: -0.10
+Episode 400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 400/10000 - Reward: -0.10
+Episode 410/10000 - Reward: -0.10
+Episode 420/10000 - Reward: -0.10
+Episode 430/10000 - Reward: -0.10
+Episode 440/10000 - Reward: -0.10
+Episode 450/10000 - Reward: -0.10
+Episode 460/10000 - Reward: -0.10
+Episode 470/10000 - Reward: -0.10
+Episode 480/10000 - Reward: -0.10
+Episode 490/10000 - Reward: -0.10
+Episode 500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 500/10000 - Reward: -0.10
+Episode 510/10000 - Reward: -0.10
+Episode 520/10000 - Reward: -0.10
+Episode 530/10000 - Reward: -0.10
+Episode 540/10000 - Reward: -0.10
+Episode 550/10000 - Reward: -0.10
+Episode 560/10000 - Reward: -0.10
+Episode 570/10000 - Reward: -0.10
+Episode 580/10000 - Reward: -0.10
+Episode 590/10000 - Reward: -0.10
+Episode 600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 600/10000 - Reward: -0.10
+Episode 610/10000 - Reward: -0.10
+Episode 620/10000 - Reward: -0.10
+Episode 630/10000 - Reward: -0.10
+Episode 640/10000 - Reward: -0.10
+Episode 650/10000 - Reward: -0.10
+Episode 660/10000 - Reward: -0.10
+Episode 670/10000 - Reward: -0.10
+Episode 680/10000 - Reward: -0.10
+Episode 690/10000 - Reward: -0.10
+Episode 700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 700/10000 - Reward: -0.10
+Episode 710/10000 - Reward: -0.10
+Episode 720/10000 - Reward: -0.10
+Episode 730/10000 - Reward: -0.10
+Episode 740/10000 - Reward: -0.10
+Episode 750/10000 - Reward: -0.10
+Episode 760/10000 - Reward: -0.10
+Episode 770/10000 - Reward: -0.10
+Episode 780/10000 - Reward: -0.10
+Episode 790/10000 - Reward: -0.10
+Episode 800/10000
+  Training Reward: -0.11
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 800/10000 - Reward: -0.11
+Episode 810/10000 - Reward: -0.10
+Episode 820/10000 - Reward: -0.10
+Episode 830/10000 - Reward: -0.10
+Episode 840/10000 - Reward: -0.10
+Episode 850/10000 - Reward: -0.10
+Episode 860/10000 - Reward: -0.10
+Episode 870/10000 - Reward: -0.10
+Episode 880/10000 - Reward: -0.10
+Episode 890/10000 - Reward: -0.10
+Episode 900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 900/10000 - Reward: -0.10
+Episode 910/10000 - Reward: -0.10
+Episode 920/10000 - Reward: -0.10
+Episode 930/10000 - Reward: -0.84
+Episode 940/10000 - Reward: -0.09
+Episode 950/10000 - Reward: -0.10
+Episode 960/10000 - Reward: -0.10
+Episode 970/10000 - Reward: -0.10
+Episode 980/10000 - Reward: -0.10
+Episode 990/10000 - Reward: -0.10
+Episode 1000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.10)
+Episode 1000/10000 - Reward: -0.10
+Episode 1010/10000 - Reward: -0.10
+Episode 1020/10000 - Reward: -0.10
+Episode 1030/10000 - Reward: -0.09
+Episode 1040/10000 - Reward: -0.84
+Episode 1050/10000 - Reward: 0.66
+Episode 1060/10000 - Reward: -0.09
+Episode 1070/10000 - Reward: -0.09
+Episode 1080/10000 - Reward: -0.09
+Episode 1090/10000 - Reward: -0.09
+Episode 1100/10000
+  Training Reward: -0.09
+  Eval Reward: -0.10 ± 0.01
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 1100/10000 - Reward: -0.09
+Episode 1110/10000 - Reward: -0.10
+Episode 1120/10000 - Reward: -0.10
+Episode 1130/10000 - Reward: -0.10
+Episode 1140/10000 - Reward: -0.10
+Episode 1150/10000 - Reward: -0.09
+Episode 1160/10000 - Reward: -0.85
+Episode 1170/10000 - Reward: -0.10
+Episode 1180/10000 - Reward: -0.10
+Episode 1190/10000 - Reward: -0.10
+Episode 1200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.13
+  Eval Return: -0.01 ± 0.17
+  Win Rate: 1.00%
+Episode 1200/10000 - Reward: -0.10
+Episode 1210/10000 - Reward: -0.10
+Episode 1220/10000 - Reward: -0.10
+Episode 1230/10000 - Reward: -0.11
+Episode 1240/10000 - Reward: -0.10
+Episode 1250/10000 - Reward: -1.60
+Episode 1260/10000 - Reward: -0.10
+Episode 1270/10000 - Reward: -0.84
+Episode 1280/10000 - Reward: 2.17
+Episode 1290/10000 - Reward: 0.68
+Episode 1300/10000
+  Training Reward: -0.07
+  Eval Reward: -0.22 ± 0.51
+  Eval Return: -0.21 ± 0.68
+  Win Rate: 15.00%
+Episode 1300/10000 - Reward: -0.07
+Episode 1310/10000 - Reward: -0.08
+Episode 1320/10000 - Reward: -0.83
+Episode 1330/10000 - Reward: -0.08
+Episode 1340/10000 - Reward: -0.07
+Episode 1350/10000 - Reward: -0.07
+Episode 1360/10000 - Reward: -0.07
+Episode 1370/10000 - Reward: -0.08
+Episode 1380/10000 - Reward: -0.08
+Episode 1390/10000 - Reward: -0.08
+Episode 1400/10000
+  Training Reward: -0.08
+  Eval Reward: -0.10 ± 0.01
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.10)
+Episode 1400/10000 - Reward: -0.08
+Episode 1410/10000 - Reward: -0.10
+Episode 1420/10000 - Reward: 0.61
+Episode 1430/10000 - Reward: -0.09
+Episode 1440/10000 - Reward: -0.09
+Episode 1450/10000 - Reward: -0.09
+Episode 1460/10000 - Reward: -0.09
+Episode 1470/10000 - Reward: -0.09
+Episode 1480/10000 - Reward: -0.10
+Episode 1490/10000 - Reward: -0.10
+Episode 1500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 1500/10000 - Reward: -0.10
+Episode 1510/10000 - Reward: -0.10
+Episode 1520/10000 - Reward: -0.10
+Episode 1530/10000 - Reward: -0.10
+Episode 1540/10000 - Reward: -0.10
+Episode 1550/10000 - Reward: -0.10
+Episode 1560/10000 - Reward: -0.09
+Episode 1570/10000 - Reward: -0.09
+Episode 1580/10000 - Reward: -0.09
+Episode 1590/10000 - Reward: -0.09
+Episode 1600/10000
+  Training Reward: -0.09
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.10)
+Episode 1600/10000 - Reward: -0.09
+Episode 1610/10000 - Reward: -0.10
+Episode 1620/10000 - Reward: -0.10
+Episode 1630/10000 - Reward: -0.10
+Episode 1640/10000 - Reward: -0.10
+Episode 1650/10000 - Reward: -0.10
+Episode 1660/10000 - Reward: -0.10
+Episode 1670/10000 - Reward: -0.10
+Episode 1680/10000 - Reward: -0.10
+Episode 1690/10000 - Reward: -0.10
+Episode 1700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 1700/10000 - Reward: -0.10
+Episode 1710/10000 - Reward: -0.10
+Episode 1720/10000 - Reward: -0.10
+Episode 1730/10000 - Reward: -0.10
+Episode 1740/10000 - Reward: -0.10
+Episode 1750/10000 - Reward: -0.10
+Episode 1760/10000 - Reward: -0.10
+Episode 1770/10000 - Reward: -0.10
+Episode 1780/10000 - Reward: -0.10
+Episode 1790/10000 - Reward: -0.10
+Episode 1800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 1800/10000 - Reward: -0.10
+Episode 1810/10000 - Reward: -0.10
+Episode 1820/10000 - Reward: -0.10
+Episode 1830/10000 - Reward: -0.10
+Episode 1840/10000 - Reward: -0.10
+Episode 1850/10000 - Reward: -0.10
+Episode 1860/10000 - Reward: -0.10
+Episode 1870/10000 - Reward: -0.10
+Episode 1880/10000 - Reward: -0.10
+Episode 1890/10000 - Reward: -0.10
+Episode 1900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 1900/10000 - Reward: -0.10
+Episode 1910/10000 - Reward: -0.10
+Episode 1920/10000 - Reward: -0.10
+Episode 1930/10000 - Reward: -0.10
+Episode 1940/10000 - Reward: -0.10
+Episode 1950/10000 - Reward: -0.09
+Episode 1960/10000 - Reward: -0.09
+Episode 1970/10000 - Reward: -0.09
+Episode 1980/10000 - Reward: -0.10
+Episode 1990/10000 - Reward: -0.10
+Episode 2000/10000
+  Training Reward: -0.09
+  Eval Reward: -0.09 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+  Saved best model (eval reward: -0.09)
+Episode 2000/10000 - Reward: -0.09
+Episode 2010/10000 - Reward: -0.10
+Episode 2020/10000 - Reward: -0.10
+Episode 2030/10000 - Reward: -0.10
+Episode 2040/10000 - Reward: -0.10
+Episode 2050/10000 - Reward: -0.10
+Episode 2060/10000 - Reward: -0.10
+Episode 2070/10000 - Reward: -0.10
+Episode 2080/10000 - Reward: -0.10
+Episode 2090/10000 - Reward: -0.10
+Episode 2100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2100/10000 - Reward: -0.10
+Episode 2110/10000 - Reward: -0.10
+Episode 2120/10000 - Reward: -0.10
+Episode 2130/10000 - Reward: -0.10
+Episode 2140/10000 - Reward: -0.10
+Episode 2150/10000 - Reward: -0.10
+Episode 2160/10000 - Reward: -0.10
+Episode 2170/10000 - Reward: -0.10
+Episode 2180/10000 - Reward: -0.10
+Episode 2190/10000 - Reward: -0.10
+Episode 2200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2200/10000 - Reward: -0.10
+Episode 2210/10000 - Reward: -0.10
+Episode 2220/10000 - Reward: -0.10
+Episode 2230/10000 - Reward: -0.10
+Episode 2240/10000 - Reward: -0.10
+Episode 2250/10000 - Reward: -0.10
+Episode 2260/10000 - Reward: -0.10
+Episode 2270/10000 - Reward: -0.10
+Episode 2280/10000 - Reward: -0.10
+Episode 2290/10000 - Reward: -0.10
+Episode 2300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2300/10000 - Reward: -0.10
+Episode 2310/10000 - Reward: -0.10
+Episode 2320/10000 - Reward: -0.10
+Episode 2330/10000 - Reward: -0.10
+Episode 2340/10000 - Reward: -0.10
+Episode 2350/10000 - Reward: -0.10
+Episode 2360/10000 - Reward: -0.10
+Episode 2370/10000 - Reward: -0.10
+Episode 2380/10000 - Reward: -0.10
+Episode 2390/10000 - Reward: -0.10
+Episode 2400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2400/10000 - Reward: -0.10
+Episode 2410/10000 - Reward: -0.10
+Episode 2420/10000 - Reward: -0.10
+Episode 2430/10000 - Reward: -0.10
+Episode 2440/10000 - Reward: -0.10
+Episode 2450/10000 - Reward: -0.10
+Episode 2460/10000 - Reward: -0.10
+Episode 2470/10000 - Reward: -0.10
+Episode 2480/10000 - Reward: -0.10
+Episode 2490/10000 - Reward: -0.10
+Episode 2500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2500/10000 - Reward: -0.10
+Episode 2510/10000 - Reward: -0.10
+Episode 2520/10000 - Reward: -0.10
+Episode 2530/10000 - Reward: -0.10
+Episode 2540/10000 - Reward: -0.10
+Episode 2550/10000 - Reward: -0.10
+Episode 2560/10000 - Reward: -0.10
+Episode 2570/10000 - Reward: -0.10
+Episode 2580/10000 - Reward: -0.10
+Episode 2590/10000 - Reward: -0.10
+Episode 2600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2600/10000 - Reward: -0.10
+Episode 2610/10000 - Reward: -0.10
+Episode 2620/10000 - Reward: -0.10
+Episode 2630/10000 - Reward: -0.10
+Episode 2640/10000 - Reward: -0.10
+Episode 2650/10000 - Reward: -0.10
+Episode 2660/10000 - Reward: -0.10
+Episode 2670/10000 - Reward: -0.10
+Episode 2680/10000 - Reward: -0.10
+Episode 2690/10000 - Reward: -0.10
+Episode 2700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2700/10000 - Reward: -0.10
+Episode 2710/10000 - Reward: -0.10
+Episode 2720/10000 - Reward: -0.10
+Episode 2730/10000 - Reward: -0.10
+Episode 2740/10000 - Reward: -0.10
+Episode 2750/10000 - Reward: -0.10
+Episode 2760/10000 - Reward: -0.10
+Episode 2770/10000 - Reward: -0.10
+Episode 2780/10000 - Reward: -0.10
+Episode 2790/10000 - Reward: -0.10
+Episode 2800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2800/10000 - Reward: -0.10
+Episode 2810/10000 - Reward: -0.10
+Episode 2820/10000 - Reward: -0.10
+Episode 2830/10000 - Reward: -0.10
+Episode 2840/10000 - Reward: -0.10
+Episode 2850/10000 - Reward: -0.10
+Episode 2860/10000 - Reward: -0.10
+Episode 2870/10000 - Reward: -0.10
+Episode 2880/10000 - Reward: -0.10
+Episode 2890/10000 - Reward: -0.10
+Episode 2900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 2900/10000 - Reward: -0.10
+Episode 2910/10000 - Reward: -0.10
+Episode 2920/10000 - Reward: -0.10
+Episode 2930/10000 - Reward: -0.10
+Episode 2940/10000 - Reward: -0.10
+Episode 2950/10000 - Reward: -0.10
+Episode 2960/10000 - Reward: -0.10
+Episode 2970/10000 - Reward: -0.10
+Episode 2980/10000 - Reward: -0.10
+Episode 2990/10000 - Reward: -0.10
+Episode 3000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3000/10000 - Reward: -0.10
+Episode 3010/10000 - Reward: -0.10
+Episode 3020/10000 - Reward: -0.10
+Episode 3030/10000 - Reward: -0.10
+Episode 3040/10000 - Reward: -0.10
+Episode 3050/10000 - Reward: -0.10
+Episode 3060/10000 - Reward: -0.10
+Episode 3070/10000 - Reward: -0.10
+Episode 3080/10000 - Reward: -0.10
+Episode 3090/10000 - Reward: -0.10
+Episode 3100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3100/10000 - Reward: -0.10
+Episode 3110/10000 - Reward: -0.10
+Episode 3120/10000 - Reward: -0.10
+Episode 3130/10000 - Reward: -0.10
+Episode 3140/10000 - Reward: -0.10
+Episode 3150/10000 - Reward: -0.10
+Episode 3160/10000 - Reward: -0.10
+Episode 3170/10000 - Reward: -0.10
+Episode 3180/10000 - Reward: -0.10
+Episode 3190/10000 - Reward: -0.10
+Episode 3200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3200/10000 - Reward: -0.10
+Episode 3210/10000 - Reward: -0.10
+Episode 3220/10000 - Reward: -0.10
+Episode 3230/10000 - Reward: -0.10
+Episode 3240/10000 - Reward: -0.10
+Episode 3250/10000 - Reward: -0.10
+Episode 3260/10000 - Reward: -0.10
+Episode 3270/10000 - Reward: -0.10
+Episode 3280/10000 - Reward: -0.10
+Episode 3290/10000 - Reward: -0.10
+Episode 3300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3300/10000 - Reward: -0.10
+Episode 3310/10000 - Reward: -0.10
+Episode 3320/10000 - Reward: -0.10
+Episode 3330/10000 - Reward: -0.10
+Episode 3340/10000 - Reward: -0.10
+Episode 3350/10000 - Reward: -0.10
+Episode 3360/10000 - Reward: -0.10
+Episode 3370/10000 - Reward: -0.10
+Episode 3380/10000 - Reward: -0.10
+Episode 3390/10000 - Reward: -0.10
+Episode 3400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3400/10000 - Reward: -0.10
+Episode 3410/10000 - Reward: -0.10
+Episode 3420/10000 - Reward: -0.10
+Episode 3430/10000 - Reward: -0.10
+Episode 3440/10000 - Reward: -0.10
+Episode 3450/10000 - Reward: -0.10
+Episode 3460/10000 - Reward: -0.10
+Episode 3470/10000 - Reward: -0.10
+Episode 3480/10000 - Reward: -0.10
+Episode 3490/10000 - Reward: -0.10
+Episode 3500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3500/10000 - Reward: -0.10
+Episode 3510/10000 - Reward: -0.10
+Episode 3520/10000 - Reward: -0.10
+Episode 3530/10000 - Reward: -0.10
+Episode 3540/10000 - Reward: -0.10
+Episode 3550/10000 - Reward: -0.10
+Episode 3560/10000 - Reward: -0.10
+Episode 3570/10000 - Reward: -0.10
+Episode 3580/10000 - Reward: -0.10
+Episode 3590/10000 - Reward: -0.10
+Episode 3600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3600/10000 - Reward: -0.10
+Episode 3610/10000 - Reward: -0.10
+Episode 3620/10000 - Reward: -0.10
+Episode 3630/10000 - Reward: -0.10
+Episode 3640/10000 - Reward: -0.10
+Episode 3650/10000 - Reward: -0.10
+Episode 3660/10000 - Reward: -0.10
+Episode 3670/10000 - Reward: -0.10
+Episode 3680/10000 - Reward: -0.10
+Episode 3690/10000 - Reward: -0.10
+Episode 3700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3700/10000 - Reward: -0.10
+Episode 3710/10000 - Reward: -0.10
+Episode 3720/10000 - Reward: -0.10
+Episode 3730/10000 - Reward: -0.10
+Episode 3740/10000 - Reward: -0.10
+Episode 3750/10000 - Reward: -0.10
+Episode 3760/10000 - Reward: -0.10
+Episode 3770/10000 - Reward: -0.10
+Episode 3780/10000 - Reward: -0.10
+Episode 3790/10000 - Reward: -0.10
+Episode 3800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3800/10000 - Reward: -0.10
+Episode 3810/10000 - Reward: -0.10
+Episode 3820/10000 - Reward: -0.10
+Episode 3830/10000 - Reward: -0.10
+Episode 3840/10000 - Reward: -0.10
+Episode 3850/10000 - Reward: -0.10
+Episode 3860/10000 - Reward: -0.10
+Episode 3870/10000 - Reward: -0.10
+Episode 3880/10000 - Reward: -0.10
+Episode 3890/10000 - Reward: -0.10
+Episode 3900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 3900/10000 - Reward: -0.10
+Episode 3910/10000 - Reward: -0.10
+Episode 3920/10000 - Reward: -0.10
+Episode 3930/10000 - Reward: -0.10
+Episode 3940/10000 - Reward: -0.10
+Episode 3950/10000 - Reward: -0.10
+Episode 3960/10000 - Reward: -0.10
+Episode 3970/10000 - Reward: -0.10
+Episode 3980/10000 - Reward: -0.10
+Episode 3990/10000 - Reward: -0.10
+Episode 4000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4000/10000 - Reward: -0.10
+Episode 4010/10000 - Reward: -0.10
+Episode 4020/10000 - Reward: -0.10
+Episode 4030/10000 - Reward: -0.10
+Episode 4040/10000 - Reward: -0.10
+Episode 4050/10000 - Reward: -0.10
+Episode 4060/10000 - Reward: -0.10
+Episode 4070/10000 - Reward: -0.10
+Episode 4080/10000 - Reward: -0.10
+Episode 4090/10000 - Reward: -0.10
+Episode 4100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4100/10000 - Reward: -0.10
+Episode 4110/10000 - Reward: -0.10
+Episode 4120/10000 - Reward: -0.10
+Episode 4130/10000 - Reward: -0.10
+Episode 4140/10000 - Reward: -0.10
+Episode 4150/10000 - Reward: -0.10
+Episode 4160/10000 - Reward: -0.10
+Episode 4170/10000 - Reward: -0.10
+Episode 4180/10000 - Reward: -0.10
+Episode 4190/10000 - Reward: -0.10
+Episode 4200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4200/10000 - Reward: -0.10
+Episode 4210/10000 - Reward: -0.10
+Episode 4220/10000 - Reward: -0.10
+Episode 4230/10000 - Reward: -0.10
+Episode 4240/10000 - Reward: -0.10
+Episode 4250/10000 - Reward: -0.10
+Episode 4260/10000 - Reward: -0.10
+Episode 4270/10000 - Reward: -0.10
+Episode 4280/10000 - Reward: -0.10
+Episode 4290/10000 - Reward: -0.10
+Episode 4300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4300/10000 - Reward: -0.10
+Episode 4310/10000 - Reward: -0.10
+Episode 4320/10000 - Reward: -0.10
+Episode 4330/10000 - Reward: -0.10
+Episode 4340/10000 - Reward: -0.10
+Episode 4350/10000 - Reward: -0.10
+Episode 4360/10000 - Reward: -0.10
+Episode 4370/10000 - Reward: -0.10
+Episode 4380/10000 - Reward: -0.10
+Episode 4390/10000 - Reward: -0.10
+Episode 4400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4400/10000 - Reward: -0.10
+Episode 4410/10000 - Reward: -0.10
+Episode 4420/10000 - Reward: -0.10
+Episode 4430/10000 - Reward: -0.10
+Episode 4440/10000 - Reward: -0.10
+Episode 4450/10000 - Reward: -0.10
+Episode 4460/10000 - Reward: -0.10
+Episode 4470/10000 - Reward: -0.10
+Episode 4480/10000 - Reward: -0.10
+Episode 4490/10000 - Reward: -0.10
+Episode 4500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4500/10000 - Reward: -0.10
+Episode 4510/10000 - Reward: -0.10
+Episode 4520/10000 - Reward: -0.10
+Episode 4530/10000 - Reward: -0.10
+Episode 4540/10000 - Reward: -0.10
+Episode 4550/10000 - Reward: -0.10
+Episode 4560/10000 - Reward: -0.10
+Episode 4570/10000 - Reward: -0.10
+Episode 4580/10000 - Reward: -0.10
+Episode 4590/10000 - Reward: -0.10
+Episode 4600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4600/10000 - Reward: -0.10
+Episode 4610/10000 - Reward: -0.10
+Episode 4620/10000 - Reward: -0.10
+Episode 4630/10000 - Reward: -0.10
+Episode 4640/10000 - Reward: -0.10
+Episode 4650/10000 - Reward: -0.10
+Episode 4660/10000 - Reward: -0.10
+Episode 4670/10000 - Reward: -0.10
+Episode 4680/10000 - Reward: -0.10
+Episode 4690/10000 - Reward: -0.10
+Episode 4700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4700/10000 - Reward: -0.10
+Episode 4710/10000 - Reward: -0.10
+Episode 4720/10000 - Reward: -0.10
+Episode 4730/10000 - Reward: -0.10
+Episode 4740/10000 - Reward: -0.10
+Episode 4750/10000 - Reward: -0.10
+Episode 4760/10000 - Reward: -0.10
+Episode 4770/10000 - Reward: -0.10
+Episode 4780/10000 - Reward: -0.10
+Episode 4790/10000 - Reward: -0.10
+Episode 4800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4800/10000 - Reward: -0.10
+Episode 4810/10000 - Reward: -0.10
+Episode 4820/10000 - Reward: -0.10
+Episode 4830/10000 - Reward: -0.10
+Episode 4840/10000 - Reward: -0.10
+Episode 4850/10000 - Reward: -0.10
+Episode 4860/10000 - Reward: -0.10
+Episode 4870/10000 - Reward: -0.10
+Episode 4880/10000 - Reward: -0.10
+Episode 4890/10000 - Reward: -0.10
+Episode 4900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 4900/10000 - Reward: -0.10
+Episode 4910/10000 - Reward: -0.10
+Episode 4920/10000 - Reward: -0.10
+Episode 4930/10000 - Reward: -0.10
+Episode 4940/10000 - Reward: -0.10
+Episode 4950/10000 - Reward: -0.10
+Episode 4960/10000 - Reward: -0.10
+Episode 4970/10000 - Reward: -0.10
+Episode 4980/10000 - Reward: -0.10
+Episode 4990/10000 - Reward: -0.10
+Episode 5000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5000/10000 - Reward: -0.10
+Episode 5010/10000 - Reward: -0.10
+Episode 5020/10000 - Reward: -0.10
+Episode 5030/10000 - Reward: -0.10
+Episode 5040/10000 - Reward: -0.10
+Episode 5050/10000 - Reward: -0.10
+Episode 5060/10000 - Reward: -0.10
+Episode 5070/10000 - Reward: -0.10
+Episode 5080/10000 - Reward: -0.10
+Episode 5090/10000 - Reward: -0.10
+Episode 5100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5100/10000 - Reward: -0.10
+Episode 5110/10000 - Reward: -0.10
+Episode 5120/10000 - Reward: -0.10
+Episode 5130/10000 - Reward: -0.10
+Episode 5140/10000 - Reward: -0.10
+Episode 5150/10000 - Reward: -0.10
+Episode 5160/10000 - Reward: -0.10
+Episode 5170/10000 - Reward: -0.10
+Episode 5180/10000 - Reward: -0.10
+Episode 5190/10000 - Reward: -0.10
+Episode 5200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5200/10000 - Reward: -0.10
+Episode 5210/10000 - Reward: -0.10
+Episode 5220/10000 - Reward: -0.10
+Episode 5230/10000 - Reward: -0.10
+Episode 5240/10000 - Reward: -0.10
+Episode 5250/10000 - Reward: -0.10
+Episode 5260/10000 - Reward: -0.10
+Episode 5270/10000 - Reward: -0.10
+Episode 5280/10000 - Reward: -0.10
+Episode 5290/10000 - Reward: -0.10
+Episode 5300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5300/10000 - Reward: -0.10
+Episode 5310/10000 - Reward: -0.10
+Episode 5320/10000 - Reward: -0.10
+Episode 5330/10000 - Reward: -0.10
+Episode 5340/10000 - Reward: -0.10
+Episode 5350/10000 - Reward: -0.10
+Episode 5360/10000 - Reward: -0.10
+Episode 5370/10000 - Reward: -0.10
+Episode 5380/10000 - Reward: -0.10
+Episode 5390/10000 - Reward: -0.10
+Episode 5400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5400/10000 - Reward: -0.10
+Episode 5410/10000 - Reward: -0.10
+Episode 5420/10000 - Reward: -0.10
+Episode 5430/10000 - Reward: -0.10
+Episode 5440/10000 - Reward: -0.10
+Episode 5450/10000 - Reward: -0.10
+Episode 5460/10000 - Reward: -0.10
+Episode 5470/10000 - Reward: -0.10
+Episode 5480/10000 - Reward: -0.10
+Episode 5490/10000 - Reward: -0.10
+Episode 5500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5500/10000 - Reward: -0.10
+Episode 5510/10000 - Reward: -0.10
+Episode 5520/10000 - Reward: -0.10
+Episode 5530/10000 - Reward: -0.10
+Episode 5540/10000 - Reward: -0.10
+Episode 5550/10000 - Reward: -0.10
+Episode 5560/10000 - Reward: -0.10
+Episode 5570/10000 - Reward: -0.10
+Episode 5580/10000 - Reward: -0.10
+Episode 5590/10000 - Reward: -0.10
+Episode 5600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5600/10000 - Reward: -0.10
+Episode 5610/10000 - Reward: -0.10
+Episode 5620/10000 - Reward: -0.10
+Episode 5630/10000 - Reward: -0.10
+Episode 5640/10000 - Reward: -0.10
+Episode 5650/10000 - Reward: -0.10
+Episode 5660/10000 - Reward: -0.10
+Episode 5670/10000 - Reward: -0.10
+Episode 5680/10000 - Reward: -0.10
+Episode 5690/10000 - Reward: -0.10
+Episode 5700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5700/10000 - Reward: -0.10
+Episode 5710/10000 - Reward: -0.10
+Episode 5720/10000 - Reward: -0.10
+Episode 5730/10000 - Reward: -0.10
+Episode 5740/10000 - Reward: -0.10
+Episode 5750/10000 - Reward: -0.10
+Episode 5760/10000 - Reward: -0.10
+Episode 5770/10000 - Reward: -0.10
+Episode 5780/10000 - Reward: -0.10
+Episode 5790/10000 - Reward: -0.10
+Episode 5800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5800/10000 - Reward: -0.10
+Episode 5810/10000 - Reward: -0.10
+Episode 5820/10000 - Reward: -0.10
+Episode 5830/10000 - Reward: -0.10
+Episode 5840/10000 - Reward: -0.10
+Episode 5850/10000 - Reward: -0.10
+Episode 5860/10000 - Reward: -0.10
+Episode 5870/10000 - Reward: -0.10
+Episode 5880/10000 - Reward: -0.10
+Episode 5890/10000 - Reward: -0.10
+Episode 5900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 5900/10000 - Reward: -0.10
+Episode 5910/10000 - Reward: -0.10
+Episode 5920/10000 - Reward: -0.10
+Episode 5930/10000 - Reward: -0.10
+Episode 5940/10000 - Reward: -0.10
+Episode 5950/10000 - Reward: -0.10
+Episode 5960/10000 - Reward: -0.10
+Episode 5970/10000 - Reward: -0.10
+Episode 5980/10000 - Reward: -0.10
+Episode 5990/10000 - Reward: -0.10
+Episode 6000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6000/10000 - Reward: -0.10
+Episode 6010/10000 - Reward: -0.10
+Episode 6020/10000 - Reward: -0.10
+Episode 6030/10000 - Reward: -0.10
+Episode 6040/10000 - Reward: -0.10
+Episode 6050/10000 - Reward: -0.10
+Episode 6060/10000 - Reward: -0.10
+Episode 6070/10000 - Reward: -0.10
+Episode 6080/10000 - Reward: -0.10
+Episode 6090/10000 - Reward: -0.10
+Episode 6100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6100/10000 - Reward: -0.10
+Episode 6110/10000 - Reward: -0.10
+Episode 6120/10000 - Reward: -0.10
+Episode 6130/10000 - Reward: -0.10
+Episode 6140/10000 - Reward: -0.10
+Episode 6150/10000 - Reward: -0.10
+Episode 6160/10000 - Reward: -0.10
+Episode 6170/10000 - Reward: -0.10
+Episode 6180/10000 - Reward: -0.10
+Episode 6190/10000 - Reward: -0.10
+Episode 6200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6200/10000 - Reward: -0.10
+Episode 6210/10000 - Reward: -0.10
+Episode 6220/10000 - Reward: -0.10
+Episode 6230/10000 - Reward: -0.10
+Episode 6240/10000 - Reward: -0.10
+Episode 6250/10000 - Reward: -0.10
+Episode 6260/10000 - Reward: -0.10
+Episode 6270/10000 - Reward: -0.10
+Episode 6280/10000 - Reward: -0.10
+Episode 6290/10000 - Reward: -0.10
+Episode 6300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6300/10000 - Reward: -0.10
+Episode 6310/10000 - Reward: -0.10
+Episode 6320/10000 - Reward: -0.10
+Episode 6330/10000 - Reward: -0.10
+Episode 6340/10000 - Reward: -0.10
+Episode 6350/10000 - Reward: -0.10
+Episode 6360/10000 - Reward: -0.10
+Episode 6370/10000 - Reward: -0.10
+Episode 6380/10000 - Reward: -0.10
+Episode 6390/10000 - Reward: -0.10
+Episode 6400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6400/10000 - Reward: -0.10
+Episode 6410/10000 - Reward: -0.10
+Episode 6420/10000 - Reward: -0.10
+Episode 6430/10000 - Reward: -0.10
+Episode 6440/10000 - Reward: -0.10
+Episode 6450/10000 - Reward: -0.10
+Episode 6460/10000 - Reward: -0.10
+Episode 6470/10000 - Reward: -0.10
+Episode 6480/10000 - Reward: -0.10
+Episode 6490/10000 - Reward: -0.10
+Episode 6500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6500/10000 - Reward: -0.10
+Episode 6510/10000 - Reward: -0.10
+Episode 6520/10000 - Reward: -0.10
+Episode 6530/10000 - Reward: -0.10
+Episode 6540/10000 - Reward: -0.10
+Episode 6550/10000 - Reward: -0.10
+Episode 6560/10000 - Reward: -0.10
+Episode 6570/10000 - Reward: -0.10
+Episode 6580/10000 - Reward: -0.10
+Episode 6590/10000 - Reward: -0.10
+Episode 6600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6600/10000 - Reward: -0.10
+Episode 6610/10000 - Reward: -0.10
+Episode 6620/10000 - Reward: -0.10
+Episode 6630/10000 - Reward: -0.10
+Episode 6640/10000 - Reward: -0.10
+Episode 6650/10000 - Reward: -0.10
+Episode 6660/10000 - Reward: -0.10
+Episode 6670/10000 - Reward: -0.10
+Episode 6680/10000 - Reward: -0.10
+Episode 6690/10000 - Reward: -0.10
+Episode 6700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6700/10000 - Reward: -0.10
+Episode 6710/10000 - Reward: -0.10
+Episode 6720/10000 - Reward: -0.10
+Episode 6730/10000 - Reward: -0.10
+Episode 6740/10000 - Reward: -0.10
+Episode 6750/10000 - Reward: -0.10
+Episode 6760/10000 - Reward: -0.10
+Episode 6770/10000 - Reward: -0.10
+Episode 6780/10000 - Reward: -0.10
+Episode 6790/10000 - Reward: -0.10
+Episode 6800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6800/10000 - Reward: -0.10
+Episode 6810/10000 - Reward: -0.10
+Episode 6820/10000 - Reward: -0.10
+Episode 6830/10000 - Reward: -0.10
+Episode 6840/10000 - Reward: -0.10
+Episode 6850/10000 - Reward: -0.10
+Episode 6860/10000 - Reward: -0.10
+Episode 6870/10000 - Reward: -0.10
+Episode 6880/10000 - Reward: -0.10
+Episode 6890/10000 - Reward: -0.10
+Episode 6900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 6900/10000 - Reward: -0.10
+Episode 6910/10000 - Reward: -0.10
+Episode 6920/10000 - Reward: -0.10
+Episode 6930/10000 - Reward: -0.10
+Episode 6940/10000 - Reward: -0.10
+Episode 6950/10000 - Reward: -0.10
+Episode 6960/10000 - Reward: -0.10
+Episode 6970/10000 - Reward: -0.10
+Episode 6980/10000 - Reward: -0.10
+Episode 6990/10000 - Reward: -0.10
+Episode 7000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7000/10000 - Reward: -0.10
+Episode 7010/10000 - Reward: -0.10
+Episode 7020/10000 - Reward: -0.10
+Episode 7030/10000 - Reward: -0.10
+Episode 7040/10000 - Reward: -0.10
+Episode 7050/10000 - Reward: -0.10
+Episode 7060/10000 - Reward: -0.10
+Episode 7070/10000 - Reward: -0.10
+Episode 7080/10000 - Reward: -0.10
+Episode 7090/10000 - Reward: -0.10
+Episode 7100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7100/10000 - Reward: -0.10
+Episode 7110/10000 - Reward: -0.10
+Episode 7120/10000 - Reward: -0.10
+Episode 7130/10000 - Reward: -0.10
+Episode 7140/10000 - Reward: -0.10
+Episode 7150/10000 - Reward: -0.10
+Episode 7160/10000 - Reward: -0.10
+Episode 7170/10000 - Reward: -0.10
+Episode 7180/10000 - Reward: -0.10
+Episode 7190/10000 - Reward: -0.10
+Episode 7200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7200/10000 - Reward: -0.10
+Episode 7210/10000 - Reward: -0.10
+Episode 7220/10000 - Reward: -0.10
+Episode 7230/10000 - Reward: -0.10
+Episode 7240/10000 - Reward: -0.10
+Episode 7250/10000 - Reward: -0.10
+Episode 7260/10000 - Reward: -0.10
+Episode 7270/10000 - Reward: -0.10
+Episode 7280/10000 - Reward: -0.10
+Episode 7290/10000 - Reward: -0.10
+Episode 7300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7300/10000 - Reward: -0.10
+Episode 7310/10000 - Reward: -0.10
+Episode 7320/10000 - Reward: -0.10
+Episode 7330/10000 - Reward: -0.10
+Episode 7340/10000 - Reward: -0.10
+Episode 7350/10000 - Reward: -0.10
+Episode 7360/10000 - Reward: -0.10
+Episode 7370/10000 - Reward: -0.10
+Episode 7380/10000 - Reward: -0.10
+Episode 7390/10000 - Reward: -0.10
+Episode 7400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7400/10000 - Reward: -0.10
+Episode 7410/10000 - Reward: -0.10
+Episode 7420/10000 - Reward: -0.10
+Episode 7430/10000 - Reward: -0.10
+Episode 7440/10000 - Reward: -0.10
+Episode 7450/10000 - Reward: -0.10
+Episode 7460/10000 - Reward: -0.10
+Episode 7470/10000 - Reward: -0.10
+Episode 7480/10000 - Reward: -0.10
+Episode 7490/10000 - Reward: -0.10
+Episode 7500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7500/10000 - Reward: -0.10
+Episode 7510/10000 - Reward: -0.10
+Episode 7520/10000 - Reward: -0.10
+Episode 7530/10000 - Reward: -0.10
+Episode 7540/10000 - Reward: -0.10
+Episode 7550/10000 - Reward: -0.10
+Episode 7560/10000 - Reward: -0.10
+Episode 7570/10000 - Reward: -0.10
+Episode 7580/10000 - Reward: -0.10
+Episode 7590/10000 - Reward: -0.10
+Episode 7600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7600/10000 - Reward: -0.10
+Episode 7610/10000 - Reward: -0.10
+Episode 7620/10000 - Reward: -0.10
+Episode 7630/10000 - Reward: -0.10
+Episode 7640/10000 - Reward: -0.10
+Episode 7650/10000 - Reward: -0.10
+Episode 7660/10000 - Reward: -0.10
+Episode 7670/10000 - Reward: -0.10
+Episode 7680/10000 - Reward: -0.10
+Episode 7690/10000 - Reward: -0.10
+Episode 7700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7700/10000 - Reward: -0.10
+Episode 7710/10000 - Reward: -0.10
+Episode 7720/10000 - Reward: -0.10
+Episode 7730/10000 - Reward: -0.10
+Episode 7740/10000 - Reward: -0.10
+Episode 7750/10000 - Reward: -0.10
+Episode 7760/10000 - Reward: -0.10
+Episode 7770/10000 - Reward: -0.10
+Episode 7780/10000 - Reward: -0.10
+Episode 7790/10000 - Reward: -0.10
+Episode 7800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7800/10000 - Reward: -0.10
+Episode 7810/10000 - Reward: -0.10
+Episode 7820/10000 - Reward: -0.10
+Episode 7830/10000 - Reward: -0.10
+Episode 7840/10000 - Reward: -0.10
+Episode 7850/10000 - Reward: -0.10
+Episode 7860/10000 - Reward: -0.10
+Episode 7870/10000 - Reward: -0.10
+Episode 7880/10000 - Reward: -0.10
+Episode 7890/10000 - Reward: -0.10
+Episode 7900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 7900/10000 - Reward: -0.10
+Episode 7910/10000 - Reward: -0.10
+Episode 7920/10000 - Reward: -0.10
+Episode 7930/10000 - Reward: -0.10
+Episode 7940/10000 - Reward: -0.10
+Episode 7950/10000 - Reward: -0.10
+Episode 7960/10000 - Reward: -0.10
+Episode 7970/10000 - Reward: -0.10
+Episode 7980/10000 - Reward: -0.10
+Episode 7990/10000 - Reward: -0.10
+Episode 8000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8000/10000 - Reward: -0.10
+Episode 8010/10000 - Reward: -0.10
+Episode 8020/10000 - Reward: -0.10
+Episode 8030/10000 - Reward: -0.10
+Episode 8040/10000 - Reward: -0.10
+Episode 8050/10000 - Reward: -0.10
+Episode 8060/10000 - Reward: -0.10
+Episode 8070/10000 - Reward: -0.10
+Episode 8080/10000 - Reward: -0.10
+Episode 8090/10000 - Reward: -0.10
+Episode 8100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8100/10000 - Reward: -0.10
+Episode 8110/10000 - Reward: -0.10
+Episode 8120/10000 - Reward: -0.10
+Episode 8130/10000 - Reward: -0.10
+Episode 8140/10000 - Reward: -0.10
+Episode 8150/10000 - Reward: -0.10
+Episode 8160/10000 - Reward: -0.10
+Episode 8170/10000 - Reward: -0.10
+Episode 8180/10000 - Reward: -0.10
+Episode 8190/10000 - Reward: -0.10
+Episode 8200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8200/10000 - Reward: -0.10
+Episode 8210/10000 - Reward: -0.10
+Episode 8220/10000 - Reward: -0.10
+Episode 8230/10000 - Reward: -0.10
+Episode 8240/10000 - Reward: -0.10
+Episode 8250/10000 - Reward: -0.10
+Episode 8260/10000 - Reward: -0.10
+Episode 8270/10000 - Reward: -0.10
+Episode 8280/10000 - Reward: -0.10
+Episode 8290/10000 - Reward: -0.10
+Episode 8300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8300/10000 - Reward: -0.10
+Episode 8310/10000 - Reward: -0.10
+Episode 8320/10000 - Reward: -0.10
+Episode 8330/10000 - Reward: -0.10
+Episode 8340/10000 - Reward: -0.10
+Episode 8350/10000 - Reward: -0.10
+Episode 8360/10000 - Reward: -0.10
+Episode 8370/10000 - Reward: -0.10
+Episode 8380/10000 - Reward: -0.10
+Episode 8390/10000 - Reward: -0.10
+Episode 8400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8400/10000 - Reward: -0.10
+Episode 8410/10000 - Reward: -0.10
+Episode 8420/10000 - Reward: -0.10
+Episode 8430/10000 - Reward: -0.10
+Episode 8440/10000 - Reward: -0.10
+Episode 8450/10000 - Reward: -0.10
+Episode 8460/10000 - Reward: -0.10
+Episode 8470/10000 - Reward: -0.10
+Episode 8480/10000 - Reward: -0.10
+Episode 8490/10000 - Reward: -0.10
+Episode 8500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8500/10000 - Reward: -0.10
+Episode 8510/10000 - Reward: -0.10
+Episode 8520/10000 - Reward: -0.10
+Episode 8530/10000 - Reward: -0.10
+Episode 8540/10000 - Reward: -0.10
+Episode 8550/10000 - Reward: -0.10
+Episode 8560/10000 - Reward: -0.10
+Episode 8570/10000 - Reward: -0.10
+Episode 8580/10000 - Reward: -0.10
+Episode 8590/10000 - Reward: -0.10
+Episode 8600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8600/10000 - Reward: -0.10
+Episode 8610/10000 - Reward: -0.10
+Episode 8620/10000 - Reward: -0.10
+Episode 8630/10000 - Reward: -0.10
+Episode 8640/10000 - Reward: -0.10
+Episode 8650/10000 - Reward: -0.10
+Episode 8660/10000 - Reward: -0.10
+Episode 8670/10000 - Reward: -0.10
+Episode 8680/10000 - Reward: -0.10
+Episode 8690/10000 - Reward: -0.10
+Episode 8700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8700/10000 - Reward: -0.10
+Episode 8710/10000 - Reward: -0.10
+Episode 8720/10000 - Reward: -0.10
+Episode 8730/10000 - Reward: -0.10
+Episode 8740/10000 - Reward: -0.10
+Episode 8750/10000 - Reward: -0.10
+Episode 8760/10000 - Reward: -0.10
+Episode 8770/10000 - Reward: -0.10
+Episode 8780/10000 - Reward: -0.10
+Episode 8790/10000 - Reward: -0.10
+Episode 8800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8800/10000 - Reward: -0.10
+Episode 8810/10000 - Reward: -0.10
+Episode 8820/10000 - Reward: -0.10
+Episode 8830/10000 - Reward: -0.10
+Episode 8840/10000 - Reward: -0.10
+Episode 8850/10000 - Reward: -0.10
+Episode 8860/10000 - Reward: -0.10
+Episode 8870/10000 - Reward: -0.10
+Episode 8880/10000 - Reward: -0.10
+Episode 8890/10000 - Reward: -0.10
+Episode 8900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 8900/10000 - Reward: -0.10
+Episode 8910/10000 - Reward: -0.10
+Episode 8920/10000 - Reward: -0.10
+Episode 8930/10000 - Reward: -0.10
+Episode 8940/10000 - Reward: -0.10
+Episode 8950/10000 - Reward: -0.10
+Episode 8960/10000 - Reward: -0.10
+Episode 8970/10000 - Reward: -0.10
+Episode 8980/10000 - Reward: -0.10
+Episode 8990/10000 - Reward: -0.10
+Episode 9000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9000/10000 - Reward: -0.10
+Episode 9010/10000 - Reward: -0.10
+Episode 9020/10000 - Reward: -0.10
+Episode 9030/10000 - Reward: -0.10
+Episode 9040/10000 - Reward: -0.10
+Episode 9050/10000 - Reward: -0.10
+Episode 9060/10000 - Reward: -0.10
+Episode 9070/10000 - Reward: -0.10
+Episode 9080/10000 - Reward: -0.10
+Episode 9090/10000 - Reward: -0.10
+Episode 9100/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9100/10000 - Reward: -0.10
+Episode 9110/10000 - Reward: -0.10
+Episode 9120/10000 - Reward: -0.10
+Episode 9130/10000 - Reward: -0.10
+Episode 9140/10000 - Reward: -0.10
+Episode 9150/10000 - Reward: -0.10
+Episode 9160/10000 - Reward: -0.10
+Episode 9170/10000 - Reward: -0.10
+Episode 9180/10000 - Reward: -0.10
+Episode 9190/10000 - Reward: -0.10
+Episode 9200/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9200/10000 - Reward: -0.10
+Episode 9210/10000 - Reward: -0.10
+Episode 9220/10000 - Reward: -0.10
+Episode 9230/10000 - Reward: -0.10
+Episode 9240/10000 - Reward: -0.10
+Episode 9250/10000 - Reward: -0.10
+Episode 9260/10000 - Reward: -0.10
+Episode 9270/10000 - Reward: -0.10
+Episode 9280/10000 - Reward: -0.10
+Episode 9290/10000 - Reward: -0.10
+Episode 9300/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9300/10000 - Reward: -0.10
+Episode 9310/10000 - Reward: -0.10
+Episode 9320/10000 - Reward: -0.10
+Episode 9330/10000 - Reward: -0.10
+Episode 9340/10000 - Reward: -0.10
+Episode 9350/10000 - Reward: -0.10
+Episode 9360/10000 - Reward: -0.10
+Episode 9370/10000 - Reward: -0.10
+Episode 9380/10000 - Reward: -0.10
+Episode 9390/10000 - Reward: -0.10
+Episode 9400/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9400/10000 - Reward: -0.10
+Episode 9410/10000 - Reward: -0.10
+Episode 9420/10000 - Reward: -0.10
+Episode 9430/10000 - Reward: -0.10
+Episode 9440/10000 - Reward: -0.10
+Episode 9450/10000 - Reward: -0.10
+Episode 9460/10000 - Reward: -0.10
+Episode 9470/10000 - Reward: -0.10
+Episode 9480/10000 - Reward: -0.10
+Episode 9490/10000 - Reward: -0.10
+Episode 9500/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9500/10000 - Reward: -0.10
+Episode 9510/10000 - Reward: -0.10
+Episode 9520/10000 - Reward: -0.10
+Episode 9530/10000 - Reward: -0.10
+Episode 9540/10000 - Reward: -0.10
+Episode 9550/10000 - Reward: -0.10
+Episode 9560/10000 - Reward: -0.10
+Episode 9570/10000 - Reward: -0.10
+Episode 9580/10000 - Reward: -0.10
+Episode 9590/10000 - Reward: -0.10
+Episode 9600/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9600/10000 - Reward: -0.10
+Episode 9610/10000 - Reward: -0.10
+Episode 9620/10000 - Reward: -0.10
+Episode 9630/10000 - Reward: -0.10
+Episode 9640/10000 - Reward: -0.10
+Episode 9650/10000 - Reward: -0.10
+Episode 9660/10000 - Reward: -0.10
+Episode 9670/10000 - Reward: -0.10
+Episode 9680/10000 - Reward: -0.10
+Episode 9690/10000 - Reward: -0.10
+Episode 9700/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9700/10000 - Reward: -0.10
+Episode 9710/10000 - Reward: -0.10
+Episode 9720/10000 - Reward: -0.10
+Episode 9730/10000 - Reward: -0.10
+Episode 9740/10000 - Reward: -0.10
+Episode 9750/10000 - Reward: -0.10
+Episode 9760/10000 - Reward: -0.10
+Episode 9770/10000 - Reward: -0.10
+Episode 9780/10000 - Reward: -0.10
+Episode 9790/10000 - Reward: -0.10
+Episode 9800/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9800/10000 - Reward: -0.10
+Episode 9810/10000 - Reward: -0.10
+Episode 9820/10000 - Reward: -0.10
+Episode 9830/10000 - Reward: -0.10
+Episode 9840/10000 - Reward: -0.10
+Episode 9850/10000 - Reward: -0.10
+Episode 9860/10000 - Reward: -0.10
+Episode 9870/10000 - Reward: -0.10
+Episode 9880/10000 - Reward: -0.10
+Episode 9890/10000 - Reward: -0.10
+Episode 9900/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 9900/10000 - Reward: -0.10
+Episode 9910/10000 - Reward: -0.10
+Episode 9920/10000 - Reward: -0.10
+Episode 9930/10000 - Reward: -0.10
+Episode 9940/10000 - Reward: -0.10
+Episode 9950/10000 - Reward: -0.10
+Episode 9960/10000 - Reward: -0.10
+Episode 9970/10000 - Reward: -0.10
+Episode 9980/10000 - Reward: -0.10
+Episode 9990/10000 - Reward: -0.10
+Episode 10000/10000
+  Training Reward: -0.10
+  Eval Reward: -0.10 ± 0.00
+  Eval Return: 0.00 ± 0.00
+  Win Rate: 0.00%
+Episode 10000/10000 - Reward: -0.10
+
+Training complete! Results saved to results/ppo_20251202_205853
+Best evaluation reward: -0.09
+✓ PPO training completed successfully
+  Duration: 45 seconds
+
+==========================================
+All training completed!
+Finished at: Tue Dec  2 20:59:37 PST 2025
+Log saved to: training_log_20251202_205739.txt
+==========================================

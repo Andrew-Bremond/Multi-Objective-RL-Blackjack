@@ -1,0 +1,12 @@
+{
+  "algorithm": "ddqn",
+  "total_episodes": 10000,
+  "final_training_reward": -0.00653274579918488,
+  "best_eval_reward": 0.02264809450064135,
+  "final_metrics": {
+    "expected_return": -0.03,
+    "sharpe_ratio": 0.0,
+    "win_rate": 0.0,
+    "episode_count": 10000
+  }
+}

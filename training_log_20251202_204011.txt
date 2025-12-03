@@ -1,0 +1,7 @@
+----------------------------------------
+./b.sh: line 22: Training ${algo^^}...: bad substitution
+==========================================
+All training completed!
+Finished at: Tue Dec  2 20:40:11 PST 2025
+Log saved to: training_log_20251202_204011.txt
+==========================================

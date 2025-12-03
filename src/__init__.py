@@ -1,1 +1,2 @@
-# Package marker for Blackjack PPO project.
+"""Multi-Objective RL for Blackjack"""
+
