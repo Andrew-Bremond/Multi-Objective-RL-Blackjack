@@ -329,45 +329,34 @@ def save_plots(results_dir: str, training_rewards: list, eval_rewards: list,
         plt.close()
 
 
-def main():
-    parser = argparse.ArgumentParser(description='Train RL agent for Blackjack')
-    parser.add_argument('--algorithm', type=str, required=True, 
-                       choices=['dqn', 'ddqn', 'dueling_ddqn', 'ppo'],
-                       help='Algorithm to train')
-    parser.add_argument('--config', type=str, default='configs/config.yaml',
-                       help='Path to config file')
-    parser.add_argument('--results_dir', type=str, default=None,
-                       help='Results directory (overrides config)')
-    
-    args = parser.parse_args()
-    
-    # Load config
-    config = load_config(args.config)
-    
-    # Set device
-    device = config['training']['device']
-    if device == 'cuda' and not torch.cuda.is_available():
-        print("CUDA not available, using CPU")
-        device = 'cpu'
-    
+def train_single_seed(algorithm: str, config: dict, device: str, seed: int, base_results_dir: str):
+    """Train a single seed and return the results directory path."""
     # Set seed
-    seed = config['training'].get('seed', 42)
     torch.manual_seed(seed)
     np.random.seed(seed)
+    if hasattr(torch, 'cuda') and torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+    import random
+    random.seed(seed)
     
-    # Create results directory
-    if args.results_dir:
-        results_dir = args.results_dir
-    else:
-        results_dir = os.path.join(
-            config['output']['results_dir'],
-            f"{args.algorithm}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        )
+    # Create results directory with seed in name
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    results_dir = os.path.join(
+        base_results_dir,
+        f"{algorithm}_{seed}_{timestamp}"
+    )
     os.makedirs(results_dir, exist_ok=True)
     
-    # Save config
+    print(f"\n{'='*60}")
+    print(f"Training {algorithm.upper()} with seed {seed}")
+    print(f"Results directory: {results_dir}")
+    print(f"{'='*60}\n")
+    
+    # Save config with seed info
+    config_copy = config.copy()
+    config_copy['training']['seed'] = seed
     with open(os.path.join(results_dir, 'config.json'), 'w') as f:
-        json.dump(config, f, indent=2)
+        json.dump(config_copy, f, indent=2)
     
     # Create environment
     env = CustomBlackjackEnv(
@@ -382,7 +371,7 @@ def main():
     action_dim = 6  # Flattened action space
     
     # Create agent
-    agent = create_agent(args.algorithm, state_dim, action_dim, config, device)
+    agent = create_agent(algorithm, state_dim, action_dim, config, device)
     
     # Create multi-objective reward
     multi_obj = MultiObjectiveReward(
@@ -413,9 +402,9 @@ def main():
     use_separate_critics = isinstance(agent, MultiObjectivePPO)
     
     if use_separate_critics:
-        print(f"Training {args.algorithm.upper()} with separate critics per objective for {num_episodes} episodes...")
+        print(f"Training {algorithm.upper()} with separate critics per objective for {num_episodes} episodes (seed {seed})...")
     else:
-        print(f"Training {args.algorithm.upper()} for {num_episodes} episodes...")
+        print(f"Training {algorithm.upper()} for {num_episodes} episodes (seed {seed})...")
     
     for episode in range(num_episodes):
         # Train episode
@@ -436,7 +425,7 @@ def main():
             eval_results = evaluate(env, agent, eval_episodes, multi_obj)
             eval_rewards.append(eval_results['mean_reward'])
             
-            print(f"Episode {episode + 1}/{num_episodes}")
+            print(f"Episode {episode + 1}/{num_episodes} (seed {seed})")
             print(f"  Training Reward: {episode_data['episode_reward']:.2f}")
             print(f"  Eval Reward: {eval_results['mean_reward']:.2f} ± {eval_results['std_reward']:.2f}")
             print(f"  Eval Return: {eval_results['mean_return']:.2f} ± {eval_results['std_return']:.2f}")
@@ -454,7 +443,7 @@ def main():
         
         # Log
         if (episode + 1) % log_freq == 0:
-            print(f"Episode {episode + 1}/{num_episodes} - Reward: {episode_data['episode_reward']:.2f}")
+            print(f"Episode {episode + 1}/{num_episodes} (seed {seed}) - Reward: {episode_data['episode_reward']:.2f}")
     
     # Save final model
     agent.save(os.path.join(results_dir, 'final_model.pth'))
@@ -479,11 +468,12 @@ def main():
     
     # Save plots
     save_plots(results_dir, training_rewards, eval_rewards, training_losses, 
-               multi_obj_metrics, args.algorithm)
+               multi_obj_metrics, algorithm)
     
     # Save summary
     summary = {
-        'algorithm': args.algorithm,
+        'algorithm': algorithm,
+        'seed': seed,
         'total_episodes': num_episodes,
         'final_training_reward': np.mean(training_rewards[-100:]) if training_rewards else 0.0,
         'best_eval_reward': best_eval_reward,
@@ -493,8 +483,76 @@ def main():
     with open(os.path.join(results_dir, 'summary.json'), 'w') as f:
         json.dump(summary, f, indent=2)
     
-    print(f"\nTraining complete! Results saved to {results_dir}")
+    print(f"\nTraining complete for seed {seed}! Results saved to {results_dir}")
     print(f"Best evaluation reward: {best_eval_reward:.2f}")
+    
+    return results_dir, summary
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Train RL agent for Blackjack')
+    parser.add_argument('--algorithm', type=str, required=True, 
+                       choices=['dqn', 'ddqn', 'dueling_ddqn', 'ppo'],
+                       help='Algorithm to train')
+    parser.add_argument('--config', type=str, default='configs/config.yaml',
+                       help='Path to config file')
+    parser.add_argument('--results_dir', type=str, default=None,
+                       help='Results directory (overrides config)')
+    
+    args = parser.parse_args()
+    
+    # Load config
+    config = load_config(args.config)
+    
+    # Set device
+    device = config['training']['device']
+    if device == 'cuda' and not torch.cuda.is_available():
+        print("CUDA not available, using CPU")
+        device = 'cpu'
+    
+    # Get seeds - handle both list and single value
+    seeds_config = config['training'].get('seed', 42)
+    if isinstance(seeds_config, list):
+        seeds = seeds_config
+    else:
+        seeds = [seeds_config]
+    
+    # Create base results directory structure: results/{algorithm}/
+    if args.results_dir:
+        base_results_dir = args.results_dir
+    else:
+        base_results_dir = os.path.join(
+            config['output']['results_dir'],
+            args.algorithm
+        )
+    os.makedirs(base_results_dir, exist_ok=True)
+    
+    # Train for each seed
+    seed_results = []
+    for seed in seeds:
+        results_dir, summary = train_single_seed(
+            args.algorithm, config, device, seed, base_results_dir
+        )
+        seed_results.append({
+            'seed': seed,
+            'results_dir': results_dir,
+            'summary': summary
+        })
+    
+    # After all seeds are trained, aggregate results
+    print(f"\n{'='*60}")
+    print(f"All seeds completed! Aggregating results...")
+    print(f"{'='*60}\n")
+    
+    # Import and run aggregation
+    try:
+        # Import using the same path setup as other modules
+        from src.training.aggregate_results import aggregate_seed_results
+        aggregate_seed_results(base_results_dir, args.algorithm, seed_results)
+    except Exception as e:
+        print(f"Warning: Could not aggregate results: {e}")
+        print("You can run aggregation separately with:")
+        print(f"  python src/training/aggregate_results.py --algorithm {args.algorithm} --results_dir {base_results_dir}")
 
 
 if __name__ == '__main__':

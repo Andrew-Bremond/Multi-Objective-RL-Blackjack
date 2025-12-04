@@ -11,14 +11,14 @@ environment:
 objectives:
   weights:
     # profit_focus
-    # expected_return: 0.75
-    # sharpe_ratio: 0.20
-    # win_rate: 0.05
+    expected_return: 0.75
+    sharpe_ratio: 0.20
+    win_rate: 0.05
 
-    # Original_weights
-    expected_return: 0.5
-    sharpe_ratio: 0.3
-    win_rate: 0.2
+    # # Original_weights
+    # expected_return: 0.5
+    # sharpe_ratio: 0.3
+    # win_rate: 0.2
 
     # # expected_return
     # expected_return: 1
@@ -41,13 +41,13 @@ objectives:
 
 # Training settings
 training:
-  num_episodes: 10000
+  num_episodes: 100000
   eval_freq: 100 # Evaluate every N episodes
   eval_episodes: 100 # Number of episodes for evaluation
   save_freq: 500 # Save checkpoint every N episodes
   log_freq: 10 # Log metrics every N episodes
   device: "cpu" # "cpu" or "cuda"
-  seed: 42
+  seed: [5, 10, 15]
 
 # Algorithm-specific hyperparameters
 algorithms:
