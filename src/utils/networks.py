@@ -226,3 +226,173 @@ class ActorCritic(nn.Module):
         
         return log_prob, entropy, value
 
+
+class MultiObjectiveActorCritic(nn.Module):
+    """
+    Actor-Critic network with separate critics for each reward objective.
+    
+    This architecture helps prevent the policy from exploiting easy objectives
+    and ignoring harder ones by maintaining separate value estimates for each
+    objective term.
+    """
+    
+    def __init__(
+        self,
+        state_dim: int,
+        action_dim: int,
+        objective_names: list = ['expected_return', 'sharpe_ratio', 'win_rate'],
+        hidden_dims: list = [128, 128],
+        continuous: bool = False,
+    ):
+        """
+        Initialize Multi-Objective Actor-Critic network.
+        
+        Args:
+            state_dim: Dimension of state space
+            action_dim: Dimension of action space
+            objective_names: List of objective names (one critic per objective)
+            hidden_dims: List of hidden layer dimensions
+            continuous: Whether actions are continuous (False for discrete)
+        """
+        super(MultiObjectiveActorCritic, self).__init__()
+        
+        self.continuous = continuous
+        self.objective_names = objective_names
+        self.num_objectives = len(objective_names)
+        
+        # Shared feature extractor
+        shared_layers = []
+        input_dim = state_dim
+        
+        for hidden_dim in hidden_dims[:-1]:
+            shared_layers.append(nn.Linear(input_dim, hidden_dim))
+            shared_layers.append(nn.ReLU())
+            input_dim = hidden_dim
+        
+        self.shared = nn.Sequential(*shared_layers)
+        
+        # Actor (policy) head
+        if continuous:
+            # For continuous actions, output mean and std
+            self.actor_mean = nn.Sequential(
+                nn.Linear(input_dim, hidden_dims[-1]),
+                nn.ReLU(),
+                nn.Linear(hidden_dims[-1], action_dim),
+                nn.Tanh()
+            )
+            self.actor_std = nn.Sequential(
+                nn.Linear(input_dim, hidden_dims[-1]),
+                nn.ReLU(),
+                nn.Linear(hidden_dims[-1], action_dim),
+                nn.Softplus()
+            )
+        else:
+            # For discrete actions, output action probabilities
+            self.actor = nn.Sequential(
+                nn.Linear(input_dim, hidden_dims[-1]),
+                nn.ReLU(),
+                nn.Linear(hidden_dims[-1], action_dim),
+                nn.Softmax(dim=-1)
+            )
+        
+        # Separate critic heads for each objective
+        self.critics = nn.ModuleDict()
+        for obj_name in objective_names:
+            self.critics[obj_name] = nn.Sequential(
+                nn.Linear(input_dim, hidden_dims[-1]),
+                nn.ReLU(),
+                nn.Linear(hidden_dims[-1], 1)
+            )
+    
+    def forward(self, state: torch.Tensor):
+        """
+        Forward pass.
+        
+        Returns:
+            For continuous: (mean, std, values_dict)
+            For discrete: (action_probs, values_dict)
+            where values_dict maps objective_name -> value estimate
+        """
+        shared_features = self.shared(state)
+        
+        # Compute values for each objective
+        values = {}
+        for obj_name in self.objective_names:
+            values[obj_name] = self.critics[obj_name](shared_features)
+        
+        if self.continuous:
+            mean = self.actor_mean(shared_features)
+            std = self.actor_std(shared_features)
+            return mean, std, values
+        else:
+            action_probs = self.actor(shared_features)
+            return action_probs, values
+    
+    def get_action(self, state: torch.Tensor, deterministic: bool = False, weights: dict = None):
+        """
+        Sample action from policy.
+        
+        Args:
+            state: Current state
+            deterministic: If True, return deterministic action
+            weights: Optional dict mapping objective names to weights for combining values
+        
+        Returns:
+            action, log_prob, values_dict
+            If weights provided, also returns combined_value
+        """
+        if self.continuous:
+            mean, std, values = self.forward(state)
+            dist = torch.distributions.Normal(mean, std)
+            
+            if deterministic:
+                action = mean
+            else:
+                action = dist.sample()
+            
+            log_prob = dist.log_prob(action).sum(dim=-1)
+            
+            if weights is not None:
+                combined_value = sum(weights.get(name, 0.0) * values[name] for name in self.objective_names)
+                return action, log_prob, values, combined_value
+            return action, log_prob, values
+        else:
+            action_probs, values = self.forward(state)
+            dist = torch.distributions.Categorical(action_probs)
+            
+            if deterministic:
+                action = torch.argmax(action_probs, dim=-1)
+            else:
+                action = dist.sample()
+            
+            log_prob = dist.log_prob(action)
+            
+            if weights is not None:
+                combined_value = sum(weights.get(name, 0.0) * values[name] for name in self.objective_names)
+                return action, log_prob, values, combined_value
+            return action, log_prob, values
+    
+    def evaluate_actions(self, state: torch.Tensor, action: torch.Tensor):
+        """
+        Evaluate actions and return log probs, entropy, and values.
+        
+        Args:
+            state: Current state
+            action: Actions to evaluate
+        
+        Returns:
+            log_prob, entropy, values_dict
+        """
+        if self.continuous:
+            mean, std, values = self.forward(state)
+            dist = torch.distributions.Normal(mean, std)
+            log_prob = dist.log_prob(action).sum(dim=-1)
+            entropy = dist.entropy().sum(dim=-1)
+        else:
+            action_probs, values = self.forward(state)
+            dist = torch.distributions.Categorical(action_probs)
+            log_prob = dist.log_prob(action)
+            entropy = dist.entropy()
+        
+        return log_prob, entropy, values
+

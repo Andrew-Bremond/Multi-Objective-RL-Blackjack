@@ -14,6 +14,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 from src.environment import CustomBlackjackEnv
 from src.algorithms import DQN, DDQN, DuelingDDQN, PPO
+from src.algorithms.ppo import MultiObjectivePPO
 from src.objectives import MultiObjectiveReward
 
 
@@ -24,7 +25,46 @@ def load_config(config_path: str) -> dict:
     return config
 
 
-def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, device: str):
+def detect_model_type(model_path: str) -> tuple:
+    """
+    Detect if model was saved with separate critics by checking checkpoint structure.
+    
+    Returns:
+        (use_separate_critics, objective_names, objective_weights)
+    """
+    try:
+        checkpoint = torch.load(model_path, map_location='cpu')
+        state_dict = checkpoint.get('actor_critic', {})
+        
+        # Check if state_dict has separate critics structure
+        has_separate_critics = any('critics.' in key for key in state_dict.keys())
+        
+        if has_separate_critics:
+            # Extract objective names from state dict keys
+            objective_names = set()
+            for key in state_dict.keys():
+                if 'critics.' in key:
+                    # Extract objective name from key like "critics.expected_return.0.weight"
+                    parts = key.split('.')
+                    if len(parts) >= 2:
+                        objective_names.add(parts[1])
+            objective_names = sorted(list(objective_names))
+            
+            # Get objective weights if available
+            objective_weights = checkpoint.get('objective_weights', None)
+            
+            return True, objective_names, objective_weights
+        else:
+            return False, None, None
+    except Exception as e:
+        # If we can't detect, assume standard PPO
+        print(f"Warning: Could not detect model type, assuming standard PPO: {e}")
+        return False, None, None
+
+
+def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, device: str,
+                 use_separate_critics: bool = False, objective_names: list = None,
+                 objective_weights: dict = None):
     """Create agent based on algorithm name."""
     algo_config = config['algorithms'][algorithm]
     
@@ -74,21 +114,44 @@ def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, 
             hidden_dims=algo_config['hidden_dims'],
         )
     elif algorithm == 'ppo':
-        return PPO(
-            state_dim=state_dim,
-            action_dim=action_dim,
-            lr=algo_config['lr'],
-            gamma=algo_config['gamma'],
-            gae_lambda=algo_config['gae_lambda'],
-            clip_epsilon=algo_config['clip_epsilon'],
-            value_coef=algo_config['value_coef'],
-            entropy_coef=algo_config['entropy_coef'],
-            max_grad_norm=algo_config['max_grad_norm'],
-            ppo_epochs=algo_config['ppo_epochs'],
-            batch_size=algo_config['batch_size'],
-            device=device,
-            hidden_dims=algo_config['hidden_dims'],
-        )
+        if use_separate_critics:
+            if objective_names is None:
+                objective_names = list(config['objectives']['weights'].keys())
+            if objective_weights is None:
+                objective_weights = config['objectives']['weights']
+            return MultiObjectivePPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                objective_names=objective_names,
+                objective_weights=objective_weights,
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
+        else:
+            return PPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
@@ -96,7 +159,8 @@ def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, 
 def evaluate_agent(env, agent, num_episodes: int, multi_obj: MultiObjectiveReward):
     """Evaluate agent and return detailed metrics."""
     agent.eval()
-    is_ppo = isinstance(agent, PPO)
+    is_ppo = isinstance(agent, (PPO, MultiObjectivePPO))
+    is_multi_obj_ppo = isinstance(agent, MultiObjectivePPO)
     
     episode_rewards = []
     episode_returns = []
@@ -120,7 +184,12 @@ def evaluate_agent(env, agent, num_episodes: int, multi_obj: MultiObjectiveRewar
         
         while not done:
             if is_ppo:
-                action, _, _ = agent.act(state, deterministic=True)
+                if is_multi_obj_ppo:
+                    # MultiObjectivePPO returns (action, log_prob, values_dict, combined_value)
+                    action, _, _, _ = agent.act(state, deterministic=True)
+                else:
+                    # Standard PPO returns (action, log_prob, value)
+                    action, _, _ = agent.act(state, deterministic=True)
             else:
                 action = agent.act(state, deterministic=True)
             
@@ -213,8 +282,18 @@ def compare_algorithms(model_paths: dict, config_path: str, num_episodes: int = 
     for algorithm, model_path in model_paths.items():
         print(f"\n{algorithm.upper()}:")
         
+        # Detect if model uses separate critics (for PPO)
+        use_separate_critics = False
+        objective_names = None
+        objective_weights = None
+        if algorithm == 'ppo':
+            use_separate_critics, objective_names, objective_weights = detect_model_type(model_path)
+            if use_separate_critics:
+                print(f"  Detected MultiObjectivePPO model with objectives: {objective_names}")
+        
         # Create agent
-        agent = create_agent(algorithm, state_dim, action_dim, config, device)
+        agent = create_agent(algorithm, state_dim, action_dim, config, device,
+                            use_separate_critics, objective_names, objective_weights)
         
         # Load model
         agent.load(model_path)
@@ -315,8 +394,18 @@ def main():
         state_dim = env.observation_space.shape[0]
         action_dim = 6
         
+        # Detect if model uses separate critics (for PPO)
+        use_separate_critics = False
+        objective_names = None
+        objective_weights = None
+        if args.algorithm == 'ppo':
+            use_separate_critics, objective_names, objective_weights = detect_model_type(args.model_path)
+            if use_separate_critics:
+                print(f"Detected MultiObjectivePPO model with objectives: {objective_names}")
+        
         # Create agent
-        agent = create_agent(args.algorithm, state_dim, action_dim, config, device)
+        agent = create_agent(args.algorithm, state_dim, action_dim, config, device,
+                            use_separate_critics, objective_names, objective_weights)
         
         # Load model
         agent.load(args.model_path)

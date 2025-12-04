@@ -16,6 +16,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 from src.environment import CustomBlackjackEnv
 from src.algorithms import DQN, DDQN, DuelingDDQN, PPO
+from src.algorithms.ppo import MultiObjectivePPO
 from src.objectives import MultiObjectiveReward
 
 
@@ -76,27 +77,52 @@ def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, 
             hidden_dims=algo_config['hidden_dims'],
         )
     elif algorithm == 'ppo':
-        return PPO(
-            state_dim=state_dim,
-            action_dim=action_dim,
-            lr=algo_config['lr'],
-            gamma=algo_config['gamma'],
-            gae_lambda=algo_config['gae_lambda'],
-            clip_epsilon=algo_config['clip_epsilon'],
-            value_coef=algo_config['value_coef'],
-            entropy_coef=algo_config['entropy_coef'],
-            max_grad_norm=algo_config['max_grad_norm'],
-            ppo_epochs=algo_config['ppo_epochs'],
-            batch_size=algo_config['batch_size'],
-            device=device,
-            hidden_dims=algo_config['hidden_dims'],
-        )
+        # Check if separate critics are enabled
+        use_separate_critics = config.get('objectives', {}).get('use_separate_critics', False)
+        
+        if use_separate_critics:
+            objective_names = list(config['objectives']['weights'].keys())
+            return MultiObjectivePPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                objective_names=objective_names,
+                objective_weights=config['objectives']['weights'],
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
+        else:
+            return PPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
 
-def train_episode(env, agent, multi_obj, is_ppo=False):
+def train_episode(env, agent, multi_obj, is_ppo=False, use_separate_critics=False):
     """Train one episode."""
+    from src.algorithms.ppo import MultiObjectivePPO
+    
     state, info = env.reset()
     episode_reward = 0.0
     episode_return = 0.0
@@ -107,11 +133,20 @@ def train_episode(env, agent, multi_obj, is_ppo=False):
     while not done:
         # Get action
         if is_ppo:
-            action, log_prob, value = agent.act(state, deterministic=False)
+            if use_separate_critics:
+                action, log_prob, values_dict, combined_value = agent.act(state, deterministic=False)
+                # values_dict is already a dict of scalars
+                objective_values = values_dict
+            else:
+                action, log_prob, value = agent.act(state, deterministic=False)
+                objective_values = {'combined': value}
+                combined_value = value
         else:
             action = agent.act(state, deterministic=False)
             log_prob = 0.0
             value = 0.0
+            objective_values = {'combined': value}
+            combined_value = value
         
         # Step environment
         next_state, raw_reward, terminated, truncated, info = env.step(action)
@@ -124,7 +159,13 @@ def train_episode(env, agent, multi_obj, is_ppo=False):
         
         # Store transition
         if is_ppo:
-            agent.store_transition(state, action, combined_reward, log_prob, value, done)
+            if use_separate_critics:
+                # Store separate rewards and values per objective
+                agent.store_transition(
+                    state, action, obj_values, log_prob, objective_values, done
+                )
+            else:
+                agent.store_transition(state, action, combined_reward, log_prob, combined_value, done)
         else:
             agent.update_replay_buffer(state, action, combined_reward, next_state, done)
         
@@ -161,8 +202,10 @@ def train_episode(env, agent, multi_obj, is_ppo=False):
 
 def evaluate(env, agent, num_episodes: int, multi_obj: MultiObjectiveReward):
     """Evaluate agent."""
+    from src.algorithms.ppo import MultiObjectivePPO
     agent.eval()
-    is_ppo = isinstance(agent, PPO)
+    is_ppo = isinstance(agent, (PPO, MultiObjectivePPO))
+    use_separate_critics = isinstance(agent, MultiObjectivePPO)
     
     episode_rewards = []
     episode_returns = []
@@ -179,7 +222,10 @@ def evaluate(env, agent, num_episodes: int, multi_obj: MultiObjectiveReward):
         
         while not done:
             if is_ppo:
-                action, _, _ = agent.act(state, deterministic=True)
+                if use_separate_critics:
+                    action, _, _, _ = agent.act(state, deterministic=True)
+                else:
+                    action, _, _ = agent.act(state, deterministic=True)
             else:
                 action = agent.act(state, deterministic=True)
             
@@ -363,13 +409,17 @@ def main():
     log_freq = config['training']['log_freq']
     
     best_eval_reward = float('-inf')
-    is_ppo = isinstance(agent, PPO)
+    is_ppo = isinstance(agent, (PPO, MultiObjectivePPO))
+    use_separate_critics = isinstance(agent, MultiObjectivePPO)
     
-    print(f"Training {args.algorithm.upper()} for {num_episodes} episodes...")
+    if use_separate_critics:
+        print(f"Training {args.algorithm.upper()} with separate critics per objective for {num_episodes} episodes...")
+    else:
+        print(f"Training {args.algorithm.upper()} for {num_episodes} episodes...")
     
     for episode in range(num_episodes):
         # Train episode
-        episode_data = train_episode(env, agent, multi_obj, is_ppo)
+        episode_data = train_episode(env, agent, multi_obj, is_ppo, use_separate_critics)
         
         training_rewards.append(episode_data['episode_reward'])
         if 'loss' in episode_data['metrics']:
