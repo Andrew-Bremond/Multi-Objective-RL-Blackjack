@@ -1,0 +1,62 @@
+==========================================
+Model Rankings (Best to Worst)
+Ranked by Mean Reward
+==========================================
+
+Generated: Thu Dec  4 16:34:15 PST 2025
+Evaluation episodes per model: 1000
+
+Rank   Model                                              Mean Reward  Mean Return  Win Rate   Sharpe Ratio Path
+--------------------------------------------------------------------------------------------------------------------------------
+1      results/ddqn/seed_20251204                         -0.24        0.80         45.80      0.18         ./results/ddqn/ddqn_15_20251204_133936/best_model.pth
+2      results_expected_return/dueling_ddqn/seed_20251204 -0.26        0.69         44.90      0.16         ./results_expected_return/dueling_ddqn/dueling_ddqn_5_20251204_140716/best_model.pth
+3      results/dqn/seed_20251204                          -0.30        0.75         44.00      0.17         ./results/dqn/dqn_15_20251204_133936/best_model.pth
+4      results/ppo/seed_20251204                          -0.31        0.15         43.70      0.09         ./results/ppo/ppo_10_20251204_134801/best_model.pth
+5      results_win_rate/dqn/seed_20251204                 -0.33        -0.66        41.70      -0.12        ./results_win_rate/dqn/dqn_10_20251204_143741/best_model.pth
+6      results_expected_return/dqn/seed_20251204          -0.36        0.59         42.00      0.14         ./results_expected_return/dqn/dqn_15_20251204_144720/best_model.pth
+7      results/ddqn/seed_20251204                         -0.37        0.62         42.30      0.14         ./results/ddqn/ddqn_10_20251204_133333/best_model.pth
+8      results/dueling_ddqn/seed_20251204                 -0.38        0.56         42.10      0.13         ./results/dueling_ddqn/dueling_ddqn_5_20251204_132724/best_model.pth
+9      results_sharpe_ratio/ppo/seed_20251204             -0.38        -0.91        39.90      -0.16        ./results_sharpe_ratio/ppo/ppo_10_20251204_155949/best_model.pth
+10     results/dueling_ddqn/seed_20251204                 -0.39        0.61         42.90      0.14         ./results/dueling_ddqn/dueling_ddqn_10_20251204_133658/best_model.pth
+11     results_win_rate/ddqn/seed_20251204                -0.39        -0.33        39.70      -0.14        ./results_win_rate/ddqn/ddqn_10_20251204_144146/best_model.pth
+12     results_sharpe_ratio/dqn/seed_20251204             -0.39        -0.89        40.30      -0.15        ./results_sharpe_ratio/dqn/dqn_15_20251204_144130/best_model.pth
+13     results_sharpe_ratio/dqn/seed_20251204             -0.39        -0.55        40.50      -0.14        ./results_sharpe_ratio/dqn/dqn_10_20251204_142645/best_model.pth
+14     results/dueling_ddqn/seed_20251204                 -0.41        0.65         42.00      0.15         ./results/dueling_ddqn/dueling_ddqn_15_20251204_134511/best_model.pth
+15     results/dqn/seed_20251204                          -0.41        0.62         42.90      0.14         ./results/dqn/dqn_5_20251204_132659/best_model.pth
+16     results_sharpe_ratio/ppo/seed_20251204             -0.41        -0.16        39.10      -0.14        ./results_sharpe_ratio/ppo/ppo_15_20251204_161444/best_model.pth
+17     results/ppo/seed_20251204                          -0.42        -0.15        40.30      -0.08        ./results/ppo/ppo_15_20251204_140013/best_model.pth
+18     results/ddqn/seed_20251204                         -0.42        0.58         42.40      0.13         ./results/ddqn/ddqn_5_20251204_132707/best_model.pth
+19     results_expected_return/ddqn/seed_20251204         -0.42        0.54         42.00      0.12         ./results_expected_return/ddqn/ddqn_15_20251204_145542/best_model.pth
+20     results_expected_return/ppo/seed_20251204          -0.43        0.13         41.90      0.08         ./results_expected_return/ppo/ppo_10_20251204_155905/best_model.pth
+21     results_win_rate/dqn/seed_20251204                 -0.44        -0.26        39.00      -0.17        ./results_win_rate/dqn/dqn_15_20251204_144555/best_model.pth
+22     results_sharpe_ratio/ppo/seed_20251204             -0.45        -1.06        38.60      -0.18        ./results_sharpe_ratio/ppo/ppo_5_20251204_154345/best_model.pth
+23     results_sharpe_ratio/ddqn/seed_20251204            -0.45        -0.19        38.50      -0.20        ./results_sharpe_ratio/ddqn/ddqn_5_20251204_140900/best_model.pth
+24     results_expected_return/dqn/seed_20251204          -0.45        0.43         41.10      0.10         ./results_expected_return/dqn/dqn_5_20251204_140710/best_model.pth
+25     results_expected_return/ddqn/seed_20251204         -0.45        0.54         41.00      0.12         ./results_expected_return/ddqn/ddqn_5_20251204_140713/best_model.pth
+26     results_win_rate/ppo/seed_20251204                 -0.46        -1.09        38.40      -0.19        ./results_win_rate/ppo/ppo_5_20251204_154425/best_model.pth
+27     results_win_rate/dueling_ddqn/seed_20251204        -0.46        -1.03        38.60      -0.18        ./results_win_rate/dueling_ddqn/dueling_ddqn_5_20251204_141131/best_model.pth
+28     results_win_rate/ddqn/seed_20251204                -0.46        -0.48        38.20      -0.21        ./results_win_rate/ddqn/ddqn_5_20251204_141108/best_model.pth
+29     results_win_rate/dueling_ddqn/seed_20251204        -0.47        -0.86        38.00      -0.24        ./results_win_rate/dueling_ddqn/dueling_ddqn_15_20251204_150330/best_model.pth
+30     results_sharpe_ratio/dueling_ddqn/seed_20251204    -0.47        -0.43        37.20      -0.23        ./results_sharpe_ratio/dueling_ddqn/dueling_ddqn_10_20251204_145135/best_model.pth
+31     results/dqn/seed_20251204                          -0.48        0.41         41.40      0.09         ./results/dqn/dqn_10_20251204_133334/best_model.pth
+32     results_sharpe_ratio/dueling_ddqn/seed_20251204    -0.48        -0.39        37.70      -0.20        ./results_sharpe_ratio/dueling_ddqn/dueling_ddqn_5_20251204_140922/best_model.pth
+33     results_expected_return/ddqn/seed_20251204         -0.48        0.44         40.20      0.10         ./results_expected_return/ddqn/ddqn_10_20251204_144428/best_model.pth
+34     results_expected_return/dqn/seed_20251204          -0.49        0.43         40.90      0.10         ./results_expected_return/dqn/dqn_10_20251204_143400/best_model.pth
+35     results/ppo/seed_20251204                          -0.51        0.08         40.60      0.05         ./results/ppo/ppo_5_20251204_132643/best_model.pth
+36     results_sharpe_ratio/dqn/seed_20251204             -0.51        -0.83        36.90      -0.22        ./results_sharpe_ratio/dqn/dqn_5_20251204_140839/best_model.pth
+37     results_expected_return/ppo/seed_20251204          -0.51        -0.17        38.80      -0.09        ./results_expected_return/ppo/ppo_15_20251204_161450/best_model.pth
+38     results_expected_return/dueling_ddqn/seed_20251204 -0.51        0.32         40.40      0.07         ./results_expected_return/dueling_ddqn/dueling_ddqn_10_20251204_145852/best_model.pth
+39     results_win_rate/dueling_ddqn/seed_20251204        -0.52        -0.47        37.30      -0.22        ./results_win_rate/dueling_ddqn/dueling_ddqn_10_20251204_145440/best_model.pth
+40     results_win_rate/dqn/seed_20251204                 -0.52        -0.64        36.70      -0.22        ./results_win_rate/dqn/dqn_5_20251204_141026/best_model.pth
+41     results_sharpe_ratio/dueling_ddqn/seed_20251204    -0.52        -0.21        37.10      -0.22        ./results_sharpe_ratio/dueling_ddqn/dueling_ddqn_15_20251204_150117/best_model.pth
+42     results_sharpe_ratio/ddqn/seed_20251204            -0.52        -0.43        36.80      -0.23        ./results_sharpe_ratio/ddqn/ddqn_15_20251204_144318/best_model.pth
+43     results_win_rate/ddqn/seed_20251204                -0.53        -1.30        36.90      -0.26        ./results_win_rate/ddqn/ddqn_15_20251204_144917/best_model.pth
+44     results_expected_return/dueling_ddqn/seed_20251204 -0.53        0.24         40.00      0.05         ./results_expected_return/dueling_ddqn/dueling_ddqn_15_20251204_150940/best_model.pth
+45     results_win_rate/ppo/seed_20251204                 -0.55        -0.65        36.40      -0.23        ./results_win_rate/ppo/ppo_15_20251204_161538/best_model.pth
+46     results_sharpe_ratio/ddqn/seed_20251204            -0.57        -0.89        36.10      -0.24        ./results_sharpe_ratio/ddqn/ddqn_10_20251204_143015/best_model.pth
+47     results_win_rate/ppo/seed_20251204                 -0.62        -0.25        35.30      -0.26        ./results_win_rate/ppo/ppo_10_20251204_160043/best_model.pth
+48     results_expected_return/ppo/seed_20251204          -0.62        0.12         39.30      0.08         ./results_expected_return/ppo/ppo_5_20251204_154250/best_model.pth
+
+==========================================
+End of Rankings
+==========================================

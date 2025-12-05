@@ -1,0 +1,38 @@
+
+============================================================
+Best Model Summary for DUELING_DDQN
+============================================================
+
+Best Model (by Evaluation Reward):
+  Seed: 10
+  Best Eval Reward: 0.0246
+  Results Directory: results_sharpe_ratio/dueling_ddqn/dueling_ddqn_10_20251204_145135
+  
+  Final Metrics:
+    Expected Return: -0.4300
+    Sharpe Ratio: -0.0325
+    Win Rate: 0.3200
+  
+  Final Training Reward (last 100 episodes): -0.0198
+  Total Episodes: 100000
+
+============================================================
+All Seeds Summary:
+============================================================
+
+Seed 5:
+  Best Eval Reward: 0.0197
+  Final Training Reward: -0.0332
+  Results Directory: results_sharpe_ratio/dueling_ddqn/dueling_ddqn_5_20251204_140922
+
+Seed 10:
+  Best Eval Reward: 0.0246
+  Final Training Reward: -0.0198
+  Results Directory: results_sharpe_ratio/dueling_ddqn/dueling_ddqn_10_20251204_145135
+
+Seed 15:
+  Best Eval Reward: 0.0198
+  Final Training Reward: -0.0189
+  Results Directory: results_sharpe_ratio/dueling_ddqn/dueling_ddqn_15_20251204_150117
+
+============================================================

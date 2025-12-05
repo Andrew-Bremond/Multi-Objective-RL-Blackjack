@@ -1,0 +1,74 @@
+==========================================
+Bankroll Simulation Results
+==========================================
+
+Generated: Thu Dec  4 16:41:16 PST 2025
+Source: model_rankings.txt
+Simulations: 100 iterations per model
+Initial Bankroll: $100.0
+
+Rank   Model                                         Algorithm  Initial $    Final $      Change       Change %   Win Rate Path
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1      results/ddqn/seed_20251204                    ddqn       100.00       205.00       105.00       +105.00%   49       results/ddqn/ddqn_15_20251204_133936/best_model.pth
+2      results_expected_return/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       136.00       36.00        +36.00%    39       results_expected_return/dueling_ddqn/dueling_ddqn_5_20251204_140716/best_model.pth
+3      results/dqn/seed_20251204                     dqn        100.00       220.00       120.00       +120.00%   49       results/dqn/dqn_15_20251204_133936/best_model.pth
+4      results/ppo/seed_20251204                     ppo        100.00       122.00       22.00        +22.00%    48       results/ppo/ppo_10_20251204_134801/best_model.pth
+5      results_win_rate/dqn/seed_20251204            dqn        100.00       -1.00        -101.00      -101.00%   23       results_win_rate/dqn/dqn_10_20251204_143741/best_model.pth
+6      results_expected_return/dqn/seed_20251204     dqn        100.00       115.00       15.00        +15.00%    41       results_expected_return/dqn/dqn_15_20251204_144720/best_model.pth
+7      results/ddqn/seed_20251204                    ddqn       100.00       148.00       48.00        +48.00%    44       results/ddqn/ddqn_10_20251204_133333/best_model.pth
+8      results/dueling_ddqn/seed_20251204            dueling_ddqn 100.00       61.00        -39.00       -39.00%    32       results/dueling_ddqn/dueling_ddqn_5_20251204_132724/best_model.pth
+9      results_sharpe_ratio/ppo/seed_20251204        ppo        100.00       76.00        -24.00       -24.00%    46       results_sharpe_ratio/ppo/ppo_10_20251204_155949/best_model.pth
+10     results/dueling_ddqn/seed_20251204            dueling_ddqn 100.00       136.00       36.00        +36.00%    41       results/dueling_ddqn/dueling_ddqn_10_20251204_133658/best_model.pth
+11     results_win_rate/ddqn/seed_20251204           ddqn       100.00       68.00        -32.00       -32.00%    43       results_win_rate/ddqn/ddqn_10_20251204_144146/best_model.pth
+12     results_sharpe_ratio/dqn/seed_20251204        dqn        100.00       64.00        -36.00       -36.00%    46       results_sharpe_ratio/dqn/dqn_15_20251204_144130/best_model.pth
+13     results_sharpe_ratio/dqn/seed_20251204        dqn        100.00       28.00        -72.00       -72.00%    37       results_sharpe_ratio/dqn/dqn_10_20251204_142645/best_model.pth
+14     results/dueling_ddqn/seed_20251204            dueling_ddqn 100.00       226.00       126.00       +126.00%   50       results/dueling_ddqn/dueling_ddqn_15_20251204_134511/best_model.pth
+15     results/dqn/seed_20251204                     dqn        100.00       160.00       60.00        +60.00%    45       results/dqn/dqn_5_20251204_132659/best_model.pth
+16     results_sharpe_ratio/ppo/seed_20251204        ppo        100.00       95.00        -5.00        -5.00%     45       results_sharpe_ratio/ppo/ppo_15_20251204_161444/best_model.pth
+17     results/ppo/seed_20251204                     ppo        100.00       98.00        -2.00        -2.00%     42       results/ppo/ppo_15_20251204_140013/best_model.pth
+18     results/ddqn/seed_20251204                    ddqn       100.00       166.00       66.00        +66.00%    42       results/ddqn/ddqn_5_20251204_132707/best_model.pth
+19     results_expected_return/ddqn/seed_20251204    ddqn       100.00       70.00        -30.00       -30.00%    33       results_expected_return/ddqn/ddqn_15_20251204_145542/best_model.pth
+20     results_expected_return/ppo/seed_20251204     ppo        100.00       105.00       5.00         +5.00%     38       results_expected_return/ppo/ppo_10_20251204_155905/best_model.pth
+21     results_win_rate/dqn/seed_20251204            dqn        100.00       68.00        -32.00       -32.00%    35       results_win_rate/dqn/dqn_15_20251204_144555/best_model.pth
+22     results_sharpe_ratio/ppo/seed_20251204        ppo        100.00       -2.00        -102.00      -102.00%   26       results_sharpe_ratio/ppo/ppo_5_20251204_154345/best_model.pth
+23     results_sharpe_ratio/ddqn/seed_20251204       ddqn       100.00       73.00        -27.00       -27.00%    34       results_sharpe_ratio/ddqn/ddqn_5_20251204_140900/best_model.pth
+24     results_expected_return/dqn/seed_20251204     dqn        100.00       157.00       57.00        +57.00%    43       results_expected_return/dqn/dqn_5_20251204_140710/best_model.pth
+25     results_expected_return/ddqn/seed_20251204    ddqn       100.00       127.00       27.00        +27.00%    39       results_expected_return/ddqn/ddqn_5_20251204_140713/best_model.pth
+26     results_win_rate/ppo/seed_20251204            ppo        100.00       10.00        -90.00       -90.00%    41       results_win_rate/ppo/ppo_5_20251204_154425/best_model.pth
+27     results_win_rate/dueling_ddqn/seed_20251204   dueling_ddqn 100.00       -1.00        -101.00      -101.00%   23       results_win_rate/dueling_ddqn/dueling_ddqn_5_20251204_141131/best_model.pth
+28     results_win_rate/ddqn/seed_20251204           ddqn       100.00       54.00        -46.00       -46.00%    39       results_win_rate/ddqn/ddqn_5_20251204_141108/best_model.pth
+29     results_win_rate/dueling_ddqn/seed_20251204   dueling_ddqn 100.00       0.00         -100.00      -100.00%   16       results_win_rate/dueling_ddqn/dueling_ddqn_15_20251204_150330/best_model.pth
+30     results_sharpe_ratio/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       42.00        -58.00       -58.00%    35       results_sharpe_ratio/dueling_ddqn/dueling_ddqn_10_20251204_145135/best_model.pth
+31     results/dqn/seed_20251204                     dqn        100.00       157.00       57.00        +57.00%    43       results/dqn/dqn_10_20251204_133334/best_model.pth
+32     results_sharpe_ratio/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       74.00        -26.00       -26.00%    42       results_sharpe_ratio/dueling_ddqn/dueling_ddqn_5_20251204_140922/best_model.pth
+33     results_expected_return/ddqn/seed_20251204    ddqn       100.00       232.00       132.00       +132.00%   48       results_expected_return/ddqn/ddqn_10_20251204_144428/best_model.pth
+34     results_expected_return/dqn/seed_20251204     dqn        100.00       136.00       36.00        +36.00%    40       results_expected_return/dqn/dqn_10_20251204_143400/best_model.pth
+35     results/ppo/seed_20251204                     ppo        100.00       98.00        -2.00        -2.00%     37       results/ppo/ppo_5_20251204_132643/best_model.pth
+36     results_sharpe_ratio/dqn/seed_20251204        dqn        100.00       0.00         -100.00      -100.00%   14       results_sharpe_ratio/dqn/dqn_5_20251204_140839/best_model.pth
+37     results_expected_return/ppo/seed_20251204     ppo        100.00       108.00       8.00         +8.00%     48       results_expected_return/ppo/ppo_15_20251204_161450/best_model.pth
+38     results_expected_return/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       142.00       42.00        +42.00%    38       results_expected_return/dueling_ddqn/dueling_ddqn_10_20251204_145852/best_model.pth
+39     results_win_rate/dueling_ddqn/seed_20251204   dueling_ddqn 100.00       26.00        -74.00       -74.00%    32       results_win_rate/dueling_ddqn/dueling_ddqn_10_20251204_145440/best_model.pth
+40     results_win_rate/dqn/seed_20251204            dqn        100.00       0.00         -100.00      -100.00%   27       results_win_rate/dqn/dqn_5_20251204_141026/best_model.pth
+41     results_sharpe_ratio/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       85.00        -15.00       -15.00%    40       results_sharpe_ratio/dueling_ddqn/dueling_ddqn_15_20251204_150117/best_model.pth
+42     results_sharpe_ratio/ddqn/seed_20251204       ddqn       100.00       44.00        -56.00       -56.00%    33       results_sharpe_ratio/ddqn/ddqn_15_20251204_144318/best_model.pth
+43     results_win_rate/ddqn/seed_20251204           ddqn       100.00       0.00         -100.00      -100.00%   34       results_win_rate/ddqn/ddqn_15_20251204_144917/best_model.pth
+44     results_expected_return/dueling_ddqn/seed_20251204 dueling_ddqn 100.00       118.00       18.00        +18.00%    38       results_expected_return/dueling_ddqn/dueling_ddqn_15_20251204_150940/best_model.pth
+45     results_win_rate/ppo/seed_20251204            ppo        100.00       67.00        -33.00       -33.00%    41       results_win_rate/ppo/ppo_15_20251204_161538/best_model.pth
+46     results_sharpe_ratio/ddqn/seed_20251204       ddqn       100.00       0.00         -100.00      -100.00%   28       results_sharpe_ratio/ddqn/ddqn_10_20251204_143015/best_model.pth
+47     results_win_rate/ppo/seed_20251204            ppo        100.00       81.00        -19.00       -19.00%    37       results_win_rate/ppo/ppo_10_20251204_160043/best_model.pth
+48     results_expected_return/ppo/seed_20251204     ppo        100.00       105.00       5.00         +5.00%     35       results_expected_return/ppo/ppo_5_20251204_154250/best_model.pth
+
+==========================================
+Summary Statistics
+==========================================
+
+Total Models Simulated:       48
+Average Final Bankroll: $89.56
+Average Change: $-10.44
+Average Win Rate: 37.90%
+Best Final Bankroll: $232.00
+Worst Final Bankroll: $-2.00
+
+==========================================
+End of Report
+==========================================

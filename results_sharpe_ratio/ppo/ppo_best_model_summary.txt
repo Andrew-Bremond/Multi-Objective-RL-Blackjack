@@ -1,0 +1,38 @@
+
+============================================================
+Best Model Summary for PPO
+============================================================
+
+Best Model (by Evaluation Reward):
+  Seed: 10
+  Best Eval Reward: 0.0159
+  Results Directory: results_sharpe_ratio/ppo/ppo_10_20251204_155949
+  
+  Final Metrics:
+    Expected Return: -1.2200
+    Sharpe Ratio: -0.0146
+    Win Rate: 0.4000
+  
+  Final Training Reward (last 100 episodes): -0.0440
+  Total Episodes: 100000
+
+============================================================
+All Seeds Summary:
+============================================================
+
+Seed 5:
+  Best Eval Reward: 0.0142
+  Final Training Reward: -0.0230
+  Results Directory: results_sharpe_ratio/ppo/ppo_5_20251204_154345
+
+Seed 10:
+  Best Eval Reward: 0.0159
+  Final Training Reward: -0.0440
+  Results Directory: results_sharpe_ratio/ppo/ppo_10_20251204_155949
+
+Seed 15:
+  Best Eval Reward: 0.0147
+  Final Training Reward: -0.0286
+  Results Directory: results_sharpe_ratio/ppo/ppo_15_20251204_161444
+
+============================================================

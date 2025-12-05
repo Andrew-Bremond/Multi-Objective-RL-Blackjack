@@ -10,15 +10,10 @@ environment:
 # Multi-objective weights
 objectives:
   weights:
-    # profit_focus
-    expected_return: 0.75
-    sharpe_ratio: 0.20
-    win_rate: 0.05
-
-    # # Original_weights
-    # expected_return: 0.5
-    # sharpe_ratio: 0.3
-    # win_rate: 0.2
+    # # profit_focus
+    # expected_return: 0.75
+    # sharpe_ratio: 0.20
+    # win_rate: 0.05
 
     # # expected_return
     # expected_return: 1
@@ -30,10 +25,10 @@ objectives:
     # sharpe_ratio: 1
     # win_rate: 0.0
 
-    # # win_rate
-    # expected_return: 0.0
-    # sharpe_ratio: 0.0
-    # win_rate: 1
+    # win_rate
+    expected_return: 0.0
+    sharpe_ratio: 0.0
+    win_rate: 1
 
   rolling_window: 100
   risk_free_rate: 0.0
@@ -98,7 +93,7 @@ algorithms:
 
 # Output settings
 output:
-  results_dir: "results"
+  results_dir: "results_win_rate"
   save_best_model: true
   save_plots: true
   save_csv: true

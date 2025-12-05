@@ -13,6 +13,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 from src.environment import CustomBlackjackEnv
 from src.algorithms import DQN, DDQN, DuelingDDQN, PPO
+from src.algorithms.ppo import MultiObjectivePPO
 import torch
 
 
@@ -23,7 +24,46 @@ def load_config(config_path: str) -> dict:
     return config
 
 
-def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, device: str):
+def detect_model_type(model_path: str) -> tuple:
+    """
+    Detect if model was saved with separate critics by checking checkpoint structure.
+    
+    Returns:
+        (use_separate_critics, objective_names, objective_weights)
+    """
+    try:
+        checkpoint = torch.load(model_path, map_location='cpu')
+        state_dict = checkpoint.get('actor_critic', {})
+        
+        # Check if state_dict has separate critics structure
+        has_separate_critics = any('critics.' in key for key in state_dict.keys())
+        
+        if has_separate_critics:
+            # Extract objective names from state dict keys
+            objective_names = set()
+            for key in state_dict.keys():
+                if 'critics.' in key:
+                    # Extract objective name from key like "critics.expected_return.0.weight"
+                    parts = key.split('.')
+                    if len(parts) >= 2:
+                        objective_names.add(parts[1])
+            objective_names = sorted(list(objective_names))
+            
+            # Get objective weights if available
+            objective_weights = checkpoint.get('objective_weights', None)
+            
+            return True, objective_names, objective_weights
+        else:
+            return False, None, None
+    except Exception as e:
+        # If we can't detect, assume standard PPO
+        print(f"Warning: Could not detect model type, assuming standard PPO: {e}")
+        return False, None, None
+
+
+def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, device: str,
+                 use_separate_critics: bool = False, objective_names: list = None,
+                 objective_weights: dict = None):
     """Create agent based on algorithm name."""
     algo_config = config['algorithms'][algorithm]
     
@@ -73,21 +113,44 @@ def create_agent(algorithm: str, state_dim: int, action_dim: int, config: dict, 
             hidden_dims=algo_config['hidden_dims'],
         )
     elif algorithm == 'ppo':
-        return PPO(
-            state_dim=state_dim,
-            action_dim=action_dim,
-            lr=algo_config['lr'],
-            gamma=algo_config['gamma'],
-            gae_lambda=algo_config['gae_lambda'],
-            clip_epsilon=algo_config['clip_epsilon'],
-            value_coef=algo_config['value_coef'],
-            entropy_coef=algo_config['entropy_coef'],
-            max_grad_norm=algo_config['max_grad_norm'],
-            ppo_epochs=algo_config['ppo_epochs'],
-            batch_size=algo_config['batch_size'],
-            device=device,
-            hidden_dims=algo_config['hidden_dims'],
-        )
+        if use_separate_critics:
+            if objective_names is None:
+                objective_names = list(config['objectives']['weights'].keys())
+            if objective_weights is None:
+                objective_weights = config['objectives']['weights']
+            return MultiObjectivePPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                objective_names=objective_names,
+                objective_weights=objective_weights,
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
+        else:
+            return PPO(
+                state_dim=state_dim,
+                action_dim=action_dim,
+                lr=algo_config['lr'],
+                gamma=algo_config['gamma'],
+                gae_lambda=algo_config['gae_lambda'],
+                clip_epsilon=algo_config['clip_epsilon'],
+                value_coef=algo_config['value_coef'],
+                entropy_coef=algo_config['entropy_coef'],
+                max_grad_norm=algo_config['max_grad_norm'],
+                ppo_epochs=algo_config['ppo_epochs'],
+                batch_size=algo_config['batch_size'],
+                device=device,
+                hidden_dims=algo_config['hidden_dims'],
+            )
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
@@ -140,7 +203,18 @@ def simulate_bankroll(
     if use_agent:
         state_dim = env.observation_space.shape[0]
         action_dim = 6  # Flattened action space
-        agent = create_agent(algorithm, state_dim, action_dim, config, device)
+        
+        # Detect if model uses separate critics (for PPO)
+        use_separate_critics = False
+        objective_names = None
+        objective_weights = None
+        if algorithm == 'ppo':
+            use_separate_critics, objective_names, objective_weights = detect_model_type(model_path)
+            if use_separate_critics:
+                print(f"Detected MultiObjectivePPO model with objectives: {objective_names}")
+        
+        agent = create_agent(algorithm, state_dim, action_dim, config, device,
+                            use_separate_critics, objective_names, objective_weights)
         agent.load(model_path)
         agent.eval()
         print(f"Loaded {algorithm.upper()} model from {model_path}")
@@ -176,8 +250,9 @@ def simulate_bankroll(
         if use_agent:
             # Use agent to select bet size
             agent_result = agent.act(state, deterministic=True)
-            # PPO returns (action, log_prob, value), others return just action
-            if isinstance(agent, PPO):
+            # PPO returns (action, log_prob, value), MultiObjectivePPO returns (action, log_prob, values_dict, combined_value)
+            # Others return just action
+            if isinstance(agent, (PPO, MultiObjectivePPO)):
                 action = agent_result[0]  # Extract action from tuple
             else:
                 action = agent_result
@@ -238,8 +313,9 @@ def simulate_bankroll(
             if use_agent:
                 # Use trained agent to make decisions
                 agent_result = agent.act(state, deterministic=True)
-                # PPO returns (action, log_prob, value), others return just action
-                if isinstance(agent, PPO):
+                # PPO returns (action, log_prob, value), MultiObjectivePPO returns (action, log_prob, values_dict, combined_value)
+                # Others return just action
+                if isinstance(agent, (PPO, MultiObjectivePPO)):
                     action = agent_result[0]  # Extract action from tuple
                 else:
                     action = agent_result

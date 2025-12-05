@@ -1,0 +1,13 @@
+{
+  "algorithm": "dueling_ddqn",
+  "seed": 10,
+  "total_episodes": 100000,
+  "final_training_reward": -0.5316000000000001,
+  "best_eval_reward": -0.0017999999999999605,
+  "final_metrics": {
+    "expected_return": -0.15,
+    "sharpe_ratio": -0.032045744065315795,
+    "win_rate": 0.31,
+    "episode_count": 100000
+  }
+}

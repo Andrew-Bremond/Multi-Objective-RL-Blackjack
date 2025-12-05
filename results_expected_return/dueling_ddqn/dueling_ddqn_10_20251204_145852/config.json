@@ -1,0 +1,97 @@
+{
+  "environment": {
+    "bet_multipliers": [
+      1,
+      2,
+      3
+    ],
+    "base_bet": 1.0,
+    "natural": true,
+    "sab": true
+  },
+  "objectives": {
+    "weights": {
+      "expected_return": 1,
+      "sharpe_ratio": 0.0,
+      "win_rate": 0.0
+    },
+    "rolling_window": 100,
+    "risk_free_rate": 0.0,
+    "use_separate_critics": true
+  },
+  "training": {
+    "num_episodes": 100000,
+    "eval_freq": 100,
+    "eval_episodes": 100,
+    "save_freq": 500,
+    "log_freq": 10,
+    "device": "cpu",
+    "seed": 10
+  },
+  "algorithms": {
+    "dqn": {
+      "lr": 0.001,
+      "gamma": 0.99,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "epsilon_decay": 0.995,
+      "batch_size": 64,
+      "buffer_size": 10000,
+      "target_update_freq": 100,
+      "hidden_dims": [
+        128,
+        128
+      ]
+    },
+    "ddqn": {
+      "lr": 0.001,
+      "gamma": 0.99,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "epsilon_decay": 0.995,
+      "batch_size": 64,
+      "buffer_size": 10000,
+      "target_update_freq": 100,
+      "hidden_dims": [
+        128,
+        128
+      ]
+    },
+    "dueling_ddqn": {
+      "lr": 0.001,
+      "gamma": 0.99,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "epsilon_decay": 0.995,
+      "batch_size": 64,
+      "buffer_size": 10000,
+      "target_update_freq": 100,
+      "hidden_dims": [
+        128,
+        128
+      ]
+    },
+    "ppo": {
+      "lr": 0.0003,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_epsilon": 0.2,
+      "value_coef": 0.5,
+      "entropy_coef": 0.01,
+      "max_grad_norm": 0.5,
+      "ppo_epochs": 4,
+      "batch_size": 64,
+      "hidden_dims": [
+        128,
+        128
+      ]
+    }
+  },
+  "output": {
+    "results_dir": "results_expected_return",
+    "save_best_model": true,
+    "save_plots": true,
+    "save_csv": true,
+    "save_summary": true
+  }
+}

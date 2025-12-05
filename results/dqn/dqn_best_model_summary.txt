@@ -1,0 +1,38 @@
+
+============================================================
+Best Model Summary for DQN
+============================================================
+
+Best Model (by Evaluation Reward):
+  Seed: 5
+  Best Eval Reward: 1.5415
+  Results Directory: results/dqn/dqn_5_20251204_132659
+  
+  Final Metrics:
+    Expected Return: 0.4500
+    Sharpe Ratio: 0.0143
+    Win Rate: 0.4100
+  
+  Final Training Reward (last 100 episodes): 0.3322
+  Total Episodes: 100000
+
+============================================================
+All Seeds Summary:
+============================================================
+
+Seed 5:
+  Best Eval Reward: 1.5415
+  Final Training Reward: 0.3322
+  Results Directory: results/dqn/dqn_5_20251204_132659
+
+Seed 10:
+  Best Eval Reward: 1.3362
+  Final Training Reward: -0.0204
+  Results Directory: results/dqn/dqn_10_20251204_133334
+
+Seed 15:
+  Best Eval Reward: 1.3180
+  Final Training Reward: 0.6035
+  Results Directory: results/dqn/dqn_15_20251204_133936
+
+============================================================

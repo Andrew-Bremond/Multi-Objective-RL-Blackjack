@@ -1,0 +1,13 @@
+{
+  "algorithm": "dqn",
+  "seed": 5,
+  "total_episodes": 100000,
+  "final_training_reward": -0.6273999999999998,
+  "best_eval_reward": 0.040000000000000036,
+  "final_metrics": {
+    "expected_return": -0.6,
+    "sharpe_ratio": -0.012500000000000002,
+    "win_rate": 0.4,
+    "episode_count": 100000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "algorithm": "ppo",
+  "seed": 10,
+  "total_episodes": 100000,
+  "final_training_reward": -0.04395140574866373,
+  "best_eval_reward": 0.0159334309554598,
+  "final_metrics": {
+    "expected_return": -1.22,
+    "sharpe_ratio": -0.014592836972877912,
+    "win_rate": 0.4,
+    "episode_count": 100000
+  }
+}
